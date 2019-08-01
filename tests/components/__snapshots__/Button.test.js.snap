@@ -1,0 +1,545 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <Button /> render "simple" + "icon" 1`] = `
+.emotion-1 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: primary;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  -webkit-transition: color 0.3 ease;
+  transition: color 0.3 ease;
+  display: inline-block;
+}
+
+.emotion-1:hover {
+  color: #2B30F2;
+}
+
+.emotion-0 {
+  color: inherit;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+}
+
+<button
+  className="Button  emotion-1"
+  color="primary"
+  onClick={[Function]}
+  size="normal"
+  type="button"
+>
+  <div
+    className="emotion-0"
+    colorindex={undefined}
+    fill="currentColor"
+    size={20}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "inline-flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={20}
+    >
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </div>
+  See more
+</button>
+`;
+
+exports[`Component: <Button /> render "simple" 1`] = `
+.emotion-0 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: primary;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  -webkit-transition: color 0.3 ease;
+  transition: color 0.3 ease;
+  display: inline-block;
+}
+
+.emotion-0:hover {
+  color: #2B30F2;
+}
+
+<button
+  className="Button  emotion-0"
+  color="primary"
+  onClick={[Function]}
+  size="normal"
+  type="button"
+>
+  See more
+</button>
+`;
+
+exports[`Component: <Button /> render label 1`] = `
+.emotion-0 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-0:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-0:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+<button
+  className="Button  emotion-0"
+  color="primary"
+  onClick={[Function]}
+  size="normal"
+  type="button"
+>
+  See more
+</button>
+`;
+
+exports[`Component: <Button /> render with "simple" + "to" + "icon" 1`] = `
+.emotion-1 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: primary;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  -webkit-transition: color 0.3 ease;
+  transition: color 0.3 ease;
+  display: inline-block;
+}
+
+.emotion-1:hover {
+  color: #2B30F2;
+}
+
+.emotion-0 {
+  color: inherit;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+}
+
+<a
+  aria-current="page"
+  className="Button  emotion-1 active"
+  color="primary"
+  href="/"
+  onClick={[Function]}
+  size="normal"
+  style={Object {}}
+>
+  <div
+    className="emotion-0"
+    colorindex={undefined}
+    fill="currentColor"
+    size={20}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "inline-flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={20}
+    >
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </div>
+  See more
+</a>
+`;
+
+exports[`Component: <Button /> render with "simple" + "to" 1`] = `
+.emotion-0 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: primary;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  -webkit-transition: color 0.3 ease;
+  transition: color 0.3 ease;
+  display: inline-block;
+}
+
+.emotion-0:hover {
+  color: #2B30F2;
+}
+
+<a
+  aria-current="page"
+  className="Button  emotion-0 active"
+  color="primary"
+  href="/"
+  onClick={[Function]}
+  size="normal"
+  style={Object {}}
+>
+  See more
+</a>
+`;
+
+exports[`Component: <Button /> render with "to" + "icon" 1`] = `
+.emotion-1 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-1:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-1:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+.emotion-0 {
+  color: inherit;
+  margin-left: 20px;
+  vertical-align: text-bottom;
+}
+
+<a
+  aria-current="page"
+  className="Button  emotion-1 active"
+  color="primary"
+  href="/"
+  onClick={[Function]}
+  size="normal"
+  style={Object {}}
+>
+  See more
+  <div
+    className="emotion-0"
+    colorindex={undefined}
+    fill="currentColor"
+    size={20}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "inline-flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={20}
+    >
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </div>
+</a>
+`;
+
+exports[`Component: <Button /> render with "to" 1`] = `
+.emotion-0 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-0:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-0:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+<a
+  aria-current="page"
+  className="Button  emotion-0 active"
+  color="primary"
+  href="/"
+  onClick={[Function]}
+  size="normal"
+  style={Object {}}
+>
+  See more
+</a>
+`;
+
+exports[`Component: <Button /> render with no action button 1`] = `
+.emotion-1 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-1:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-1:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+.emotion-0 {
+  color: inherit;
+  margin-left: 20px;
+  vertical-align: text-bottom;
+}
+
+<button
+  className="Button  emotion-1"
+  color="primary"
+  onClick={[Function]}
+  size="normal"
+  type="button"
+>
+  See more
+  <div
+    className="emotion-0"
+    colorindex={undefined}
+    fill="currentColor"
+    size={20}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "inline-flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={20}
+    >
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </div>
+</button>
+`;

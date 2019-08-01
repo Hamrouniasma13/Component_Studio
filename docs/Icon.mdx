@@ -1,0 +1,52 @@
+---
+name: Icon
+route: /icon
+menu: ⚛️ Atoms
+---
+
+import { Playground } from 'docz'
+import { Icon } from '../src'
+
+# Icon
+
+<Playground>
+  <Icon name="cog" />
+</Playground>
+
+## Size
+
+Icons are always _40\*40_ square, but you change the size. Either give just a number, a size in px, or in em, or any other valid css unit.
+
+<Playground>
+  <Icon name="cog" size={60} />
+</Playground>
+
+## Color
+
+By default, icons take the color of their nearest parent. But you can change it with the `color` prop
+
+<Playground>
+  <Icon name="cog" color="primary" />
+</Playground>
+
+## List of icons
+
+Here are the icons you can use, _alphabetically ordered_ :
+
+<ul>
+  {Icon.icons.sort().map(i => {
+    // docz special
+    if (i === '__filemeta') return null
+    return (
+      <li key={i} style={{ marginBottom: 10 }}>
+        <Icon size={20} name={i} key={i} />
+        <span style={{ margin: '0 10px' }}>:</span>
+        <span style={{ fontSize: '16px' }}>{i}</span>
+      </li>
+    )
+  })}
+</ul>
+
+## Add an icon
+
+To add an icon, provide the svg file in `assets/icons` and run `yarn icons` to transform the icon you just add into a component we can use.

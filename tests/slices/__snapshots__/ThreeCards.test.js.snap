@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <ThreeCards /> render snapshot 1`] = `
+.emotion-20 {
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+.emotion-19 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-19 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-19 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-19 {
+    width: 1140px;
+  }
+}
+
+.emotion-2 {
+  margin-bottom: 30px;
+}
+
+.emotion-0 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 24px;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 28px;
+    line-height: 1em;
+  }
+}
+
+.emotion-18 {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-18 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.emotion-6 {
+  background-color: smallLightGray;
+  border: 1px solid #e5e5e5;
+  height: 600px;
+  overflow: hidden;
+  width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333333;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-6 {
+    width: 333px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-6 {
+    width: 350px;
+    margin-left: auto;
+  }
+}
+
+.emotion-1 {
+  will-change: opacity;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  opacity: 0;
+  max-height: 200px;
+  min-height: 140px;
+  margin: 20px auto;
+}
+
+.emotion-3 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 600;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.emotion-4 {
+  text-align: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.37;
+}
+
+.emotion-5 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-5:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-5:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+<div
+  className="emotion-20"
+>
+  <div
+    className="emotion-19"
+  >
+    <h1
+      className="emotion-0"
+      size="typo3"
+    >
+      My Cards
+    </h1>
+    <div
+      className="emotion-18"
+    >
+      <div
+        className="slick-slider slick-initialized"
+      >
+        
+        <div
+          className="slick-list"
+        >
+          <div
+            className="slick-track"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                "WebkitTransition": "",
+                "msTransform": "translateX(0px)",
+                "opacity": 1,
+                "transform": "translate3d(0px, 0px, 0px)",
+                "transition": "",
+              }
+            }
+          >
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active slick-current"
+              data-index={0}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="emotion-6"
+                >
+                  <div
+                    className="emotion-2"
+                  >
+                    <img
+                      alt="My Easy Sante"
+                      className="emotion-1"
+                      src={undefined}
+                    />
+                  </div>
+                  <h1
+                    className="emotion-3"
+                    size="typo5"
+                  >
+                    My Easy Sante
+                  </h1>
+                  <div
+                    className="emotion-4"
+                  >
+                    Pour préserver et améliorer sa santé au quotidien avec My Easy Santé. C’est utile et efficace !
+                  </div>
+                  <div>
+                    <a
+                      className="Button  emotion-5"
+                      color="primary"
+                      href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+                      onClick={[Function]}
+                      size="normal"
+                      target="_blank"
+                    >
+                      Découvrir
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="emotion-6"
+                >
+                  <div
+                    className="emotion-2"
+                  >
+                    <img
+                      alt="Appeler un médecin 24/7"
+                      className="emotion-1"
+                      src={undefined}
+                    />
+                  </div>
+                  <h1
+                    className="emotion-3"
+                    size="typo5"
+                  >
+                    Appeler un médecin 24/7
+                  </h1>
+                  <div
+                    className="emotion-4"
+                  >
+                    3633 pour consulter immédiatement un médecin par téléphone (prix d'un appel local) ou par vidéo (+33 1 55 92 27 54 depuis l'étranger).
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="emotion-6"
+                >
+                  <div
+                    className="emotion-2"
+                  >
+                    <img
+                      alt="Accéder au réseau de 6000 professionnels Santé Itelis"
+                      className="emotion-1"
+                      src={undefined}
+                    />
+                  </div>
+                  <h1
+                    className="emotion-3"
+                    size="typo5"
+                  >
+                    Accéder au réseau de 6000 professionnels Santé Itelis
+                  </h1>
+                  <div
+                    className="emotion-4"
+                  >
+                    6 000 professionnels de la santé Itelis conseillent et facilitent l’accès aux soins à plus de 10 millions de personnes.(opticiens, dentistes, audioprothésistes...)
+                  </div>
+                  <div>
+                    <a
+                      className="Button  emotion-5"
+                      color="primary"
+                      href="http://www.chateau-amboise.com/"
+                      onClick={[Function]}
+                      size="normal"
+                      target="_blank"
+                    >
+                      Découvrir
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;

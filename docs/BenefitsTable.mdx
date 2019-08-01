@@ -1,0 +1,35 @@
+---
+name: Benefits table
+route: /benefits-table
+menu: 🌐 Organisms
+---
+
+## Type: `Organism`
+
+import { Playground } from 'docz'
+import { BenefitsTable } from '../src'
+
+# Benefits Table
+
+`refunds` prop should be equivalent of the `rows` property of the [Data table](/data-table).
+
+<Playground>
+  <BenefitsTable
+    title="Dépense moyenne chez un généraliste"
+    amount="30 €"
+    refunds={[
+      {
+        title: 'Réglé par la sécurité sociale',
+        value: '10 €',
+      },
+      {
+        title: 'Payé par le contrat Axa entreprise',
+        value: '15 €',
+      },
+      {
+        title: 'Mon reste à charge',
+        value: '5 €',
+      },
+    ]}
+  />
+</Playground>

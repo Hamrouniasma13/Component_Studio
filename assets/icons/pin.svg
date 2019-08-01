@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="28px" viewBox="0 0 23 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>48px_pin-delete copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-42.6%" y="-33.3%" width="186.3%" height="166.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="HK---HR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HK---Services---Find-a-doctor-list" transform="translate(-775.000000, -395.000000)" fill-rule="nonzero">
+            <g id="48px_pin-delete-copy-2" filter="url(#filter-1)" transform="translate(775.000000, 395.000000)">
+                <path d="M9.39130435,24 C9.25294184,24 9.12025708,23.9449823 9.02243478,23.8471304 C8.67495652,23.5001739 0.52173913,15.2791304 0.52173913,9.39130435 C0.498642384,7.03194463 1.4256931,4.76249149 3.0940923,3.0940923 C4.76249149,1.4256931 7.03194463,0.498642384 9.39130435,0.52173913 C11.7506641,0.498642384 14.0201172,1.4256931 15.6885164,3.0940923 C17.3569156,4.76249149 18.2839663,7.03194463 18.2608696,9.39130435 C18.2608696,15.2791304 10.1076522,23.5001739 9.76017391,23.8471304 C9.66235162,23.9449823 9.52966686,24 9.39130435,24 Z" id="Path" fill="#A0A0A0"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="9.39130435" cy="9.39130435" r="3.13043478"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

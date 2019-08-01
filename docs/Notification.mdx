@@ -1,0 +1,31 @@
+---
+name: Notification
+route: /notification
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { Notification } from '../src'
+
+# Notification
+
+You can display a chunk of content and a call to action inside a box. The call to action is optionnal.
+
+<Playground>
+  <Notification
+    content="Ipsum duis elit et mollit cupidatat. Lorem quis do occaecat nulla non consectetur sit quis excepteur non. Qui labore veniam nisi fugiat aute. Adipisicing dolor fugiat duis eu laboris Lorem nulla reprehenderit dolore reprehenderit nostrud irure Lorem. Eu consectetur id sunt sint proident laboris qui elit sit reprehenderit ex do ut. In enim in ipsum ullamco officia ad consectetur nostrud culpa eiusmod dolor. Nulla mollit pariatur nulla ex ullamco nisi Lorem veniam id excepteur ad. Nulla aliquip dolor Lorem eiusmod sint qui proident."
+    action={{ label: 'Call to action', url: '/' }}
+  />
+</Playground>
+
+## Background color
+
+You can change the background color with `color` prop
+
+<Playground>
+  <Notification
+    content="Ipsum duis elit et mollit cupidatat. Lorem quis do occaecat nulla non consectetur sit quis excepteur non. Qui labore veniam nisi fugiat aute. Adipisicing dolor fugiat duis eu laboris Lorem nulla reprehenderit dolore reprehenderit nostrud irure Lorem. Eu consectetur id sunt sint proident laboris qui elit sit reprehenderit ex do ut. In enim in ipsum ullamco officia ad consectetur nostrud culpa eiusmod dolor. Nulla mollit pariatur nulla ex ullamco nisi Lorem veniam id excepteur ad. Nulla aliquip dolor Lorem eiusmod sint qui proident."
+    color="#bad0eb"
+    action={{ label: 'Call to action', url: '/' }}
+  />
+</Playground>

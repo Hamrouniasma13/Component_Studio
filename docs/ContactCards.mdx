@@ -1,0 +1,63 @@
+---
+name: Contact cards
+route: /contact-cards
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { ContactCards, ContactCard } from '../src'
+
+# Contact cards
+
+<ContactCards
+  title="A question ?"
+  contacts={[
+    {
+      color: '#005792',
+      card_category_title: 'Main contact',
+      title: 'Lorem ipsum',
+      description:
+        'Fugiat deserunt quis irure culpa quis magna. Et in commodo nisi est minim quis sint voluptate id cupidatat. Fugiat deserunt quis irure culpa quis magna. Et in commodo nisi est minim quis sint voluptate id cupidatat.',
+      items: [
+        { label: 'Phone number:', value: '+33 6 12 13' },
+        { label: 'Email:', value: 'test@axa.fr' },
+      ],
+    },
+    {
+      color: '#230242',
+      card_category_title: 'Main contact',
+      title: 'Lorem ipsum',
+      description:
+        'Fugiat deserunt quis irure culpa quis magna. Et in commodo nisi est minim quis sint voluptate id cupidatat. Fugiat deserunt quis irure culpa quis magna. Et in commodo nisi est minim quis sint voluptate id cupidatat. Et in commodo nisi est minim quis sint voluptate id cupidatat. Et in commodo nisi est minim quis sint voluptate id cupidatat. Et in commodo nisi est minim quis sint voluptate id cupidatat. Et in commodo nisi est minim quis sint voluptate id cupidatat. Et in commodo nisi est minim quis sint voluptate id cupidatat.',
+      items: [{ label: 'Contact instructions:', value: 'Lorem ipsum' }],
+    },
+    {
+      color: '#005792',
+      card_category_title: 'Main contact',
+      title: 'Lorem ipsum',
+      description:
+        'Fugiat deserunt quis irure culpa quis magna. Et in commodo nisi est minim quis sint voluptate id cupidatat. Fugiat deserunt quis irure culpa quis magna. Et in commodo nisi est minim quis sint voluptate id cupidatat.',
+      items: [{ label: 'Phone number:', value: '+33 6 12 13' }],
+    },
+    {
+      color: '#005722',
+      card_category_title: 'Main contact',
+      title: 'Lorem ipsum',
+      description:
+        'Fugiat deserunt quis irure culpa quis magna. Et in commodo nisi est minim quis sint voluptate id cupidatat. Fugiat deserunt quis irure culpa quis magna. Et in commodo nisi est minim quis sint voluptate id cupidatat.',
+      items: [{ label: 'Phone number:', value: '+33 6 12 13' }],
+    },
+  ]}
+/>
+
+# Contact card
+
+<Playground>
+  <ContactCard
+    color="#005792"
+    card_category_title="Contact"
+    title="Your health policy or any health support service"
+    description="Occaecat Lorem officia nulla dolor non Lorem Lorem laborum eu aute consectetur. Ut labore occaecat duis officia sint Lorem Lorem velit est anim."
+    items={[{ label: 'Phone number:', value: '+33 6 12 13' }]}
+  />
+</Playground>

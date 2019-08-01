@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <Link /> render snapshot 1`] = `
+<a
+  aria-current="page"
+  className="active"
+  href="/"
+  onClick={[Function]}
+  style={Object {}}
+>
+  View More
+</a>
+`;
+
+exports[`Component: <Link /> render with "to" object 1`] = `
+<a
+  aria-current="page"
+  className="active"
+  href="/?utm=your+face"
+  onClick={[Function]}
+  style={Object {}}
+/>
+`;

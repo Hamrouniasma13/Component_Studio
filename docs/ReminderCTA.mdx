@@ -1,0 +1,40 @@
+---
+name: Reminder CTA (deprecated)
+route: /reminder-cta
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { ReminderCTA } from '../src'
+
+# ReminderCTA
+
+<Playground fullBleed noPadding>
+  <ReminderCTA
+    background="https://prismic-io.s3.amazonaws.com/mini-site%2F3d5b4245-fc65-4cd1-8238-da99f66ce5f0_capture+d%E2%80%99e%CC%81cran+2018-08-30+a%CC%80+12.29.07.png"
+    title="Téléconsultation médicale"
+    content="Consulter un médecin à tout moment depuis la France ou l’étranger. Inscrit à l’Ordre des médecins et tenu par le secret médical, le médecin évaluera votre situation médicale et pourra délivrer une ordonnance si nécessaire."
+    action={{
+      url: '/',
+      label: 'accès au service',
+    }}
+    dark
+  />
+</Playground>
+
+# Bright image, custom content, no button
+
+<Playground fullBleed noPadding>
+  <ReminderCTA
+    background="https://prismic-io.s3.amazonaws.com/mini-site%2F3d5b4245-fc65-4cd1-8238-da99f66ce5f0_capture+d%E2%80%99e%CC%81cran+2018-08-30+a%CC%80+12.29.07.png"
+    title="Les + d'AXA"
+    content={
+      <ul>
+        <li>- Téléconsultation médicale : 3633</li>
+        <li>- Consultation par téléphone ou Visio 24h/24 7j/7.</li>
+        <li>- Consultation protégée par le secret médiale.</li>
+        <li>- En France et partout dans le monde.</li>
+      </ul>
+    }
+  />
+</Playground>

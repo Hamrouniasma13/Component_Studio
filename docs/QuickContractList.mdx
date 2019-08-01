@@ -1,0 +1,139 @@
+---
+name: Quick contract list (deprecated)
+route: /quick-contract-list
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { QuickContractList, Button } from '../src'
+
+# Quick Contract List
+
+Only take 3 contracts
+
+<Playground>
+  <QuickContractList
+    title="Manage my contract"
+    actions={[
+      <Button href="/" color="secondary">
+        See all
+      </Button>,
+    ]}
+    items={[
+      {
+        color: 'fourth',
+        icon: 'tint',
+        title: '4902802724 :: Savings',
+        link: '/contract/490',
+        items: [
+          {
+            label: 'Montant de la cotisation',
+            value: "1'990'379 €",
+          },
+          {
+            label: 'Reglement',
+            value: "1'223'595 €",
+          },
+          {
+            label: 'Adhesion',
+            value: '280',
+          },
+          {
+            label: 'Colleges',
+            value: 'Cadres',
+          },
+          {
+            label: 'Type',
+            value: 'Individual',
+          },
+          {
+            label: 'Nature',
+            value: 'basic',
+          },
+        ],
+        actions: [
+          {
+            icon: 'share',
+            href: '/share',
+          },
+        ],
+      },
+      {
+        color: 'third',
+        icon: 'cog',
+        title: '8328239923 :: Life',
+        link: '/contract/490',
+        items: [
+          {
+            label: 'Montant de la cotisation',
+            value: "1'990'379 €",
+          },
+          {
+            label: 'Reglement',
+            value: "1'223'595 €",
+          },
+          {
+            label: 'Adhesion',
+            value: '280',
+          },
+          {
+            label: 'Colleges',
+            value: 'Cadres',
+          },
+          {
+            label: 'Type',
+            value: 'Individual',
+          },
+          {
+            label: 'Nature',
+            value: 'basic',
+          },
+        ],
+        actions: [
+          {
+            icon: 'share',
+            href: '/share',
+          },
+        ],
+      },
+      {
+        color: 'fourth',
+        icon: 'tint',
+        title: '80238403234 :: Pension',
+        link: '/contract/490',
+        items: [
+          {
+            label: 'Montant de la cotisation',
+            value: "1'990'379 €",
+          },
+          {
+            label: 'Reglement',
+            value: "1'223'595 €",
+          },
+          {
+            label: 'Adhesion',
+            value: '280',
+          },
+          {
+            label: 'Colleges',
+            value: 'Cadres',
+          },
+          {
+            label: 'Type',
+            value: 'Individual',
+          },
+          {
+            label: 'Nature',
+            value: 'basic',
+          },
+        ],
+        actions: [
+          {
+            icon: 'share',
+            link: '/share',
+          },
+        ],
+      },
+    ]}
+  />
+</Playground>

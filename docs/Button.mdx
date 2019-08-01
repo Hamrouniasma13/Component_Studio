@@ -1,0 +1,93 @@
+---
+name: Button
+route: /button
+menu: ⚛️ Atoms
+---
+
+import { Playground, Props } from 'docz'
+import { Button } from '../src'
+
+# Button
+
+The button is the main element of the website.
+All props that are not for the button are passed to the [`Link`](/link) used to create the link.
+
+For a lighter button, see [`Simple Button`](/simple-button)
+
+<Button href="/">Click me</Button>
+
+<Props of={Button} />
+
+## Colors
+
+You can choose the color of the button by using the correct key from [theme](/theme#colors).
+
+<Playground>
+  <Button href="/" color="primary">
+    Primary
+  </Button>{' '}
+  <Button href="/" color="secondary">
+    Secondary
+  </Button>{' '}
+  <Button href="/" color="third">
+    Third
+  </Button>{' '}
+  <Button href="/" color="fourth">
+    Fourth
+  </Button>{' '}
+  <Button href="/" color="fifth">
+    Fifth
+  </Button>{' '}
+  <Button href="/" color="sixth">
+    Sixth
+  </Button>
+</Playground>
+
+## Sizes variants
+
+You can choose the size of the button, with the `size` prop.
+Available options are `big` and `small`.
+
+<Playground>
+  <Button href="/" size="big">
+    Click me
+  </Button>{' '}
+  <Button href="/" size="small">
+    Click me
+  </Button>
+</Playground>
+
+## Ghost variant
+
+To display a secondary action, you can use the `ghost` prop.
+
+<Playground>
+  <Button href="/" ghost>
+    Click me
+  </Button>
+</Playground>
+
+## Icon
+
+You can display an icon inside the button, with `icon` prop.
+See the list of available icons [here](/icon).
+You can place it before the label with `iconPosition="left"`
+
+<Playground>
+  <Button href="/" icon="cog" />{' '}
+  <Button href="/" icon="cog">
+    Click me
+  </Button>{' '}
+  <Button href="/" icon="cog" iconPosition="left">
+    Click me
+  </Button>
+</Playground>
+
+## Real button
+
+If you don't want to display a link, but just a button, don't pass `href`.
+Like so, we use `button` instead of [`Link`](/link)
+
+<Playground>
+  <Button onClick={() => window.alert('click')}>Click me</Button>
+</Playground>

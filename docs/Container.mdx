@@ -1,0 +1,65 @@
+---
+name: Container
+route: /container
+menu: 🧰 Technical
+---
+
+import { Playground } from 'docz'
+import { Container } from '../src'
+
+# Container
+
+`Container` is the main component when it comes to wrap the content on a reasonable size. It's size depend on the media :
+
+- _mobile_ : `100%` of the screen
+- _tablet_ : `720px`
+- _laptop_ : `960px`
+- _desktop_ : `1140px`
+
+It always come with `15px` padding on the left and on the right, and horizontally centered.
+
+<Playground>
+  <Container>
+    <p>
+      Cillum eu laborum dolor occaecat excepteur pariatur. Eu magna veniam
+      cupidatat veniam commodo est ad ut irure dolore aliqua. Velit aliqua anim
+      fugiat pariatur. Officia eu ex esse sunt anim veniam cillum dolore enim
+      pariatur. Pariatur duis nulla adipisicing proident amet tempor in duis
+      sunt quis amet quis cupidatat magna. Duis cillum velit fugiat commodo eu.
+      Labore anim proident ut ut ipsum.
+    </p>
+    <p>
+      Cillum est aute ex enim est adipisicing enim laboris velit ad eu aliqua
+      ea. Mollit consequat voluptate aliquip ea cupidatat non sint consectetur
+      cillum. Incididunt irure sit id id officia laboris id aliquip nulla et
+      culpa commodo magna labore. Dolor irure dolor labore ipsum culpa. Deserunt
+      mollit laborum sunt adipisicing esse exercitation. Non in fugiat officia
+      nisi minim nulla aute magna in amet in quis sit aliquip.
+    </p>
+  </Container>
+</Playground>
+
+## Article
+
+`Container` can't be customized, but you can use it's smaller version with the `article` property, which will make it not larger than `798px`.
+
+<Playground>
+  <Container article>
+    <p>
+      Cillum eu laborum dolor occaecat excepteur pariatur. Eu magna veniam
+      cupidatat veniam commodo est ad ut irure dolore aliqua. Velit aliqua anim
+      fugiat pariatur. Officia eu ex esse sunt anim veniam cillum dolore enim
+      pariatur. Pariatur duis nulla adipisicing proident amet tempor in duis
+      sunt quis amet quis cupidatat magna. Duis cillum velit fugiat commodo eu.
+      Labore anim proident ut ut ipsum.
+    </p>
+    <p>
+      Cillum est aute ex enim est adipisicing enim laboris velit ad eu aliqua
+      ea. Mollit consequat voluptate aliquip ea cupidatat non sint consectetur
+      cillum. Incididunt irure sit id id officia laboris id aliquip nulla et
+      culpa commodo magna labore. Dolor irure dolor labore ipsum culpa. Deserunt
+      mollit laborum sunt adipisicing esse exercitation. Non in fugiat officia
+      nisi minim nulla aute magna in amet in quis sit aliquip.
+    </p>
+  </Container>
+</Playground>

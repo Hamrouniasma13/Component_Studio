@@ -1,0 +1,306 @@
+---
+name: Simulator view
+route: /simulator-view
+menu: 🧰 Technical
+---
+
+import { Playground } from 'docz'
+import { SimulatorView } from '../src'
+
+## Props
+
+## simple simulator
+
+<Playground fullBleed noPadding>
+  <SimulatorView
+    onSubmit={console.log}
+    onUpdate={console.log}
+    questions={{
+      name: '2-acte-medical',
+      label: 'Acte médical',
+      type: 'radio',
+      options: [
+        {
+          value: '__medecin',
+          label: 'Medecin',
+        },
+        {
+          value: '__hopital',
+          label: 'Hôpital',
+        },
+        {
+          value: '__dental',
+          label: 'Dentaire',
+        },
+      ],
+    }}
+  />
+</Playground>
+
+## simple simulator with default answers
+
+<Playground fullBleed noPadding>
+  <SimulatorView
+    onSubmit={console.log}
+    onUpdate={console.log}
+    answers={{ '3-acte-medical': '__medecin' }}
+    questions={{
+      name: '3-acte-medical',
+      label: 'Acte médical',
+      type: 'radio',
+      options: [
+        {
+          value: '__medecin',
+          label: 'Medecin',
+        },
+        {
+          value: '__hopital',
+          label: 'Hôpital',
+        },
+        {
+          value: '__dental',
+          label: 'Dentaire',
+        },
+      ],
+    }}
+  />
+</Playground>
+
+## Health Simulator
+
+<Playground fullBleed noPadding>
+  <SimulatorView
+    onSubmit={console.log}
+    onUpdate={console.log}
+    questions={{
+      name: 'acte-medical',
+      label: 'Acte médical',
+      type: 'radio',
+      info: {
+        label:
+          'Ea veniam elit id irure sit excepteur labore excepteur consequat tempor esse velit consequat.',
+        link: {
+          to: 'http://www.google.com'
+        }
+      },
+      options: [
+        {
+          value: '_medecin',
+          label: 'Medecin',
+          next: {
+            name: 'acte-medical-medecin',
+            type: 'radio',
+            label: 'Quel est votre besoin ?',
+            info: {
+              label: 'Choose wisely'
+            },
+            options: [
+              {
+                value: 'acte-medial-medecin-gene',
+                label:
+                  'Consultation de médecin généraliste (honoraires maîtrisés *)',
+                next: {
+                  name: 'expense',
+                  type: 'number',
+                  step: '0.01',
+                  label: 'Montant de la dépense',
+                  info: {
+                    label: 'Le prix varie entre 400 et 1000 € selon le secteur.'
+                  },
+                  suffix: '€'
+                }
+              },
+              {
+                value: 'acte-medial-medecin-cardio',
+                label: "Consultation d'un cardiologue (honoraires maîtrisés *)",
+                next: {
+                  name: 'expense',
+                  type: 'number',
+                  step: '0.01',
+                  label: 'Montant de la dépense',
+                  info: {
+                    label: 'Le prix varie entre 400 et 1000 € selon le secteur.'
+                  },
+                  suffix: '€'
+                }
+              },
+              {
+                value: 'acte-medial-medecin-cardio-libre',
+                label: "Consultation d'un cardiologue (honoraires libres *)",
+                next: {
+                  name: 'expense',
+                  type: 'number',
+                  step: '0.01',
+                  label: 'Montant de la dépense',
+                  info: {
+                    label: 'Le prix varie entre 400 et 1000 € selon le secteur.'
+                  },
+                  suffix: '€'
+                }
+              },
+              {
+                value: 'acte-medial-medecin-osteo',
+                label: "Consultation d'un ostéopathe",
+                next: {
+                  name: 'expense',
+                  type: 'number',
+                  step: '0.01',
+                  label: 'Montant de la dépense',
+                  info: {
+                    label: 'Le prix varie entre 400 et 1000 € selon le secteur.'
+                  },
+                  suffix: '€'
+                }
+              }
+            ]
+          }
+        },
+        {
+          value: '_hopital',
+          label: 'Hôpital',
+          next: {
+            name: 'hopotal-chambre',
+            type: 'radio',
+            label: 'Quel est votre besoin ?',
+            options: [
+              {
+                value: 'particuliere',
+                label: 'Chambre particulière',
+                next: {
+                  name: 'expense',
+                  type: 'number',
+                  step: '0.01',
+                  label: 'Montant de la dépense',
+                  info: {
+                    label: 'Le prix varie entre 400 et 1000 € selon le secteur.'
+                  },
+                  suffix: '€'
+                }
+              },
+              {
+                value: 'accompagnant',
+                label: 'Lit accompagnant',
+                next: {
+                  name: 'expense',
+                  type: 'number',
+                  step: '0.01',
+                  label: 'Montant de la dépense',
+                  info: {
+                    label: 'Le prix varie entre 400 et 1000 € selon le secteur.'
+                  },
+                  suffix: '€'
+                }
+              }
+            ]
+          }
+        },
+        {
+          value: 'dental',
+          label: 'Dentaire',
+          next: {
+            name: 'dental-besoin',
+            type: 'radio',
+            label: 'Quel est votre besoin ?',
+            options: [
+              {
+                value: 'detartrage',
+                label: 'Détartrage',
+                next: {
+                  name: 'expense-uniq',
+                  type: 'number',
+                  label: 'Montant de la dépense',
+                  next: {
+                    name: 'acte-medical-medecin-bisss',
+                    type: 'radio',
+                    label: 'Quel est votre besoin ?',
+                    options: [
+                      {
+                        value: 'acte-medial-medecin-gene',
+                        label:
+                          'Consultation de médecin généraliste (honoraires maîtrisés *)',
+                        next: {
+                          name: 'expense',
+                          type: 'number',
+                          step: '0.01',
+                          label: 'Montant de la dépense',
+                          info: {
+                            label:
+                              'Le prix varie entre 400 et 1000 € selon le secteur.'
+                          },
+                          suffix: '€'
+                        }
+                      },
+                      {
+                        value: 'acte-medial-medecin-cardio',
+                        label:
+                          "Consultation d'un cardiologue (honoraires maîtrisés *)",
+                        next: {
+                          name: 'expense',
+                          type: 'number',
+                          step: '0.01',
+                          label: 'Montant de la dépense',
+                          info: {
+                            label:
+                              'Le prix varie entre 400 et 1000 € selon le secteur.'
+                          },
+                          suffix: '€'
+                        }
+                      },
+                      {
+                        value: 'acte-medial-medecin-cardio-libre',
+                        label:
+                          "Consultation d'un cardiologue (honoraires libres *)",
+                        next: {
+                          name: 'expense',
+                          type: 'number',
+                          step: '0.01',
+                          label: 'Montant de la dépense',
+                          info: {
+                            label:
+                              'Le prix varie entre 400 et 1000 € selon le secteur.'
+                          },
+                          suffix: '€'
+                        }
+                      },
+                      {
+                        value: 'acte-medial-medecin-osteo',
+                        label: "Consultation d'un ostéopathe",
+                        next: {
+                          name: 'expense',
+                          type: 'number',
+                          step: '0.01',
+                          label: 'Montant de la dépense',
+                          info: {
+                            label:
+                              'Le prix varie entre 400 et 1000 € selon le secteur.'
+                          },
+                          suffix: '€'
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                value: 'otrho-non-rembourse',
+                label: 'Orthodontie non remboursée par la Sécurité sociale',
+                next: {
+                  name: 'expense',
+                  type: 'number',
+                  step: '0.01',
+                  label: 'Montant de la dépense',
+                  info: {
+                    label: 'Le prix varie entre 400 et 1000 € selon le secteur.'
+                  },
+                  suffix: '€'
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }}
+
+/>
+
+</Playground>

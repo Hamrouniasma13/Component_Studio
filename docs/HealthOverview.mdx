@@ -1,0 +1,166 @@
+---
+name: Health overview
+route: /health-overview
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import {
+  HealthOverview,
+  PieChart,
+  DataTable,
+  Button,
+  PieChartBox,
+} from '../src'
+
+# HealthOverview
+
+<Playground>
+  <HealthOverview
+    title="Mes derniers remboursements"
+    actions={[
+      <Button color="secondary" href="/">
+        Call to action
+      </Button>
+    ]}>
+      <PieChartBox 
+        title="Lorem ipsum sir dalet" 
+        info="Since DD/MM/YYYY" 
+        value="100 €" 
+        data={[
+          { 
+            label: '2000', 
+            values: [{
+              tooltip: '60%',
+              value: 60, 
+              displayValue: '60 €',
+              name: 'First expenses'
+            }, { 
+              tooltip: '30%',
+              value: 30,
+              displayValue: '30 €',
+              name: 'Second expenses' 
+            }, { 
+              tooltip: '10%',
+              value: 10, 
+              displayValue: '10 €',
+              name: 'Third expenses'
+            }]
+          }
+        ]} 
+        dataTable={{ actions: [{ label: 'Call to action', url: '/'}] }} />
+
+      <HealthOverview.Expenses
+        title="Lorem ipsum sir dalet"
+        pie={<PieChart
+          label="Since DD/MM/YYYY"
+          value="100 €"
+          values={[
+            {value: 60, color:"third"},
+            {value: 30, color:"fourth"},
+            {value: 10, color:"fifth"}
+          ]}
+        />}
+        tables={[
+          <DataTable
+            rows={[
+              {
+                pill: {value: '60%', color: 'third'},
+                title: 'First expenses',
+                value: '60 €'
+              },
+              {
+                pill: {value: '30%', color: 'fourth'},
+                title: 'Second expenses',
+                value: '30 €'
+              },
+              {
+                pill: {value: '10%', color: 'fifth'},
+                title: 'Third expenses',
+                value: '10 €'
+              }
+            ]}
+          />
+        ]}
+        actions={[{
+          url: '/',
+          label: 'Call to action'
+        }]}
+      />
+
+      <HealthOverview.Refunds
+        title="Mes derniers remboursements AXA"
+        actions={[
+          {
+            url: '/',
+            label: 'En savoir plus'
+          },
+          {
+            url: '/',
+            label: "J'échange avec mon gestionnaire"
+          }
+        ]}
+        refunds={[
+          {
+            date: '12 dec 2039',
+            label: 'PAULA consultation',
+            value: '100 €',
+            items: [
+              {
+                label: 'AXA',
+                value: '60 €'
+              },
+              {
+                label: 'EB',
+                value: '30 €'
+              },
+              {
+                label: 'SNCF',
+                value: '10 €'
+              }
+            ]
+          },
+          {
+            date: '12 dec 2039',
+            label: 'Doctor for Francis',
+            value: '100 €',
+            items: [
+              {
+                label: 'AXA',
+                value: '60 €'
+              },
+              {
+                label: 'EB',
+                value: '30 €'
+              },
+              {
+                label: 'SNCF',
+                value: '10 €'
+              }
+            ]
+          },
+          {
+            date: '12 dec 2039',
+            label: 'Refund Hostpital Pierre Curie. N°122031923',
+            value: '100 €',
+            items: [
+              {
+                label: 'AXA',
+                value: '60 €'
+              },
+              {
+                label: 'EB',
+                value: '30 €'
+              },
+              {
+                label: 'SNCF',
+                value: '10 €'
+              }
+            ]
+          }
+        ]}
+      />
+
+  </HealthOverview>
+
+</Playground>

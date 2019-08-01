@@ -1,0 +1,84 @@
+---
+name: Table
+route: /table
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { Table } from '../src'
+
+# Table
+
+<Playground>
+  <Table
+    head={[
+      { label: 'Nom', sorting: true },
+      { label: 'Prénom', sorting: true },
+      { label: 'Email', sorting: true },
+      { label: 'Société', sorting: true },
+      { label: 'Siret', sorting: true },
+    ]}
+    // If `canEdit={true}`
+    // Do not forget to put
+    // `href` in the body below
+    canEdit
+    body={[
+      {
+        data: [
+          { value: 'Belfodil' },
+          { value: 'Jérémy' },
+          { value: 'jbelfodil@gmail.com' },
+          { value: 'EB Partners' },
+          { value: '2343434444543' },
+        ],
+        key: 'Belfodil',
+        href: '/:idmember1',
+      },
+      {
+        data: [
+          { value: 'Laurent' },
+          { value: 'Romaric' },
+          { value: 'rlaurent@gmail.com' },
+          { value: 'AXA Assistance' },
+          { value: '434343000541' },
+        ],
+        key: 'Laurent',
+        href: '/:idmember2',
+      },
+      {
+        data: [
+          { value: 'Ansène' },
+          { value: 'Elisée' },
+          { value: 'eansene@gmail.com' },
+          { value: 'Xiaomi SA' },
+          { value: '0003434446666' },
+        ],
+        key: 'Ansène',
+        href: '/:idmember2',
+      },
+      {
+        data: [
+          { value: 'Guillot' },
+          { value: 'Florian' },
+          { value: 'fguillot@gmail.com' },
+          { value: 'Components Factory' },
+          { value: '9994434444000' },
+        ],
+        key: 'Guillot',
+        href: '/:idmember3',
+      },
+      {
+        data: [
+          { value: 'Luong' },
+          { value: 'Phong' },
+          { value: 'pluong@gmail.com' },
+          { value: 'Vien Story' },
+          { value: '1112234444333' },
+        ],
+        key: 'Luong',
+        href: '/:idmember4',
+      },
+    ]}
+    sorting
+  />
+</Playground>

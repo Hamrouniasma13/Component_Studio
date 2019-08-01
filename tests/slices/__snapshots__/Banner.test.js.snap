@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <NavigationBanner /> render snapshot 1`] = `
+.emotion-7 {
+  position: relative;
+  padding: 40px 0 35px;
+  margin-bottom: 60px;
+  background-size: cover;
+  background-image: url(https://picsum.photos/1920?image=1051);
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.emotion-7:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: black;
+  opacity: 0.2;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-7 {
+    padding: 140px 0 140px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-7 {
+    padding: 120px 0 120px;
+    text-align: left;
+  }
+}
+
+.emotion-6 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-6 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-6 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-6 {
+    width: 1140px;
+  }
+}
+
+.emotion-5 {
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-5 {
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-5 {
+    margin: 0 130px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-5 {
+    margin: 0 95px;
+  }
+}
+
+.emotion-0 {
+  font-size: 14px;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.02em;
+  -moz-letter-spacing: 0.02em;
+  -ms-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 18px;
+  }
+}
+
+.emotion-1 {
+  width: 25px;
+  height: 1px;
+  margin: 15px auto 10px;
+  background: white;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-1 {
+    width: 40px;
+    margin: 20px auto 15px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-1 {
+    margin: 20px 0 15px;
+  }
+}
+
+.emotion-2 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 36px;
+  line-height: 1.2em;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-2 {
+    font-size: 48px;
+    -webkit-letter-spacing: 1.4px;
+    -moz-letter-spacing: 1.4px;
+    -ms-letter-spacing: 1.4px;
+    letter-spacing: 1.4px;
+    line-height: 1.15em;
+  }
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-2 {
+    margin-bottom: 30px;
+  }
+}
+
+.emotion-3 {
+  font-size: 18px;
+  line-height: 24px;
+  -webkit-letter-spacing: 0.01em;
+  -moz-letter-spacing: 0.01em;
+  -ms-letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
+  margin-bottom: 35px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 45px;
+  }
+}
+
+.emotion-4 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-4:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-4:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+<div
+  className="emotion-7"
+  src="https://picsum.photos/1920?image=1051"
+>
+  <div
+    className="emotion-6"
+  >
+    <div
+      className="emotion-5"
+    >
+      <div
+        className="emotion-0"
+      >
+        Travels
+      </div>
+      <div
+        className="emotion-1"
+      />
+      <h1
+        className="emotion-2"
+        size={undefined}
+      >
+        My travels around the world
+      </h1>
+      <div
+        className="emotion-3"
+      >
+        I'll explain to you where I go, what I see, and how to do the same
+      </div>
+      <div>
+        <a
+          className="Button  emotion-4"
+          color="primary"
+          href="https://www.trivago.fr"
+          onClick={[Function]}
+          size="normal"
+          target="_blank"
+        >
+          Check on trivago
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

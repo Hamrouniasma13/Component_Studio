@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="11" viewBox="0 0 16 11">
+  <defs>
+    <path id="eb-triangle-a" d="M12,15 L20,25.6668 L28,15 L12,15 Z M13.6,15.8 L26.4,15.8 L20,24.3332 L13.6,15.8 Z"/>
+  </defs>
+  <use fill-rule="evenodd" transform="translate(-12 -15)" xlink:href="#eb-triangle-a"/>
+</svg>

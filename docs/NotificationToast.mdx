@@ -1,0 +1,97 @@
+---
+name: Notification Toast
+route: /notification-toast
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import {
+  NotificationToast,
+  NotificationContext,
+  NotificationProvider,
+} from '../src'
+
+# Notification Toast Center
+
+<Playground>
+  {() => {
+    const ButtonExample = () => {
+      const { newNotification } = React.useContext(NotificationContext)
+
+      return (
+        <>
+          <p
+            css={{ textDecoration: 'underline' }}
+            onClick={() =>
+              newNotification({
+                type: 'success',
+                message:
+                  'Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ',
+              })
+            }
+          >
+            Show success notification with 5000ms delay
+          </p>
+          <p
+            css={{ textDecoration: 'underline' }}
+            onClick={() =>
+              newNotification({
+                type: 'error',
+                message:
+                  'Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ',
+              })
+            }
+          >
+            Show error notification with 5000ms delay
+          </p>
+          <p
+            onClick={() =>
+              newNotification({
+                type: 'warning',
+                message:
+                  'Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ',
+              })
+            }
+            css={{ textDecoration: 'underline' }}
+          >
+            Show warning notification with 5000ms delay
+          </p>
+          <p
+            onClick={() =>
+              newNotification({
+                type: 'warning',
+                message:
+                  'Infinite notification',
+                infinite: true
+              })
+            }
+            css={{ textDecoration: 'underline' }}
+          >
+            Show warning notification with infinite delay waiting for user to close notification
+          </p>
+        </>
+      )
+    }
+
+    return (
+      <NotificationProvider>
+        <ButtonExample />
+      </NotificationProvider>
+    )
+
+}}
+
+</Playground>
+
+<Playground>
+  <NotificationToast
+    type="success"
+    message="Your account has been registered "
+  />
+  <NotificationToast type="error" message="Wrong password" />
+  <NotificationToast type="warning" message="Be careful!" />
+  <NotificationToast
+    type="success"
+    message="Your account has been registered Your account has been registered Your account has been registered "
+  />
+</Playground>

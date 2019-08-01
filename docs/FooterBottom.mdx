@@ -1,0 +1,36 @@
+---
+name: BottomFooter
+route: /bottom-footer
+menu: 🌐 Organisms
+---
+
+import { Playground, Props } from 'docz'
+import { BottomFooter } from '../src'
+
+# BottomFooter
+
+As we don't have `langs` in the reworked [footer](/footer), we still use the old design for the home page.
+
+<Props of={BottomFooter} />
+
+<Playground>
+  <BottomFooter
+    langs={[
+      {
+        ID: 'fr-FR',
+        label: 'Français'
+      },
+      {
+        ID: 'en-GB',
+        label: 'English'
+      },
+    ]}
+    lang={{
+      ID: 'en-GB',
+      label: 'English'
+    }}
+    langTitle={'Languages'}
+    legal={'AXA copyright'}
+  ></BottomFooter>
+
+</Playground>

@@ -1,0 +1,32 @@
+---
+name: Pill
+route: /pill
+menu: ⚛️ Atoms
+---
+
+import { Playground } from 'docz'
+import { Pill } from '../src'
+
+# Pill
+
+<Playground>
+  <Pill>Status</Pill>
+</Playground>
+
+## Size
+
+Pill can be bigger with `large`
+
+<Playground>
+  <Pill large>Status</Pill>
+</Playground>
+
+## Color
+
+You can use `color` to change the background color of the pill. The primary color of the theme is used by default, and the text color is automatically calculed.
+
+<Playground>
+  <Pill color="secondary">Status</Pill> <Pill color="third">Status</Pill>{' '}
+  <Pill color="fourth">Status</Pill> <Pill color="fifth">Status</Pill>{' '}
+  <Pill color="sixth">Status</Pill>
+</Playground>

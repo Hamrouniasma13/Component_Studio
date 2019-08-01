@@ -1,0 +1,75 @@
+---
+name: Slice
+route: /slice
+menu: 🧰 Technical
+---
+
+import { Playground } from 'docz'
+import { Slice, Button, SimpleButton } from '../src'
+
+# Slice
+
+`Slice` is the main component used on slices.
+It puts a `70px` top margin and a `100px` bottom margin to separate each slice with the same space.
+It also put a [Container](/container), so the content automatically fits the viewport, and is centered.
+As children, `Slice` take any component.
+
+As each page can have multiple slices, each title is an `h2`, with the size of an `h1`.
+The title is optionnal.
+
+The `actions` prop takes an array of component that will be render on the bottom right, below the content.
+Even if you can put any component, we advise to use [Button](/button) or [SimpleButton](/simple-button)
+The actions are optionnal.
+
+<Playground>
+  <Slice
+    title="My first slice"
+    actions={[
+      <Button href="https://www.google.fr" color="primary">
+        Google
+      </Button>,
+      <Button href="https://www.deezer.fr" ghost>
+        Deezer
+      </Button>,
+      <SimpleButton href="https://www.meetic.fr">Meetic</SimpleButton>,
+    ]}
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+    maximus odio, vitae volutpat urna. Maecenas posuere elit in nunc posuere,
+    quis mollis enim tempus. Quisque mollis, lorem vitae malesuada blandit,
+    magna nisl condimentum purus, sed dapibus nulla magna a ipsum. Fusce euismod
+    urna pretium nibh ultrices, in rutrum dui ornare. Phasellus enim leo,
+    sollicitudin sit amet posuere malesuada, vehicula ac felis. Nam laoreet
+    justo ac arcu pulvinar porta. Mauris suscipit cursus quam, ut tristique
+    lectus tincidunt et. Praesent interdum porta nulla, mattis aliquam lorem
+    tempor quis. Curabitur tincidunt, felis in pellentesque volutpat, ipsum
+    nulla dignissim ex, at tincidunt arcu sapien ut ipsum. Phasellus eget
+    molestie elit, a pretium elit. Proin quam enim, maximus ac lacinia sit amet,
+    varius vitae nibh. Donec accumsan volutpat condimentum. Maecenas sodales
+    turpis a nunc egestas interdum. Vestibulum tincidunt, lorem ac eleifend
+    ornare, magna nisl posuere leo, nec scelerisque lorem nisl in dui. Nulla nec
+    varius nulla, vel tristique orci. Suspendisse malesuada hendrerit semper.
+    Praesent consectetur facilisis purus, nec venenatis quam aliquet quis.
+    Suspendisse tempus justo at urna feugiat, vel tempus felis laoreet. Aliquam
+    erat volutpat. Quisque eu odio ipsum. Morbi bibendum accumsan tortor, quis
+    viverra turpis vestibulum sed. Etiam sit amet ullamcorper erat, eget
+    lobortis ligula. Donec sollicitudin massa in malesuada fermentum. Duis eu
+    pretium sem, vel dapibus leo. Fusce sit amet maximus odio, eget dapibus
+    dolor. Nullam nulla urna, tincidunt at diam nec, sollicitudin pretium dolor.
+    Sed ultricies orci at elementum consequat. Mauris ut arcu in elit mollis
+    eleifend. Cras fermentum placerat dui id convallis. Pellentesque mattis
+    tortor at dolor egestas, eget blandit odio vulputate. In consectetur porta
+    mauris ut vulputate. Aenean sit amet libero dictum, imperdiet eros ac,
+    iaculis tortor. Aenean vitae nisl bibendum, cursus nunc id, interdum turpis.
+    Sed laoreet in nulla non euismod. Praesent sit amet diam et massa vulputate
+    consectetur. Integer vel felis nisi. Cras in eros leo. Aliquam sed mauris in
+    risus ultricies ornare nec non nunc. Nulla eget ullamcorper erat. Quisque
+    eros nunc, pulvinar sit amet nisi malesuada, euismod blandit magna. Sed
+    purus dui, venenatis a tristique id, placerat vel dolor. Vivamus condimentum
+    tempus consequat. Nullam molestie non lectus sed ultrices. Duis a sem id
+    nisl dignissim gravida. Etiam commodo in ipsum non dictum. Mauris maximus
+    tempor malesuada. Integer nisi dui, condimentum vel porttitor vitae, blandit
+    sed felis. Nullam vitae turpis malesuada purus aliquet hendrerit sed et
+    felis.
+  </Slice>
+</Playground>

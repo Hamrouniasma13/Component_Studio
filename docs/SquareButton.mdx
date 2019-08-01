@@ -1,0 +1,26 @@
+---
+name: Square button (deprecated)
+route: /square-button
+menu: ⚛️ Atoms
+---
+
+import { Playground } from 'docz'
+import { SquareButton } from '../src'
+
+# Square Button
+
+This button is mostly used in action banner.
+
+The icon is optionnal, and must come from [the icon list](/icon)
+
+The label is also optionnal, but it's better to use one.
+
+On every media, it's always 120\*120.
+
+Every other props than _children_ and _icon_ are passed to the dom element, which is a [Link](/link)
+
+<Playground>
+  <SquareButton icon="adduser" href="https://qwant.com">
+    Affiliate a new member
+  </SquareButton>
+</Playground>

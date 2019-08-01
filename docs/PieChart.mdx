@@ -1,0 +1,43 @@
+---
+name: PieChart
+route: /pie-chart
+menu: ⚛️ Atoms
+---
+
+import { Playground } from 'docz'
+import { PieChart } from '../src'
+
+# PieChart
+
+`PieChart` is the main to show a pie chart. It take a value to display in the middle of the chart, and an array of value + color, to be the chart.
+
+<Playground>
+  <PieChart
+    value="4000 €"
+    values={[
+      { color: 'third', value: 1000, tooltip: 'My value #1' },
+      { color: 'fourth', value: 1000, tooltip: 'My value #2' },
+      { color: 'fifth', value: 1000, tooltip: 'My value #3' },
+      { color: 'sixth', value: 1000, tooltip: 'My value #4' },
+    ]}
+  />
+</Playground>
+
+## info
+
+You can add a text below with `info`
+
+_PS : the content of info won't be truncated inside the chart, so be carefull with their size._
+
+<Playground>
+  <PieChart
+    value="4000 €"
+    info="info"
+    values={[
+      { color: 'third', value: 1000 },
+      { color: 'fourth', value: 1000 },
+      { color: 'fifth', value: 1000 },
+      { color: 'sixth', value: 1000 },
+    ]}
+  />
+</Playground>

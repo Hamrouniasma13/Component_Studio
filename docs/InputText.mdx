@@ -1,0 +1,103 @@
+---
+name: Input text
+route: /input-text
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { InputText } from '../src'
+
+# InputText
+
+## Basic Input
+
+<Playground>
+  <InputText id="testInput" />
+</Playground>
+
+## placeholder Input
+
+<Playground>
+  <InputText
+    placeholder="Your name here"
+    label="There is a placeholder"
+    id="testInput3"
+  />
+</Playground>
+
+## disabled Input
+
+<Playground>
+  <InputText
+    disabled
+    value="Default value"
+    label="Disabled, sorry"
+    id="testInput4"
+  />
+</Playground>
+
+## OnChange Method
+
+<Playground>
+  <InputText
+    label="Check your Console"
+    id="testInput5"
+    onChange={console.log}
+  />
+</Playground>
+
+## Error Input
+
+<Playground>
+  <InputText error label="Error label" id="testInput6" />
+</Playground>
+
+## With Icon on the left
+
+<Playground>
+  <InputText
+    label="Your position"
+    placeholder="Your position here"
+    id="testInput5"
+    onChange={console.log}
+    iconName="position"
+    iconPosition="left"
+  />
+</Playground>
+
+## With Icon on the right with big option
+
+<Playground>
+  <InputText
+    label="Phone number"
+    placeholder="+33"
+    id="testInput5"
+    onChange={console.log}
+    big
+    iconName="position"
+    iconPosition="right"
+  />
+</Playground>
+
+## Textarea Input
+
+<Playground>
+  <InputText
+    id="testInput"
+    placeholder="Type something..."
+    onChange={console.log}
+    textarea
+  />
+</Playground>
+
+## Textarea Input with label
+
+<Playground>
+  <InputText label="Check your Console" id="testInput" textarea />
+</Playground>
+
+## Textarea Input with error
+
+<Playground>
+  <InputText label="Check your Console" id="testInput" error textarea />
+</Playground>

@@ -1,0 +1,61 @@
+---
+name: Large cards (deprecated)
+route: /large-cards
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { LargeCards } from '../src'
+
+# Large Cards
+
+<Playground>
+  <LargeCards
+    title="Mon contrat Prévoyance"
+    content="Votre entreprise a souscrit à un contrat de prévoyance collective pour vous couvrir en complément des indemnisations versées par la Sécurité Sociale, souvent insuffisante, pour limiter la perte de revenu pour votre famille et vous."
+    cards={[
+      {
+        url: '/',
+        image: {
+          src: 'https://picsum.photos/id/1020/260/290',
+          alt: 'random picture',
+        },
+        title: 'Garantie décès',
+        content: (
+          <React.Fragment>
+            <p>
+              En cas de décès, versement d’une contribution financière sous la
+              forme d’un capital pour aider votre famille à faire face aux frais
+              immédiats et à venir (éducation des enfants, crédits, etc.).{' '}
+            </p>
+            <p>
+              Désignez ou modifiez à tout moment vos bénéficiaires en cas de
+              décès (lien qui je protège).{' '}
+            </p>
+          </React.Fragment>
+        ),
+      },
+      {
+        url: '/',
+        image: {
+          src: 'https://picsum.photos/id/1021/260/290',
+          alt: 'random picture',
+        },
+        title: 'Garantie arrêt de travail',
+        content: (
+          <React.Fragment>
+            <p>
+              En cas d’arrêt de travail, versement d’une contribution financière
+              pour compenser votre perte de revenu temporaire ou permanente
+              (maladie ou accident).{' '}
+            </p>
+            <p>
+              Des services sont également à votre disposition pour vous
+              accompagner dans ces moments particuliers. (lien page services)
+            </p>
+          </React.Fragment>
+        ),
+      },
+    ]}
+  />
+</Playground>

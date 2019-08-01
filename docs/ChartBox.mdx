@@ -1,0 +1,172 @@
+---
+name: ChartBox
+route: /chart-box
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { ChartBox, BarChart, PieChart, DataTable, InputSelect } from '../src'
+
+# Chart Box
+
+This is a wrapper for wrapping a chart component ([`< PieChart/>`](/pie-chart) or [`<BarChart />`](/bar-chart)) with a [`<DataTable />`](/data-table) component.
+
+<Playground>
+  {() => {
+    const colors = ['#457289', '#E7690F', '#C391BD', '#33B4AE', '#36A9E1'];
+    return (
+      <ChartBox
+        title={'Mes derniers appels'}
+        chart={
+          <PieChart
+            value={'value....'}
+            info={'1er trimestre'}
+            values={[
+              {
+                tooltip: 'salut AA',
+                name: 'Page AA',
+                value: 2200,
+              },
+              {
+                tooltip: 'salut BB',
+                name: 'Page BB',
+                value: 398,
+              },
+              {
+                tooltip: 'salut CC',
+                name: 'Page CC',
+                value: 200,
+              },
+              {
+                tooltip: 'salut DD',
+                name: 'Page DD',
+                value: 1908,
+              },
+              {
+                tooltip: 'salut EE',
+                name: 'Pe EE',
+                value: 4000,
+              },
+            ]}
+          />
+        }
+        table={
+          <DataTable
+            title={'Taux de cotisation'}
+            rows={[
+              {
+                tooltip: 'salut AA',
+                name: 'Page AA',
+                value: 2200,
+              },
+              {
+                tooltip: 'salut BB',
+                name: 'Page BB',
+                value: 398,
+              },
+              {
+                tooltip: 'salut CC',
+                name: 'Page CC',
+                value: 200,
+              },
+              {
+                tooltip: 'salut DD',
+                name: 'Page DD',
+                value: 1908,
+              },
+              {
+                tooltip: 'salut EE',
+                name: 'Pe EE',
+                value: 4000,
+              },
+            ].map((d, i) => ({
+              dotColor: colors[i],
+              title: d.name,
+              value: d.value,
+            }))}
+          />
+        }
+    />)
+
+}}
+
+</Playground>
+
+<Playground>
+  {() => {
+    const colors = ['#457289', '#E7690F', '#C391BD', '#33B4AE', '#36A9E1']
+    return (
+      <ChartBox
+        title={'My title'}
+        chart={
+          <BarChart
+            values={[
+              {
+                tooltip: 'salut AA',
+                name: 'Page AA',
+                value: 2200,
+              },
+              {
+                tooltip: 'salut BB',
+                name: 'Page BB',
+                value: 398,
+              },
+              {
+                tooltip: 'salut CC',
+                name: 'Page CC',
+                value: 200,
+              },
+              {
+                tooltip: 'salut DD',
+                name: 'Page DD',
+                value: 1908,
+              },
+              {
+                tooltip: 'salut EE',
+                name: 'Pe EE',
+                value: 4000,
+              },
+            ]}
+          />
+        }
+        table={
+          <DataTable
+            title={'Taux de cotisation'}
+            rows={[
+              {
+                tooltip: 'salut AA',
+                name: 'Page AA',
+                value: 2200,
+              },
+              {
+                tooltip: 'salut BB',
+                name: 'Page BB',
+                value: 398,
+              },
+              {
+                tooltip: 'salut CC',
+                name: 'Page CC',
+                value: 200,
+              },
+              {
+                tooltip: 'salut DD',
+                name: 'Page DD',
+                value: 1908,
+              },
+              {
+                tooltip: 'salut EE',
+                name: 'Pe EE',
+                value: 4000,
+              },
+            ].map((d, i) => ({
+              dotColor: colors[i],
+              title: d.name,
+              value: d.value,
+            }))}
+          />
+        }
+        actions={[{ label: 'Go', url: '/' }]}
+      />
+    )
+  }}
+</Playground>

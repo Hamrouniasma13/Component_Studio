@@ -1,0 +1,29 @@
+---
+name: Item list (deprecated)
+route: /item-list
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { ItemList } from '../src'
+
+# Item List
+
+<Playground>
+  <ItemList
+    title="My documents"
+    items={[
+      {
+        label: 'Document n°1',
+        url: 'https://www.google.fr',
+      },
+      {
+        label: 'Document n°2',
+        url: '/homepage',
+      },
+      {
+        label: 'Document n°3',
+      },
+    ]}
+  />
+</Playground>

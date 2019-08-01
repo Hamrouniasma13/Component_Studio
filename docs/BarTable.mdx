@@ -1,0 +1,51 @@
+---
+name: Bar table
+route: /bar-table
+menu: 🌐 Organisms
+---
+
+## Type: `Organism`
+
+import { Playground } from 'docz'
+import { BarTable } from '../src'
+
+# BarTable
+
+<Playground>
+  <BarTable
+    title="Derniers taux de cotisations"
+    tableTitle="Taux de cotisation (Date 01/01/2019)"
+    data={[
+      {
+        label: '2000',
+        values: [
+          {
+            percent: 'salut A',
+            label: 'Page A',
+            value: 2400,
+          },
+          {
+            percent: 'salut B',
+            label: 'Page B',
+            value: 1398,
+          },
+          {
+            percent: 'salut C',
+            label: 'Page C',
+            value: 8,
+          },
+          {
+            percent: 'salut D',
+            label: 'Page D',
+            value: 3908,
+          },
+          {
+            percent: 'salut E',
+            label: 'Pe E',
+            value: 4800,
+          },
+        ],
+      },
+    ]}
+  />
+</Playground>

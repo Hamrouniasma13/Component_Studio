@@ -1,0 +1,47 @@
+---
+name: Service Card
+route: /service-card
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { ServiceCard, Container } from '../src'
+
+# ServiceCard
+
+<Playground>
+  <ServiceCard
+    category="Santé"
+    colorKey="background4"
+    title="Appeler un médecin la nuit"
+    content="Avec la Téléconsultation médicale, consultez immédiatement médecin 24h/24h, 7j/7j par téléphone ou par vidéo. Accessible en ligne ou au 01 55 92 27 54"
+    action={{
+      label: 'Click',
+      url: '/',
+    }}
+  />
+</Playground>
+
+# Category is optionnal
+
+<Playground>
+  <ServiceCard
+    title="Appeler un médecin la nuit"
+    content="Avec la Téléconsultation médicale, consultez immédiatement médecin 24h/24h, 7j/7j par téléphone ou par vidéo. Accessible en ligne ou au 01 55 92 27 54"
+    action={{
+      label: 'Click',
+      url: '/',
+    }}
+  />
+</Playground>
+
+# Url is optionnal
+
+<Playground>
+  <ServiceCard
+    category="Santé"
+    colorKey="background4"
+    title="Appeler un médecin la nuit"
+    content="Avec la Téléconsultation médicale, consultez immédiatement médecin 24h/24h, 7j/7j par téléphone ou par vidéo. Accessible en ligne ou au 01 55 92 27 54"
+  />
+</Playground>

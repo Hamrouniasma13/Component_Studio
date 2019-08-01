@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <NavigationBanner /> render snapshot 1`] = `
+.emotion-26 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-26 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-26 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.emotion-25 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-25 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-25 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-25 {
+    width: 1140px;
+  }
+}
+
+.emotion-8 {
+  text-align: center;
+}
+
+.emotion-8:not(:last-child) {
+  margin-bottom: 70px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-8:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-8 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+  }
+
+  .emotion-8:nth-child(odd) > :first-child {
+    margin-left: 60px;
+  }
+
+  .emotion-8:nth-child(even) > :first-child {
+    margin-right: 60px;
+  }
+
+  .emotion-8:nth-child(odd) {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
+
+.emotion-1 {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-1 {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-1 {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+
+.emotion-0 {
+  max-width: 100%;
+  will-change: opacity;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.emotion-7 {
+  text-align: center;
+  padding: 0 15px 15px;
+  color: #333333;
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-7 {
+    max-width: 47%;
+    padding: 0;
+    display: table;
+  }
+}
+
+.emotion-6 {
+  display: table-cell;
+}
+
+.emotion-2 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 24px;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-2 {
+    font-size: 28px;
+    line-height: 1em;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-2 {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+}
+
+.emotion-3 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: black;
+  text-align: justify;
+}
+
+.emotion-3 p > a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #494df4;
+  font-weight: bold;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+.emotion-5 {
+  margin-top: 25px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-5 {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-5 {
+    margin-top: 40px;
+    text-align: left;
+  }
+}
+
+.emotion-4 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-4:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-4:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+<div
+  className="emotion-26"
+>
+  <div
+    className="emotion-25"
+  >
+    <div
+      className="emotion-8"
+    >
+      <div
+        className="emotion-1"
+      >
+        <img
+          alt="animals"
+          className="emotion-0"
+          src={undefined}
+        />
+      </div>
+      <div
+        className="emotion-7"
+      >
+        <div
+          className="emotion-6"
+        >
+          <h1
+            className="emotion-2"
+            size="typo3"
+          >
+            Title of the first card
+          </h1>
+          <p
+            className="emotion-3"
+          >
+            Elit aute ut amet fugiat incididunt consequat est fugiat. Id consequat mollit nulla adipisicing duis. Cupidatat minim qui in fugiat fugiat elit tempor sit do consectetur. Exercitation commodo aute consequat non deserunt Lorem veniam excepteur id. Veniam ea elit mollit dolore qui reprehenderit consequat esse proident.
+          </p>
+          <div
+            className="emotion-5"
+          >
+            <a
+              className="Button  emotion-4"
+              color="primary"
+              href="https://www.google.fr"
+              onClick={[Function]}
+              size="normal"
+              target="_blank"
+            >
+              Discover
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-8"
+    >
+      <div
+        className="emotion-1"
+      >
+        <img
+          alt="building"
+          className="emotion-0"
+          src={undefined}
+        />
+      </div>
+      <div
+        className="emotion-7"
+      >
+        <div
+          className="emotion-6"
+        >
+          <h1
+            className="emotion-2"
+            size="typo3"
+          >
+            Title of the second card
+          </h1>
+          <p
+            className="emotion-3"
+          >
+            Commodo Lorem dolore est anim. Labore eiusmod veniam fugiat ea. Eiusmod et eu magna do labore. Labore aute dolor qui non ipsum esse occaecat exercitation tempor veniam. Eiusmod enim fugiat culpa incididunt consequat do. Exercitation incididunt tempor sunt duis aute fugiat est ipsum amet occaecat occaecat. Consequat minim reprehenderit exercitation deserunt nostrud cillum qui reprehenderit elit esse veniam et enim.
+          </p>
+          <div
+            className="emotion-5"
+          >
+            <a
+              aria-current="page"
+              className="Button  emotion-4 active"
+              color="primary"
+              href="/"
+              onClick={[Function]}
+              size="normal"
+              style={Object {}}
+            >
+              Back home
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-8"
+    >
+      <div
+        className="emotion-1"
+      >
+        <img
+          alt="warm animal"
+          className="emotion-0"
+          src={undefined}
+        />
+      </div>
+      <div
+        className="emotion-7"
+      >
+        <div
+          className="emotion-6"
+        >
+          <h1
+            className="emotion-2"
+            size="typo3"
+          >
+            Title of the third card
+          </h1>
+          <p
+            className="emotion-3"
+          >
+            Cupidatat velit reprehenderit mollit consequat. Proident commodo officia sunt laborum pariatur. Cupidatat labore ullamco pariatur minim nostrud non adipisicing sunt consectetur magna aliqua non adipisicing deserunt. Consequat occaecat officia ut ut officia enim deserunt nostrud. Tempor aliqua tempor commodo eiusmod non incididunt velit ad exercitation pariatur irure dolor. Reprehenderit proident est minim consequat sint Lorem reprehenderit sint.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

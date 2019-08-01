@@ -1,0 +1,44 @@
+---
+name: BarChart
+route: /bar-chart
+menu: ⚛️ Atoms
+---
+
+import { Playground, Props } from 'docz'
+import { BarChart } from '../src'
+
+# Bar Chart
+
+This is a basic BarChart component.
+
+<Props of={BarChart} />
+
+<BarChart
+  values={[
+    {
+      tooltip: 'salut A',
+      name: 'Page A',
+      value: 2400,
+    },
+    {
+      tooltip: 'salut B',
+      name: 'Page B',
+      value: 1398,
+    },
+    {
+      tooltip: 'salut C',
+      name: 'Page C',
+      value: 8,
+    },
+    {
+      tooltip: 'salut D',
+      name: 'Page D',
+      value: 3908,
+    },
+    {
+      tooltip: 'salut E',
+      name: 'Pe E',
+      value: 4800,
+    },
+  ]}
+></BarChart>

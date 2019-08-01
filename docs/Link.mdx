@@ -1,0 +1,32 @@
+---
+name: Link
+route: /link
+menu: 🧰 Technical
+---
+
+import { Playground } from 'docz'
+import { Link } from '../src'
+
+# Link
+
+`Link` is the main component component when it comes to make a link between 2 pages.
+It comes with no styles, but by default, it resets the color and the text-decoration.
+
+<Playground>
+  <Link href="/">Link to home</Link>
+</Playground>
+
+## Customize
+
+Be default, we use the html `a` tag, but we can use the element of your choice
+
+_PS: As our `Button` and `Simple Button` use `Link`, you should not use them as custom element, or it will create a infinite loop_
+
+<Playground>
+  <Link.ContextProvider element={props => <button {...props} />}>
+    <Link href="/">Call to action</Link>
+  </Link.ContextProvider>
+</Playground>
+
+In the example above, we use `Link.ContextProvider` to put a `button` instead of the default `a` when we make a link.
+You can also use other tags, other elements from other libraries, or modify the props, like `onClick`.

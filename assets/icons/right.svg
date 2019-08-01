@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="17" viewBox="0 0 10 17">
+  <defs>
+    <polygon id="eb-right-a" points="27.472 16 20 23.472 12.528 16 12 16.529 20 24.529 28 16.529"/>
+  </defs>
+  <use fill-rule="evenodd" transform="rotate(-90 6.5 21.764)" xlink:href="#eb-right-a"/>
+</svg>

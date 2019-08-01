@@ -1,0 +1,50 @@
+---
+name: Members list
+route: /members-list
+menu: 📐 Templates
+---
+
+import { Playground } from 'docz'
+import { MembersList, Pill, Link } from '../src'
+
+# Member list
+
+<Playground>
+  <MembersList
+    head={[
+      {content: 'First title', subContent: 'First subContent'},
+      {content: 'Second title', subContent: 'Second subContent'},
+      {content: 'Third title', subContent: 'Third subContent'},
+      {content: 'Fourth title', subContent: 'Fourth subContent'},
+      {content: 'Fifth title'},
+      {content: 'Sixth title'}
+    ]}
+    rows={[
+      [
+        {content: <Link href="/">First title</Link>, subContent: 'First subContent'},
+        {content: 'Second title', subContent: 'Second subContent'},
+        {content: 'Third title', subContent: 'Third subContent'},
+        {content: 'Fourth title', subContent: 'Fourth subContent'},
+        {content: 'Fifth title'},
+        {content: <Pill color="warning">Warning</Pill>}
+      ],
+      [
+        {content: <Link href="/">First title</Link>, subContent: 'First subContent'},
+        {content: 'Second title', subContent: 'Second subContent'},
+        {content: 'Third title', subContent: 'Third subContent'},
+        {content: 'Fourth title', subContent: 'Fourth subContent'},
+        {content: 'Fifth title'},
+        {content: <Pill color="error">Error</Pill>}
+      ],
+      [
+        {content: <Link href="/">First title</Link>, subContent: 'First subContent'},
+        {content: 'Second title', subContent: 'Second subContent'},
+        {content: 'Third title', subContent: 'Third subContent'},
+        {content: 'Fourth title', subContent: 'Fourth subContent'},
+        {content: 'Fifth title'},
+        {content: <Pill color="success">Success</Pill>}
+      ]
+    ]}
+/>
+
+</Playground>

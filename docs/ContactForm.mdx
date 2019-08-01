@@ -1,0 +1,25 @@
+---
+name: Contact form
+route: /contact-form
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { ContactForm } from '../src'
+
+# Contact form
+
+<Playground>
+  <ContactForm
+    title="You can't find an answer, send us a message !"
+    wording={{
+      topic_label: 'Select your topic',
+      topic_placeholder: 'Claim...',
+      message_label: 'Your message',
+      message_placeholder: 'Fill text',
+      button_label: 'Send message',
+    }}
+    topicOptions={['Insurance', 'Automobile', 'Retirement']}
+    onSendMessage={console.log}
+  />
+</Playground>

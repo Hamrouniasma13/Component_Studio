@@ -1,0 +1,244 @@
+---
+name: Forms
+route: /forms
+menu: 🧰 Technical
+---
+
+import { Playground } from 'docz'
+import {
+  Input,
+  InputText,
+  InputSelect,
+  InputDate,
+  InputBirthdate,
+  Checkbox,
+  Checkboxes,
+  Radios,
+  Form,
+} from '../src'
+
+# Forms
+
+## Form Component
+
+<Playground>
+  {() => {
+    const formSchema = {
+      title: 'A registration form',
+      description: 'A simple form example.',
+      type: 'object',
+      required: ['firstName', 'lastName'],
+      properties: {
+        firstName: {
+          title: 'Surname'
+        },
+        lastName: {
+          title: 'Given name'
+        },
+        effectiveDate: {
+          title: 'Effective date',
+          type: 'date'
+        },
+        hkId: {
+          type: 'string',
+          title: 'HK ID'
+        },
+        birth: {
+          type: 'date',
+          title: 'Birth date'
+        },
+        gender: {
+          title: 'Gender',
+          enum: ['Male', 'Female']
+        },
+        relationship: {
+          title: 'Relationship',
+          enum: ['Wife', 'Husband']
+        },
+        email: {
+          title: 'Email Address'
+        },
+        memberClass: {
+          title: "Member class",
+          enum: ['01', '02', '03']
+        },
+        comment: {
+          title: 'Comment',
+        }
+      }
+    }
+    
+    const uiSchema = {
+      firstName: {
+        placeholder: 'Fill text',
+      },
+      lastName: {
+        placeholder: 'Fill text'
+      },
+      effectiveDate: {
+        placeholder: 'YYYY/MM/DD',
+      },
+      hkId: {
+        placeholder: 'Fill numbers',
+      },
+      birth: {
+        widget: 'birthdate'
+      },
+      relationship: {
+        widget: 'select',
+        placeholder: 'relationship...'
+      },
+      email: {
+        placeholder: 'xxx@axa.com',
+      },
+      memberClass: {
+        widget: 'select',
+      },
+      comment: {
+        widget: 'textarea',
+        placeholder: 'Type something...',
+      }
+    }
+    const validation = values => {
+      const errors = {}
+      if (values.firstName && values.firstName.length > 10) {
+        errors.firstName = 'Message is too long !'
+      }
+
+      return errors
+    }
+
+    return <Form validation={validation} formSchema={formSchema} uiSchema={uiSchema}/>
+
+}}
+
+</Playground>
+
+### Checkbox
+
+Simple Checkbox
+
+<Playground>
+  <Checkbox onChange={console.log} name="my-checkbox" label="Epargne" />
+</Playground>
+
+Big Checkbox
+
+<Playground>
+  <Checkbox big onChange={console.log} name="my-checkbox-big" label="Epargne" />
+</Playground>
+
+Checkbox with `checked` to `true`
+
+<Playground>
+  <Checkbox
+    onChange={console.log}
+    name="my-checkbox-checked"
+    label="Epargne"
+    checked={true}
+  />
+</Playground>
+
+### Checkboxes
+
+Checkboxes with multiple choices
+
+<Playground>
+  <Checkboxes
+    onChange={console.log}
+    name="my-checkboxes"
+    options={[
+      { value: 'option1', label: 'checkbox 1', checked: true },
+      { value: 'option2', label: 'checkbox 2' },
+      { value: 'option3', label: 'checkbox 3', checked: true },
+      { value: 'option4', label: 'checkbox 4' },
+    ]}
+  />
+  <Checkboxes />
+</Playground>
+
+Big checkboxes
+
+<Playground>
+  <Checkboxes
+    onChange={console.log}
+    name="my-big-checkboxes"
+    big
+    options={[
+      { value: 'big-option1', label: 'big checkbox 1' },
+      { value: 'big-option2', label: 'big checkbox 2', checked: true },
+      { value: 'big-option3', label: 'big checkbox 3' },
+      { value: 'big-option4', label: 'big checkbox 4', checked: true },
+    ]}
+  />
+  <Checkboxes />
+</Playground>
+
+### Radios
+
+Simple radios button
+
+<Playground>
+  <Radios
+    onChange={console.log}
+    name="my-radios"
+    options={[
+      { value: 'radio-option1', label: 'radio 1' },
+      { value: 'radio-option2', label: 'radio 2' },
+      { value: 'radio-option3', label: 'radio 3' },
+    ]}
+  />
+  <Radios
+    onChange={console.log}
+    name="my-radios"
+    big
+    options={[
+      { value: 'radio-big-option1', label: 'radio 1' },
+      { value: 'radio-big-option2', label: 'radio 2' },
+      { value: 'radio-big-option3', label: 'radio 3' },
+    ]}
+  />
+</Playground>
+
+Simple radios button with default value
+
+<Playground>
+
+  <Radios
+    onChange={console.log}
+    name="my-radios-value"
+    value="radio-value-option1"
+    options={[
+      { value: 'radio-value-option1', label: 'radio 1' },
+      { value: 'radio-value-option2', label: 'radio 2' },
+      { value: 'radio-value-option3', label: 'radio 3' }
+    ]}
+  />
+  <Radios
+    onChange={console.log}
+    name="my-radios-value"
+    big
+    value="radio-value-big-option1"
+    options={[
+      { value: 'radio-value-big-option1', label: 'radio 1' },
+      { value: 'radio-value-big-option2', label: 'radio 2' },
+      { value: 'radio-value-big-option3', label: 'radio 3' }
+    ]}
+  />
+</Playground>
+
+### Input with text
+
+<Playground>
+  <Input
+    big
+    id="id1"
+    type="text"
+    placeholder={'firstname'}
+    onChange={console.log}
+  />
+</Playground>
+
+<Playground>
+  <Input id="id2" type="text" placeholder={'lastname'} onChange={console.log} />
+</Playground>

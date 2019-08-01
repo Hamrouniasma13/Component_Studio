@@ -1,0 +1,33 @@
+---
+name: Notification 2 (deprecated)
+route: /notification-2
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { Notification2, Button } from '../src'
+
+# Notification 2
+
+<Playground>
+  <Notification2
+    title="Lorem ipsum sir Dalet"
+    color="third"
+    actions={[
+      <Button href="/">Back</Button>,
+      <Button onClick={() => console.log('click')} ghost>
+        Click
+      </Button>,
+    ]}
+    onClose={() => console.log('close')}
+  >
+    Exercitation fugiat tempor dolor do laborum irure amet incididunt velit. Qui
+    adipisicing nostrud duis proident veniam aliquip et duis cillum Lorem
+    deserunt consectetur magna id. Tempor aliqua cupidatat amet eu aliqua non
+    voluptate esse ad tempor deserunt laborum sunt. Ad nostrud est laborum
+    voluptate cillum quis exercitation laboris. Commodo ullamco ullamco officia
+    duis ea aute ea. Elit culpa labore magna tempor eiusmod ea sint et do quis
+    eiusmod. Excepteur nisi ad consequat aute consectetur commodo qui esse aute
+    cupidatat fugiat ad.
+  </Notification2>
+</Playground>

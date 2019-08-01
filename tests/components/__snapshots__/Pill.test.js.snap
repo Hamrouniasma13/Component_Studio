@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <Pill /> render label 1`] = `
+.emotion-0 {
+  background-color: #000;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline;
+  font-size: 16px;
+  padding: 4px 14px;
+}
+
+<span
+  className="emotion-0"
+  color="#000"
+  onClick={[Function]}
+  to={undefined}
+>
+  News
+</span>
+`;

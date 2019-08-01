@@ -1,0 +1,32 @@
+---
+name: Callback form modal
+route: /callback-form-modal
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { CallbackFormModal } from '../src'
+
+# Callback form modal
+
+<Playground>
+  <CallbackFormModal
+    wording={{
+      title: 'You need a callback?',
+      description: '<p>Needs to be wrapped by <RichText></RichText></p>',
+      phone_number_label: 'Phone number:',
+      phone_number_placeholder: '+33 6 ...',
+      period_label: 'Select a period:',
+      back_button_label: 'Back',
+      confirm_button_label: 'Confirm',
+    }}
+    periodOptions={[
+      '8 to 9 a.m',
+      '9 to 10 a.m',
+      '10 to 11 a.m',
+      '11 to 12 a.m',
+    ]}
+    onBackButton={() => console.log('Back')}
+    onSubmitButton={console.log}
+  />
+</Playground>

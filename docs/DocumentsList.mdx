@@ -1,0 +1,99 @@
+---
+name: Document list (deprecated)
+route: /document-list
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { DocumentsList } from '../src'
+
+# Document list
+
+<Playground fullBleed noPadding>
+  <DocumentsList 
+    title="Documents contractuels"
+    sections={[
+      {
+        documents: [
+          {
+            title: 'Contrat',
+            description: 'Nisi reprehenderit dolore sunt pariatur non in.',
+            status: {
+              color: 'success',
+              label: 'Reglé'
+            },
+            availability: 'File unavailable',
+
+          },
+          {
+            title: 'Elit est ea tempor ut commodo enim quis exercitation.',
+            status: {
+              color: 'warning',
+              label: 'Ongoing'
+            },
+
+            actionButtons:[
+              {
+                to: 'https://www.google.fr',
+                icon: 'goto',
+                label: 'Visiter',
+                title: 'Aller sur google'
+              }
+            ]
+          },
+          {
+            title: 'Appel de cotisation',
+            status: {
+              color: 'warning',
+              label: 'Ongoing'
+            },
+
+            actionButtons:[
+              {
+                to: 'https://www.google.fr',
+                icon: 'goto',
+                title: 'Aller sur google'
+              },
+            ]
+          },{
+            title: 'Appel de cotisation',
+            status: {
+              color: 'warning',
+              label: 'Ongoing'
+            },
+
+            actionButtons:[
+              {
+                to: 'https://www.google.fr',
+                icon: 'download',
+                title: 'Aller sur google'
+              },
+
+              {
+                to: 'https://www.google.fr',
+                icon: 'goto',
+                label: 'Visiter',
+                title: 'Aller sur google'
+              }
+            ]
+          }
+        ]
+      },{
+        title: 'Santé',
+        documents: [
+          {
+            title: 'Contrat',
+            description: 'Available ASAP',
+          }
+        ]
+      },
+      {
+        title: 'Prévoyance',
+        documents: []
+      }
+    ]}
+    sentenceOnEmpty="Soon ASAP"
+
+/>
+
+</Playground>

@@ -1,0 +1,87 @@
+---
+name: BarChartBox
+route: /bar-chart-box
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { BarChartBox } from '../src'
+
+# BarChartBox
+
+This is a basic BarChartBox component.
+
+This component is composed with a `<BarChart />` and a `<dataTable />`
+
+<Playground>
+  <BarChartBox
+    title="Derniers taux de cotisations"
+    data={[
+      {
+        label: '2000',
+        values: [
+          {
+            percent: 'salut A',
+            name: 'Page A',
+            value: 2400,
+          },
+          {
+            percent: 'salut B',
+            name: 'Page B',
+            value: 1398,
+          },
+          {
+            percent: 'salut C',
+            name: 'Page C',
+            value: 8,
+          },
+          {
+            percent: 'salut D',
+            name: 'Page D',
+            value: 3908,
+          },
+          {
+            percent: 'salut E',
+            name: 'Pe E',
+            value: 4800,
+          },
+        ],
+      },
+      {
+        label: '2001',
+        values: [
+          {
+            percent: 'salut AA',
+            name: 'Page AA',
+            value: 2200,
+          },
+          {
+            percent: 'salut BB',
+            name: 'Page BB',
+            value: 398,
+          },
+          {
+            percent: 'salut CC',
+            name: 'Page CC',
+            value: 200,
+          },
+          {
+            percent: 'salut DD',
+            name: 'Page DD',
+            value: 1908,
+          },
+          {
+            percent: 'salut EE',
+            name: 'Pe EE',
+            value: 4000,
+          },
+        ],
+      },
+    ]}
+    dataTable={{
+      title: 'Taux de cotisation (Date 01/01/2019)',
+      info: 'Infoooo',
+      actions: [{ label: 'left', url: '/' }, { label: 'right', url: '/' }],
+    }}
+  />
+</Playground>

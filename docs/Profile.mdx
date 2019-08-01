@@ -1,0 +1,132 @@
+---
+name: Profile
+route: /profile
+---
+
+import { Playground } from 'docz'
+import { Profile, EditPasswordModule, AddContributorModule } from '../src'
+
+# Profil
+
+<Playground>
+  <Profile
+    wording={{
+      title: 'Profile',
+      contributors_title: 'Contributors',
+    }}
+    lists={[
+      {
+        title: 'Employee information',
+        editUrl: '/edit-employee',
+        list: [
+          {
+            label: 'Last name',
+            value: 'John',
+          },
+          {
+            label: 'First name',
+            value: 'Doe',
+          },
+          {
+            label: 'Email',
+            value: 'johndoe@axa.fr',
+          },
+          {
+            label: 'Company',
+            value: 'Axa',
+          },
+        ],
+      },
+      {
+        title: 'Company information',
+        editUrl: '/edit-company',
+        list: [
+          {
+            label: 'Company name',
+            value: 'Axa',
+          },
+          {
+            label: 'Company address',
+            value: "313 terrasse de l'Arche",
+          },
+          {
+            label: 'Company PIC',
+            value: 'Name of PIC',
+          },
+          {
+            label: 'Company telephone',
+            value: '+888 123 123 123',
+          },
+        ],
+      },
+    ]}
+    modules={[
+      <EditPasswordModule
+        wording={{
+          edit_password: {
+            title: 'Change password',
+            description: 'Modify your current password',
+            icon: 'lockcolored',
+            button: 'Modify',
+          },
+          edit_password_modal: {
+            icon: 'cog',
+            title: 'Reset password',
+            back_button_label: 'Back',
+            confirm_button_label: 'Confirm',
+            current_password_label: 'Current password',
+            current_password_placeholder: 'Enter your current password',
+            new_password_label: 'New password',
+            new_password_placeholder: 'Enter new password',
+            new_password_confirmation_label: 'Confirm new password',
+            new_password_confirmation_placeholder: 'Confirm new password',
+          },
+        }}
+        href=""
+        onRequestNewPassword={values => console.log('New password =>', values)}
+      />,
+      <AddContributorModule
+        wording={{
+          add_contributor: {
+            title: 'Add a contributor',
+            description: 'You can add a member to your team',
+            icon: 'addusercolored',
+            button: 'Add contributor',
+          },
+          add_contributor_modal: {
+            icon: 'adduser',
+            title: 'Add a contributor',
+            back_button_label: 'Back',
+            confirm_button_label: 'Confirm',
+            firstname_label: 'Firstname',
+            firstname_placeholder: 'Enter a firstname',
+            surname_label: 'Surname',
+            surname_placeholder: 'Enter a surname',
+            email_label: 'Email address',
+            email_placeholder: 'xxx@axa.com',
+            role_label: 'Add contributor as',
+            role_placeholder: '',
+          },
+        }}
+        href=""
+        onAddNewContributor={values =>
+          console.log('New contributor =>', values)
+        }
+      />,
+    ]}
+    contributorsList={[
+      {
+        label: 'test',
+        value: 'bieufbwoef',
+      },
+      {
+        label: 'test',
+        value: 'bieufbwoef',
+      },
+      {
+        label: 'test',
+        value: 'bieufbwoef',
+      },
+    ]}
+  />
+</Playground>

@@ -1,0 +1,79 @@
+---
+name: Commission repartition
+route: /commission-repartition
+menu: 🌐 Organisms
+---
+
+## Type: `Organism`
+
+import { Playground } from 'docz'
+import { CommissionsRepartition } from '../src'
+
+# Commissions Repartition
+
+<Playground>
+  <CommissionsRepartition 
+    title="My Awesome Title"
+    chart={{
+      value: '10 713 208,41 €',
+      info: 'Depuis 01/01/2018',
+      values: [
+        {
+          color: 'third',
+          value: 33.95
+        },
+        {
+          color: 'fourth',
+          value: 33.65
+        },
+        {
+          color: 'fifth',
+          value: 31.03
+        },
+        {
+          color: 'sixth',
+          value: 1.38
+        }
+      ]
+    }}
+    table={{
+      title: 'Répartition des commissions cumulées depuis le 01/01/2018',
+      info: '602 clients',
+      rows: [
+        {
+          pill: {
+            color: 'third',
+            value: '33,95%'
+          },
+          title: 'Santé',
+          link: "https://www.google.fr"
+        },
+        {
+          pill: {
+            color: 'fourth',
+            value: '33,65%'
+          },
+          title: 'Prévoyance',
+          link: "https://www.google.fr"
+        },
+        {
+          pill: {
+            color: 'fifth',
+            value: '31,03%'
+          },
+          title: 'Retraite',
+          link: "https://www.google.fr"
+        },
+        {
+          pill: {
+            color: 'sixth',
+            value: '1,38%'
+          },
+          title: 'Epargne',
+          link: "https://www.google.fr"
+        }
+      ]
+    }}
+  />
+
+</Playground>

@@ -1,0 +1,43 @@
+---
+name: Accordion
+route: /accordion
+menu: 🧬 Molecules
+---
+
+## Type: `molecule`
+
+import { Playground } from 'docz'
+import { Accordion } from '../src'
+
+# Accordion
+
+Meant to be used with `Slice`, `Accordion` is the perfect component for FAQ, or big content you want to hide.
+
+The description is optionnal. Each item title should be short enough to not go on the icon, and the content should not excess `1000px`, the limit on which this component would act strangly.
+
+<Playground>
+    <Accordion
+      description={'Mollit in tempor sit aute magna labore. Anim do cupidatat in aute dolor eu. Duis et nisi labore excepteur. Voluptate et nisi est in aliquip ex sit officia amet est magna occaecat consequat. Voluptate laborum officia tempor pariatur reprehenderit labore tempor irure ad eu ullamco adipisicing veniam voluptate. Ut exercitation id aute nostrud pariatur adipisicing proident exercitation. Aliquip dolore id Lorem nulla excepteur elit adipisicing exercitation eiusmod ullamco eiusmod commodo nulla.'}
+      items={[
+        {
+          title: 'Bonjour group 1',
+          content:
+            'Laborum nostrud deserunt nisi fugiat esse incididunt consequat culpa mollit. Labore ex commodo eiusmod veniam duis veniam et fugiat eiusmod culpa ea qui sit. In consectetur minim reprehenderit qui pariatur in anim esse veniam ea elit in. Duis deserunt sit irure excepteur eiusmod id Lorem. Do cillum dolore nulla duis dolore ullamco. Elit veniam cupidatat in magna voluptate enim tempor in consequat deserunt cupidatat. Elit pariatur adipisicing in dolor exercitation velit incididunt velit esse.'
+        },
+
+        {
+          title: 'Bonjour group 2',
+          content:
+            'Anim nisi ut laborum reprehenderit sunt fugiat ex. Irure veniam ipsum mollit eiusmod cupidatat consectetur eiusmod do officia eiusmod. Officia et dolor magna ullamco fugiat pariatur culpa non cupidatat excepteur esse aliqua. Sit reprehenderit ad duis cillum consequat veniam commodo ullamco sunt consequat cillum. Sit non id Lorem anim cillum sint non aliqua velit consequat adipisicing ipsum magna. Officia labore excepteur Lorem velit nisi anim excepteur Lorem id irure mollit est elit officia.'
+        },
+
+        {
+          title: 'Bonjour group 3',
+          content:
+            'Anim nisi ut laborum reprehenderit sunt fugiat ex. Irure veniam ipsum mollit eiusmod cupidatat consectetur eiusmod do officia eiusmod. Officia et dolor magna ullamco fugiat pariatur culpa non cupidatat excepteur esse aliqua. Sit reprehenderit ad duis cillum consequat veniam commodo ullamco sunt consequat cillum. Sit non id Lorem anim cillum sint non aliqua velit consequat adipisicing ipsum magna. Officia labore excepteur Lorem velit nisi anim excepteur Lorem id irure mollit est elit officia.'
+        }
+      ]}
+
+/>
+
+</Playground>

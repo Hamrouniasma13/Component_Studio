@@ -1,0 +1,123 @@
+---
+name: Data table
+route: /data-table
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { DataTable } from '../src'
+
+# Data table
+
+A simple table to display data like label + value.
+
+<Playground>
+  <DataTable
+    title="Répartition des richesses en 1679"
+    info="3M d'habitants"
+    rows={[
+      {
+        pill: {
+          color: 'third',
+          value: '80%',
+        },
+        title: "L'état",
+        value: '80 000 €',
+      },
+      {
+        pill: {
+          color: 'fourth',
+          value: '19%',
+        },
+        title: 'Le clergé',
+        value: '19 000 €',
+      },
+      {
+        pill: {
+          color: 'fifth',
+          value: '1%',
+        },
+        title: 'Le tiers-état',
+        value: '1 000 €',
+      },
+    ]}
+  />
+</Playground>
+
+Each row fo the table can take theses properties, but you may want to keep consistency on the same table.
+
+- **title**: label in the row.
+- **link**: target when you click on the row. It automatically adds a border and an icon.
+- **value**: value display at the end of the line.
+- **simulation**: appear on the left of the value, strike through.
+- **pill**: object for pill specification, before the label.
+- **dot**: Boolean to disable the `pill` and add a dot instead.
+
+<Playground>
+  <div>
+    <DataTable.Row title="Lorem ipsum" />
+    <DataTable.Row title="Lorem ipsum" link="https://www.google.fr" />
+    <DataTable.Row title="Lorem ipsum" value="400€" />
+    <DataTable.Row title="Lorem ipsum" value="350€" simulation="400€" />
+    <DataTable.Row
+      pill={{
+        color: 'primary',
+        value: '30%',
+      }}
+      title="Lorem ipsum"
+      link="https://www.google.fr"
+    />
+    <DataTable.Row
+      pill={{
+        color: 'primary',
+        value: '30%',
+      }}
+      title="Lorem ipsum"
+      value="400 €"
+    />
+    <DataTable.Row
+      pill={{
+        color: 'primary',
+        value: '30%',
+      }}
+      title="Lorem ipsum"
+      value="350 €"
+      simulation="400 €"
+    />
+    <DataTable.Row
+      title="Lorem ipsum"
+      value="350 €"
+      simulation="400 €"
+      link="https://www.google.fr"
+    />
+
+    <DataTable.Row
+      dot={{ color: 'primary' }}
+      pill={{
+        color: 'primary',
+        value: '30%',
+      }}
+      title="Lorem ipsum"
+      value="350 €"
+      simulation="400 €"
+      link="https://www.google.fr"
+    />
+    <DataTable.Row
+      pill={{
+        color: 'primary',
+        value: '30%',
+      }}
+      title="Lorem ipsum"
+      value="350 €"
+      simulation="400 €"
+      link="https://www.google.fr"
+    />
+
+  </div>
+</Playground>
+
+### TODO
+
+### 05/07/2017
+
+[check] Remove the pill value

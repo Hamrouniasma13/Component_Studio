@@ -1,0 +1,99 @@
+---
+name: Theming
+route: /theme
+menu: 🧰 Technical
+---
+
+import { Playground } from 'docz'
+import { GlobalStyles, ThemeProvider, Button } from '../src'
+
+# Theming
+
+Theming allows you to fully customize the display of a website.
+On our side, you'll be able to only change some colors.
+
+## Theme Provider
+
+_For now_, you **have to** wrap all the components inside the `ThemeProvider` we provide
+
+<Playground>
+  <ThemeProvider>My themed App</ThemeProvider>
+</Playground>
+
+It will put the default theme in place, which is mandatory for our components to render.
+
+## Change colors
+
+You can change the colors by giving your theme to the `ThemeProvider`
+
+<Playground>
+  <ThemeProvider
+    theme={{
+      colors: {
+        primary: '#938293',
+      },
+    }}
+  >
+    My custom themed App <Button href="/">Custom button</Button>
+  </ThemeProvider>
+</Playground>
+
+## Colors
+
+Here is the default colors we provide.
+
+```js
+  {
+    // Main colors
+    primary: '#005792',
+    secondary: '#F0A202',
+
+    // Text
+    text: '#333333',
+    label: '#999999',
+
+    // Additionnal
+    third: '#36A9E1',
+    fourth: '#33B4AE',
+    fifth: '#C391BD',
+    sixth: '#FBF2C0',
+    seventh: '#CE6153',
+
+    // Status
+    error: '#C91432',
+    success: '#1CC54E',
+    warning: '#FCD385',
+
+    // Background
+    background1: '#b5d0ee',
+    background2: '#fcd385',
+    background3: '#f1afc6',
+    background4: '#9fd9b4',
+
+    // Chart
+    chartColor1: '#025275',
+    chartColor2: '#00adc6',
+    chartColor3: '#56d1c7',
+
+    // (50) Shades of grays
+    white: '#ffffff',
+    smallLightGray: '#fafafa',
+    lighterGray: '#f3f3f3',
+    lightGray: '#e5e5e5',
+    gray: '#cccccc',
+    darkGray: '#989898',
+    black: '#000000'
+  }
+```
+
+## Global style
+
+You can also use our `GlobalStyles` component, which will reset some margins and paddings, remove some browser style, and adjust the box-sizing property of every element.
+It should be placed once in your app.
+
+<Playground>
+  <div>
+    <GlobalStyles />
+    My App
+  </div>
+</Playground>

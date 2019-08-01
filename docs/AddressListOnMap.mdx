@@ -1,0 +1,277 @@
+---
+name: Address list on map
+route: /address-list-on-map
+menu: 📐 Templates
+---
+
+## Type: `Page`
+
+import { Playground } from 'docz'
+import { useState } from 'react'
+import { AddressListOnMap } from '../src'
+import { useMedia } from 'react-use'
+
+# Address list on GoogleMaps
+
+Props explanation:<br />
+`positionOnMap`: Current center position on the map [lat, lng], if it change, the map will automatically center on this point<br />
+`zoomOnMap`: Current zoom on the map, same as `positionOnMap`<br />
+`onMapBoundsChange`: Event fired when the user move on the map, with bounds clientInformation, useful for fetching data<br />
+
+<Playground>
+  {() => {
+    const PLACES = [
+      {
+        id: 1,
+        lat: 22.2427829,
+        lng: 114.2468015,
+        title: 'John Doe 1',
+        subTitle: 'Medecin generaliste',
+        description: 'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 2,
+        lat: 22.2527829,
+        lng: 114.2448015,
+        title: 'John Doe 2',
+        subTitle: 'Medecin generaliste',
+        description: 'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 3,
+        lat: 22.2627829,
+        lng: 114.2458015,
+        title: 'John Doe 3',
+        subTitle: 'Medecin generaliste',
+        description:
+          'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE WAN PLAZA SIU SAI WAN ESTATE',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 4,
+        lat: 22.2727829,
+        lng: 114.2478015,
+        title: 'John Doe 4',
+        subTitle: 'Medecin generaliste',
+        description: '小西灣邨商場 213B 號舖',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 5,
+        lat: 22.2827829,
+        lng: 114.2488015,
+        title: 'John Doe 5',
+        subTitle: 'Medecin generaliste',
+        description: '小西灣邨商場 213B 號舖',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 6,
+        lat: 22.2827829,
+        lng: 114.1488015,
+        title: 'John Doe 6',
+        subTitle: 'Medecin generaliste',
+        description: '小西灣邨商場 213B 號舖',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 7,
+        lat: 22.1827829,
+        lng: 114.2488015,
+        title: 'John Doe 7',
+        subTitle: 'Medecin generaliste',
+        description: '小西灣邨商場 213B 號舖',
+        phoneNumber: '+88 555 555 555'
+      }
+    ]
+    const OPTIONS_LIST = [
+      { value: 'Généraliste', label: 'Généraliste', id: 1 },
+      { value: 'Pédiatre', label: 'Pédiatre', id: 2 },
+      { value: 'Dentiste', label: 'Dentiste', id: 3 },
+      { value: 'Ophtalmo', label: 'Ophtalmo', id: 4 },
+      { value: 'Gynéco', label: 'Gynéco', id: 5 },
+      { value: 'Psychiatre', label: 'Psychiatre', id: 6 },
+    ]
+
+    // Array format of position [lat, lng]
+    return (
+      <AddressListOnMap
+        publicApiKey={'AIzaSyBSy2aw23-wY4XQ9iJsiS-kZaqcRJQ8nr4'}
+        // Map position
+        positionOnMap={[22.3193039, 114.1693611]}
+        zoomOnMap={11}
+        // Filters
+        userLocationPin={[22.3193039, 114.1693611]}
+        userAddress="76 avenue Parmentier"
+        optionSelected={null}
+        // Data
+        selectOptionsList={OPTIONS_LIST}
+        places={PLACES}
+        // Methods
+        onMapBoundsChange={console.log}
+        onLocationChange={console.log}
+        onSelectOptionChange={console.log}
+        // Wording
+        wording={{
+          filter_title: 'Find a doctor',
+          address_label: 'Enter the address',
+          select_label: 'Filter by doctor',
+          select_placeholder: 'Doctor type...'
+        }}
+      />
+    )
+
+}}
+
+</Playground>
+
+Usecase:
+
+<Playground>
+  {() => {
+    const HK_COORDINATES = [22.3193039, 114.1693611];
+    const DEFAULT_ZOOM = 11;
+    
+    const DOCTORS = [
+      {
+        id: 1,
+        lat: 22.2427829,
+        lng: 114.2468015,
+        title: 'John Doe 1',
+        subTitle: 'Medecin generaliste',
+        description: 'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 2,
+        lat: 22.2527829,
+        lng: 114.2448015,
+        title: 'John Doe 2',
+        subTitle: 'Medecin generaliste',
+        description: 'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 3,
+        lat: 22.2627829,
+        lng: 114.2458015,
+        title: 'John Doe 3',
+        subTitle: 'Medecin generaliste',
+        description:
+          'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE WAN PLAZA SIU SAI WAN ESTATE',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 4,
+        lat: 22.2727829,
+        lng: 114.2478015,
+        title: 'John Doe 4',
+        subTitle: 'Medecin generaliste',
+        description: '小西灣邨商場 213B 號舖',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 5,
+        lat: 22.2827829,
+        lng: 114.2488015,
+        title: 'John Doe 5',
+        subTitle: 'Medecin generaliste',
+        description: '小西灣邨商場 213B 號舖',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 6,
+        lat: 22.2827829,
+        lng: 114.1488015,
+        title: 'John Doe 6',
+        subTitle: 'Medecin generaliste',
+        description: '小西灣邨商場 213B 號舖',
+        phoneNumber: '+88 555 555 555'
+      },
+      {
+        id: 7,
+        lat: 22.1827829,
+        lng: 114.2488015,
+        title: 'John Doe 7',
+        subTitle: 'Medecin generaliste',
+        description: '小西灣邨商場 213B 號舖',
+        phoneNumber: '+88 555 555 555'
+      }];
+    
+    const OPTIONS_LIST = [
+      { value: 'Généraliste', label: 'Généraliste', id: 1 },
+      { value: 'Pédiatre', label: 'Pédiatre', id: 2 },
+      { value: 'Dentiste', label: 'Dentiste', id: 3 },
+      { value: 'Ophtalmo', label: 'Ophtalmo', id: 4 },
+      { value: 'Gynéco', label: 'Gynéco', id: 5 },
+      { value: 'Psychiatre', label: 'Psychiatre', id: 6 },
+    ]
+
+    // persisted in url, with UseQueryString
+    const [state, setState] = useState({
+      positionOnMap: HK_COORDINATES,
+      zoomOnMap: DEFAULT_ZOOM,
+      userLocationPin: null,
+      userAddress: '',
+      selectedOption: null
+    });
+
+    const [places, setPlaces] = useState([]);
+    const [bounds, setBounds] = useState({})
+    const isMobile = useMedia('(max-width: 576px)');
+
+    const getDoctorsList = () => {
+      if (isMobile && state.userLocationPin) {
+        // 1 degree of lat and lng approximately equal to 111km
+        // 0.004504505 approximately equal 500 meters
+        // depends on current position
+        // We need to look for a list of doctor
+      }
+      return DOCTORS
+        .slice(Math.floor(Math.random() * Math.floor(DOCTORS.length)));
+    }
+
+    return <AddressListOnMap
+      publicApiKey={'AIzaSyBSy2aw23-wY4XQ9iJsiS-kZaqcRJQ8nr4'}
+      // Map position
+      positionOnMap={state.positionOnMap}
+      zoomOnMap={state.zoomOnMap}
+      // Filters
+      userLocationPin={state.userLocationPin}
+      userAddress={state.userAddress}
+      selectedOption={state.selectedOption}
+      // Data
+      selectOptionsList={OPTIONS_LIST}
+      places={places}
+      // Methods
+      onMapBoundsChange={({ bounds, center: positionOnMap, zoom: zoomOnMap }) => {
+        setBounds(bounds);
+        const places = getDoctorsList(bounds);
+
+        setPlaces(places);
+        setState({...state, zoomOnMap, positionOnMap: [positionOnMap.lat, positionOnMap.lng] });
+      }}
+      onLocationChange={({address: userAddress, location}) => {
+        setState({...state, userLocationPin: [location.lat, location.lng], userAddress})
+      }}
+      onSelectOptionChange={option => {
+        const places = getDoctorsList(bounds);
+
+        setPlaces(places);
+        setState({...state, selectedOption: option})
+      }}
+      // Wording
+      wording={{
+        filter_title: 'Find a doctor',
+        address_label: 'Enter the address',
+        select_label: 'Filter by doctor',
+        select_placeholder: 'Doctor type...',
+        no_result_msg: 'Select a filter and put an address to see the list',
+      }}
+    />
+
+}}
+
+</Playground>

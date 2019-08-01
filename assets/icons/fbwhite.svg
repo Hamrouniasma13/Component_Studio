@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.5,24 L16.5,14.5 L19.5,14.5 L20,11 L16.5,11 L16.5,8.771325 C16.5,7.722635 16.7912,7.00799 18.29513,7.00799 L20.21302,7.00712 L20.21302,3.76756 C19.881245,3.72348 18.74281,3.62486 17.4182,3.62486 C14.65289,3.62486 12.759585,5.312805 12.759585,8.41269 L12.759585,11 L9.5,11 L9.5,14.5 L12.759585,14.5 L12.759585,24 L1,24 C0.447715,24 0,23.552285 0,23 L0,1 C0,0.447715 0.447715,0 1,0 L23,0 C23.552285,0 24,0.447715 24,1 L24,23 C24,23.552285 23.552285,24 23,24 L16.5,24 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/24px/socials/fb" transform="translate(-8.000000, -8.000000)">
+            <g id="color/CTA" transform="translate(8.000000, 8.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

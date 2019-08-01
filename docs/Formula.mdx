@@ -1,0 +1,84 @@
+---
+name: Formula
+route: /formula
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { Formula, Container } from '../src'
+
+# Formula
+
+<Playground noPadding>
+  <Container>
+    <Formula
+      currency="EUR"
+      locale="fr-FR"
+      title="Formule confort"
+      details={[
+        {
+          colorKey: 'third',
+          amount: 20,
+          label: 'Sécurité sociale',
+        },
+        {
+          colorKey: 'fourth',
+          amount: 20,
+          label: 'AXA',
+        },
+        {
+          colorKey: 'fifth',
+          amount: 30,
+          label: 'Reste à charge',
+        },
+      ]}
+    />
+  </Container>
+</Playground>
+
+# Comparison formula
+
+<Playground noPadding>
+  <Container>
+    <Formula 
+      currency="EUR" 
+      locale="fr-FR"
+      title="Formule Premium"
+
+      details={[
+        {
+          colorKey: 'third',
+          amount: 20,
+          label: 'Sécurité sociale'
+        },
+        {
+          colorKey: 'fourth',
+          amount: 20,
+          label: 'AXA'
+        },
+        {
+          colorKey: 'fifth',
+          amount: 30,
+          label: 'Reste à charge'
+        }
+      ]}
+
+      comparison={{
+        value: "+12€/mois",
+        sentence: "J’économise XX€ dans une prise en charge supplémentaire d’AXA pour une différence de seulement 12€ par mois.",
+        actions: [
+          {
+            url: '/',
+            label: 'Etre rapelé',
+            icon: 'phone'
+          },
+          {
+            url: '/',
+            label: 'Souscrire en ligne'
+          }
+        ]
+      }}
+    />
+
+  </Container>
+</Playground>

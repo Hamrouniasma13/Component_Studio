@@ -1,0 +1,94 @@
+---
+name: GoogleMaps
+route: /google-maps
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { GoogleMaps } from '../src'
+
+# GoogleMaps
+
+Display an interactive map powered by GoogleMaps.
+It is useful for displaying all different addresses on the map with more details when the pin is selected, using `MapPinDetails`
+Can also be used with a list on the side with `MapCards` for example.
+
+<Playground>
+  <div style={{ width: '40vw', height: '40vw' }}>
+    <GoogleMaps
+      apiKey={'AIzaSyBSy2aw23-wY4XQ9iJsiS-kZaqcRJQ8nr4'}
+      positionOnMap={[22.3193039, 114.1693611]}
+      userLocationPin={[22.3193039, 114.1693611]}
+      zoomOnMap={12}
+      selectedPlaceID={1}
+      onBoundsChange={console.log}
+      onSelectItem={console.log}
+      places={[
+        {
+          id: 1,
+          lat: 22.2427829,
+          lng: 114.2468015,
+          title: 'John Doe 1',
+          subTitle: 'Medecin generaliste',
+          description: 'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE',
+          phoneNumber: '+88 555 555 555',
+        },
+        {
+          id: 2,
+          lat: 22.2527829,
+          lng: 114.2448015,
+          title: 'John Doe 2',
+          subTitle: 'Medecin generaliste',
+          description: 'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE',
+          phoneNumber: '+88 555 555 555',
+        },
+        {
+          id: 3,
+          lat: 22.2627829,
+          lng: 114.2458015,
+          title: 'John Doe 3',
+          subTitle: 'Medecin generaliste',
+          description:
+            'SHOP 213B SIU SAI WAN PLAZA SIU SAI WAN ESTATE  WAN PLAZA SIU SAI WAN ESTATE',
+          phoneNumber: '+88 555 555 555',
+        },
+        {
+          id: 4,
+          lat: 22.2727829,
+          lng: 114.2478015,
+          title: 'John Doe 4',
+          subTitle: 'Medecin generaliste',
+          description: '小西灣邨商場213B號舖',
+          phoneNumber: '+88 555 555 555',
+        },
+        {
+          id: 5,
+          lat: 22.2827829,
+          lng: 114.2488015,
+          title: 'John Doe 5',
+          subTitle: 'Medecin generaliste',
+          description: '小西灣邨商場213B號舖',
+          phoneNumber: '+88 555 555 555',
+        },
+        {
+          id: 6,
+          lat: 22.2827829,
+          lng: 114.1488015,
+          title: 'John Doe 6',
+          subTitle: 'Medecin generaliste',
+          description: '小西灣邨商場213B號舖',
+          phoneNumber: '+88 555 555 555',
+        },
+        {
+          id: 7,
+          lat: 22.1827829,
+          lng: 114.2488015,
+          title: 'John Doe 7',
+          subTitle: 'Medecin generaliste',
+          description: '小西灣邨商場213B號舖',
+          phoneNumber: '+88 555 555 555',
+        },
+      ]}
+    />
+  </div>
+</Playground>

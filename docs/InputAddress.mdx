@@ -1,0 +1,20 @@
+---
+name: Input address
+route: /input-address
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { InputAddress } from '../src'
+
+# Input address with autocomplete
+
+<Playground>
+  <InputAddress
+    autocompleteAPIKey="AIzaSyBSy2aw23-wY4XQ9iJsiS-kZaqcRJQ8nr4"
+    label="Enter the address"
+    placeholder=""
+    value=""
+    onChangeLocation={console.log}
+  />
+</Playground>

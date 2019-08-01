@@ -1,0 +1,124 @@
+---
+name: Navigation banner
+route: /navigation-banner
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { Icon, Link, NavigationBanner, NavigationBannerSkeleton } from '../src'
+
+# NavigationBanner
+
+The title is a `h1`.
+
+Colors :
+
+- For the background, provide the color as a css value _(hexadecimal, rgb, keyword, etc...)_
+- For the color of the title and the slider elements (arrows, dots), we use `theme.colors.white` or `theme.colors.text`, depends on the backgroundColor props.
+- As the action is an element, we don't set its color
+- For each cards, the background is always `#fff`, and the text color is `theme.colors.text`
+
+## Card title as element
+
+Cards can take title as en element, allowing you to customize it with `<strong>` or `<em>` tags for example.  
+**Don't use `<a>` in the title**
+
+<Playground fullBleed noPadding>
+  <NavigationBanner
+    title="Hello Anna, nice to meet you"
+    backgroundColor="#00adc6"
+    arrowDotsColor="white"
+    action={
+      <Link
+        style={{ width: '100%', display: 'block', textAlign: 'center' }}
+        href="/"
+      >
+        <Icon color="white" size="30px" name="down" />
+      </Link>
+    }
+    cards={[
+      {
+        image: {
+          src: 'https://picsum.photos/260/130/?image=1082',
+          alt: 'piano',
+        },
+        target: 'http://www.google.com',
+        title: (
+          <span>
+            <strong>Strong</strong> title
+          </span>
+        ),
+      },
+      {
+        image: {
+          src: 'https://picsum.photos/260/130/?image=1080',
+          alt: 'strawberries',
+        },
+        target: 'http://www.google.com',
+        title: (
+          <span>
+            <em>Italic</em> title
+          </span>
+        ),
+      },
+      {
+        image: {
+          src: 'https://picsum.photos/260/130/?image=974',
+          alt: 'univers',
+        },
+        target: 'http://www.google.com',
+        title: 'Join passionate of astronomy, like you',
+      },
+      {
+        image: {
+          src: 'https://picsum.photos/260/130/?image=973',
+          alt: 'ocean',
+        },
+        target: 'http://www.google.com',
+        title: 'You like travelling ? Meet people like you',
+      },
+    ]}
+  />
+</Playground>
+
+## Less cards than required
+
+<Playground fullBleed noPadding>
+  <NavigationBanner
+    title="Hello Anna, nice to meet you"
+    backgroundColor="#00adc6"
+    arrowDotsColor="white"
+    action={
+      <Link
+        style={{ width: '100%', display: 'block', textAlign: 'center' }}
+        href="/"
+      >
+        <Icon color="white" size="30px" name="down" />
+      </Link>
+    }
+    cards={[
+      {
+        image: {
+          src: 'https://picsum.photos/260/130/?image=1082',
+          alt: 'piano',
+        },
+        target: 'http://www.google.com',
+        title: 'Take musique lesson with a professionnal',
+      },
+      {
+        image: {
+          src: 'https://picsum.photos/260/130/?image=1080',
+          alt: 'strawberries',
+        },
+        target: 'http://www.google.com',
+        title: 'Cooking lesson, 1st is free',
+      },
+    ]}
+  />
+</Playground>
+
+## Skeleton: NavigationBanner skeleton
+
+<Playground fullBleed noPadding>
+  <NavigationBannerSkeleton />
+</Playground>

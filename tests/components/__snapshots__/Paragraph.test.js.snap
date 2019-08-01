@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <Paragraph /> render <div /> 1`] = `
+.emotion-0 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: black;
+}
+
+.emotion-0 p > a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #494df4;
+  font-weight: bold;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+<div
+  className="emotion-0"
+>
+  Sint minim consequat velit irure consectetur eu non consectetur aute deserunt labore velit aliqua mollit.
+</div>
+`;
+
+exports[`Component: <Paragraph /> render <p/> with simple text 1`] = `
+.emotion-0 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: black;
+}
+
+.emotion-0 p > a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #494df4;
+  font-weight: bold;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+<p
+  className="emotion-0"
+>
+  Sint minim consequat velit irure consectetur eu non consectetur aute deserunt labore velit aliqua mollit.
+</p>
+`;
+
+exports[`Component: <Paragraph /> render react component 1`] = `
+.emotion-0 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: black;
+}
+
+.emotion-0 p > a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #494df4;
+  font-weight: bold;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+<div
+  className="emotion-0"
+>
+  <h1>
+    Sint minim consequat velit irure consectetur eu non consectetur aute deserunt labore velit aliqua mollit.
+  </h1>
+</div>
+`;

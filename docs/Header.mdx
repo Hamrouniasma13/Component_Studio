@@ -1,0 +1,80 @@
+---
+name: Header
+route: /header
+menu: 🌐 Organisms
+---
+
+import { Playground, Props } from 'docz'
+import { Header } from '../src'
+
+# Header
+
+## Classic header
+
+<Playground>
+  <Header
+    links={[
+      {
+        url: '/app/logout',
+        label: 'Contact',
+        icon: 'powerbutton',
+      },
+    ]}
+    logo={{
+      alt: 'AXA Assistance',
+      src:
+        'https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png',
+    }}
+    profil={{ label: 'Xavier Redondo Bolet', url: '/profil', icon: 'user' }}
+    logout={{
+      url: '/app/logout',
+      label: 'Se déconnecter',
+      icon: 'powerbutton',
+    }}
+    menu={[
+      {
+        icon: 'file',
+        label: 'Contrats',
+        url: 'https://google.com',
+      },
+      {
+        icon: 'users',
+        label: 'Salariés',
+        url: 'https://google.com',
+      },
+      {
+        icon: 'services',
+        label: 'Services',
+        url: 'https://google.com',
+      },
+    ]}
+    langs={{
+      icon: 'globe',
+      current: { id: '30987872600022435', label: 'Français' },
+      available: [
+        { id: '30987872600022435', label: 'Français' },
+        { id: '43022663900085123', label: 'Anglais' },
+        { id: '31133833900071456', label: 'Ethiopien' },
+      ],
+      onChange: console.log,
+    }}
+    metaMenu={[
+      {
+        url: '/',
+        label: 'coucou',
+        icon: 'powerbutton',
+      },
+      {
+        icon: 'star',
+        current: { id: '309878726090020', label: 'Vyserion' },
+        available: [
+          { id: '309878726090020', label: 'Vyserion' },
+          { id: '430226639100085', label: 'Drogo' },
+          { id: '311338313900071', label: 'Rhaegar' },
+        ],
+        onChange: console.log,
+      },
+    ]}
+    notifications={{ label: 'Messages', url: 'http://google.com', count: 3 }}
+  />
+</Playground>

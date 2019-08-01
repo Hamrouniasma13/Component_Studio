@@ -1,0 +1,36 @@
+---
+name: Activity
+route: /activity
+menu: 🌐 Organisms
+---
+
+## Type: `Organism`
+
+import { Playground } from 'docz'
+import { Activity } from '../src'
+
+# Activity
+
+This component should be used with the `Slice` component, to be fully functionnal.
+
+<Playground>
+  <Activity
+    cards={[
+      {
+        percent: 0,
+        title: "Taux d'utilisation du portail << Ma protection Sociale >>",
+        subtitle: '300 salariés sur 0 utilisent le portail',
+        noteTitle: 'Information',
+        noteContent:
+          'Adipisicing ullamco ad consequat sint nulla dolore anim sint consequat nisi ad deserunt dolore.',
+      },
+      {
+        percent: 35,
+        title: "Taux d'utilisation du réseau Itelis optique",
+        noteTitle: 'Information',
+        noteContent:
+          'Irure anim nulla ullamco cillum minim excepteur dolor cillum incididunt non sint sint excepteur. Eiusmod aute qui anim elit. Anim laborum Lorem dolor id do aliqua consequat non aliqua ipsum officia nostrud dolore. Ad incididunt consectetur tempor anim velit quis ad. Ullamco occaecat ex officia ipsum labore non sunt officia. Non dolor ad anim Lorem officia proident magna excepteur non culpa quis elit. Eu consequat nostrud nisi aliquip cupidatat nostrud labore nostrud anim Lorem tempor enim sint.',
+      },
+    ]}
+  />
+</Playground>

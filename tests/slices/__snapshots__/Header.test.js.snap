@@ -1,0 +1,2311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <Header /> render snapshot with user 1`] = `
+Array [
+  .emotion-19 {
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-19 {
+    display: none;
+  }
+}
+
+.emotion-3 {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-1 {
+  height: 60px;
+  display: block;
+}
+
+.emotion-0 {
+  height: 100%;
+  max-width: 100%;
+}
+
+.emotion-2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin: 6px 15px;
+  cursor: pointer;
+}
+
+.emotion-2 span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #494df4;
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  will-change: transform;
+}
+
+.emotion-2 span:nth-child(1) {
+  top: 6px;
+}
+
+.emotion-2 span:nth-child(2) {
+  top: 12px;
+}
+
+.emotion-2 span:nth-child(3) {
+  top: 18px;
+}
+
+.emotion-18 {
+  background: white;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  -webkit-transition: transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  transition: transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  will-change: transform;
+}
+
+.emotion-6 {
+  background-color: white;
+  width: 100%;
+  text-transform: uppercase;
+  color: #494df4;
+  display: table;
+  border-bottom: 1px solid #e5e5e5;
+  height: 61px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6:last-child {
+  border-bottom: 0px solid transparent;
+}
+
+.emotion-5 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.emotion-4 {
+  color: inherit;
+  margin-right: 10px;
+}
+
+.emotion-17 {
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  padding: 30px;
+}
+
+.emotion-16 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-16:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-16:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+<header
+    className="emotion-19"
+  >
+    <div
+      className="emotion-3"
+    >
+      <a
+        _height="60px"
+        _width={undefined}
+        aria-current="page"
+        className="emotion-1 active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <img
+          alt="AXA Assistance"
+          className="emotion-0"
+          src="https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png"
+        />
+      </a>
+      <div
+        className="emotion-2"
+        onClick={[Function]}
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="emotion-18"
+    >
+      <a
+        aria-current={null}
+        className="emotion-6"
+        href="/user/profile"
+        onClick={[Function]}
+        style={undefined}
+      >
+        <span
+          className="emotion-5"
+        >
+          <div
+            className="emotion-4"
+            colorindex={undefined}
+            fill="currentColor"
+            size={16}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="none"
+              height={16}
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <path
+                d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+              />
+              <circle
+                cx="12"
+                cy="7"
+                r="4"
+              />
+            </svg>
+          </div>
+          Mon profil
+        </span>
+      </a>
+      <a
+        aria-current={null}
+        className="emotion-6"
+        href="/user/likes"
+        onClick={[Function]}
+        style={undefined}
+      >
+        <span
+          className="emotion-5"
+        >
+          <div
+            className="emotion-4"
+            colorindex={undefined}
+            fill="currentColor"
+            size={16}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="none"
+              height={16}
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <path
+                d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+              />
+              <circle
+                cx="12"
+                cy="7"
+                r="4"
+              />
+            </svg>
+          </div>
+          Mes favoris
+        </span>
+      </a>
+      <a
+        className="emotion-6"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-5"
+        >
+          Contrats
+        </span>
+      </a>
+      <a
+        className="emotion-6"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-5"
+        >
+          Salariés
+        </span>
+      </a>
+      <a
+        className="emotion-6"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-5"
+        >
+          Services
+        </span>
+      </a>
+      <div
+        className="emotion-17"
+      >
+        <a
+          aria-current={null}
+          className="Button  emotion-16"
+          color="primary"
+          href="/user/logout"
+          onClick={[Function]}
+          size="normal"
+          style={undefined}
+        >
+          Se déconnecter
+        </a>
+      </div>
+    </div>
+  </header>,
+  .emotion-0 {
+  height: 100%;
+  max-width: 100%;
+}
+
+.emotion-20 {
+  background-color: white;
+  display: none;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-20 {
+    display: block;
+  }
+}
+
+.emotion-9 {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.emotion-1 {
+  height: 80px;
+  display: block;
+}
+
+.emotion-10 {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #494df4;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-17 {
+  position: absolute;
+  background-color: #494df4;
+  height: 0px;
+  left: 0px;
+  width: 0px;
+  bottom: 0;
+  -webkit-transition: left 0.2s cubic-bezier(0.165,0.84,0.44,1),width 0.1s,height 0.1s;
+  transition: left 0.2s cubic-bezier(0.165,0.84,0.44,1),width 0.1s,height 0.1s;
+}
+
+.emotion-7 {
+  position: relative;
+}
+
+.emotion-6 {
+  background-color: white;
+  box-shadow: rgba(0,0,0,0.1) 1px 1px 15px 0px;
+  position: absolute;
+  padding: 10px;
+  right: 0px;
+  top: 60px;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.1s ease 0.1s,opacity 0.3s;
+  -webkit-transition: transform 0.1s ease 0.1s,opacity 0.3s;
+  transition: transform 0.1s ease 0.1s,opacity 0.3s;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  pointer-events: none;
+  border-radius: 3px;
+  z-index: 10;
+  width: 200px;
+}
+
+.emotion-3 {
+  display: block;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.emotion-3:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-8 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-8 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-8 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-8 {
+    width: 1140px;
+  }
+}
+
+.emotion-2 {
+  color: inherit;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  background-color: white;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.emotion-2:hover {
+  background-color: #e5e5e5;
+}
+
+.emotion-19 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-19 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-19 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-19 {
+    width: 1140px;
+  }
+}
+
+.emotion-18 {
+  position: relative;
+}
+
+.emotion-18 > ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.emotion-16 {
+  width: 100%;
+  height: 80px;
+}
+
+.emotion-11 {
+  float: left;
+  display: table;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+.emotion-11:first-child {
+  margin-left: 0;
+}
+
+.emotion-11:last-child {
+  margin-right: 0;
+}
+
+<header
+    className="emotion-20"
+  >
+    <div
+      className="emotion-9"
+    >
+      <div
+        className="emotion-8"
+      >
+        <a
+          _height={80}
+          _width={undefined}
+          aria-current="page"
+          className="emotion-1 active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <img
+            alt="AXA Assistance"
+            className="emotion-0"
+            src="https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png"
+          />
+        </a>
+        <div
+          className="emotion-7"
+        >
+          <div
+            className="emotion-2"
+            colorindex={undefined}
+            fill="currentColor"
+            onClick={[Function]}
+            size={16}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="none"
+              height={16}
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <path
+                d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+              />
+              <circle
+                cx="12"
+                cy="7"
+                r="4"
+              />
+            </svg>
+          </div>
+          <div
+            className="emotion-6"
+          >
+            <a
+              aria-current={null}
+              className="emotion-3"
+              href="/user/profile"
+              onClick={[Function]}
+              style={undefined}
+            >
+              Mon profil
+            </a>
+            <a
+              aria-current={null}
+              className="emotion-3"
+              href="/user/likes"
+              onClick={[Function]}
+              style={undefined}
+            >
+              Mes favoris
+            </a>
+            <a
+              aria-current={null}
+              className="emotion-3"
+              href="/user/logout"
+              onClick={[Function]}
+              style={undefined}
+            >
+              Se déconnecter
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-19"
+    >
+      <nav
+        className="emotion-18"
+      >
+        <ul
+          className="emotion-16"
+          onMouseLeave={[Function]}
+        >
+          <li
+            className="emotion-11"
+            onMouseEnter={[Function]}
+          >
+            <a
+              className="emotion-10"
+              href="https://google.com"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Contrats
+            </a>
+          </li>
+          <li
+            className="emotion-11"
+            onMouseEnter={[Function]}
+          >
+            <a
+              className="emotion-10"
+              href="https://google.com"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Salariés
+            </a>
+          </li>
+          <li
+            className="emotion-11"
+            onMouseEnter={[Function]}
+          >
+            <a
+              className="emotion-10"
+              href="https://google.com"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Services
+            </a>
+          </li>
+        </ul>
+        <div
+          className="emotion-17"
+        />
+      </nav>
+    </div>
+  </header>,
+]
+`;
+
+exports[`Component: <Header /> render snapshot without user 1`] = `
+Array [
+  .emotion-11 {
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-11 {
+    display: none;
+  }
+}
+
+.emotion-3 {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-1 {
+  height: 60px;
+  display: block;
+}
+
+.emotion-0 {
+  height: 100%;
+  max-width: 100%;
+}
+
+.emotion-2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin: 6px 15px;
+  cursor: pointer;
+}
+
+.emotion-2 span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #494df4;
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  will-change: transform;
+}
+
+.emotion-2 span:nth-child(1) {
+  top: 6px;
+}
+
+.emotion-2 span:nth-child(2) {
+  top: 12px;
+}
+
+.emotion-2 span:nth-child(3) {
+  top: 18px;
+}
+
+.emotion-10 {
+  background: white;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  -webkit-transition: transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  transition: transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  will-change: transform;
+}
+
+.emotion-5 {
+  background-color: white;
+  width: 100%;
+  text-transform: uppercase;
+  color: #494df4;
+  display: table;
+  border-bottom: 1px solid #e5e5e5;
+  height: 61px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-5:last-child {
+  border-bottom: 0px solid transparent;
+}
+
+.emotion-4 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+<header
+    className="emotion-11"
+  >
+    <div
+      className="emotion-3"
+    >
+      <a
+        _height="60px"
+        _width={undefined}
+        aria-current="page"
+        className="emotion-1 active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <img
+          alt="AXA Assistance"
+          className="emotion-0"
+          src="https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png"
+        />
+      </a>
+      <div
+        className="emotion-2"
+        onClick={[Function]}
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="emotion-10"
+    >
+      <a
+        className="emotion-5"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-4"
+        >
+          Contrats
+        </span>
+      </a>
+      <a
+        className="emotion-5"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-4"
+        >
+          Salariés
+        </span>
+      </a>
+      <a
+        className="emotion-5"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-4"
+        >
+          Services
+        </span>
+      </a>
+    </div>
+  </header>,
+  .emotion-0 {
+  height: 100%;
+  max-width: 100%;
+}
+
+.emotion-14 {
+  background-color: white;
+  display: none;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-14 {
+    display: block;
+  }
+}
+
+.emotion-3 {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.emotion-1 {
+  height: 80px;
+  display: block;
+}
+
+.emotion-4 {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #494df4;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-11 {
+  position: absolute;
+  background-color: #494df4;
+  height: 0px;
+  left: 0px;
+  width: 0px;
+  bottom: 0;
+  -webkit-transition: left 0.2s cubic-bezier(0.165,0.84,0.44,1),width 0.1s,height 0.1s;
+  transition: left 0.2s cubic-bezier(0.165,0.84,0.44,1),width 0.1s,height 0.1s;
+}
+
+.emotion-2 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-2 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-2 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-2 {
+    width: 1140px;
+  }
+}
+
+.emotion-13 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-13 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-13 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-13 {
+    width: 1140px;
+  }
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-12 > ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.emotion-10 {
+  width: 100%;
+  height: 80px;
+}
+
+.emotion-5 {
+  float: left;
+  display: table;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+.emotion-5:first-child {
+  margin-left: 0;
+}
+
+.emotion-5:last-child {
+  margin-right: 0;
+}
+
+<header
+    className="emotion-14"
+  >
+    <div
+      className="emotion-3"
+    >
+      <div
+        className="emotion-2"
+      >
+        <a
+          _height={80}
+          _width={undefined}
+          aria-current="page"
+          className="emotion-1 active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <img
+            alt="AXA Assistance"
+            className="emotion-0"
+            src="https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      className="emotion-13"
+    >
+      <nav
+        className="emotion-12"
+      >
+        <ul
+          className="emotion-10"
+          onMouseLeave={[Function]}
+        >
+          <li
+            className="emotion-5"
+            onMouseEnter={[Function]}
+          >
+            <a
+              className="emotion-4"
+              href="https://google.com"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Contrats
+            </a>
+          </li>
+          <li
+            className="emotion-5"
+            onMouseEnter={[Function]}
+          >
+            <a
+              className="emotion-4"
+              href="https://google.com"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Salariés
+            </a>
+          </li>
+          <li
+            className="emotion-5"
+            onMouseEnter={[Function]}
+          >
+            <a
+              className="emotion-4"
+              href="https://google.com"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Services
+            </a>
+          </li>
+        </ul>
+        <div
+          className="emotion-11"
+        />
+      </nav>
+    </div>
+  </header>,
+]
+`;
+
+exports[`Component: <HeaderOneLine /> <HeaderDesktopUser /> display user links 1`] = `
+<Styled(div)>
+  <Styled(Icon)
+    name="user"
+    onClick={[Function]}
+  />
+  <Styled(div)
+    isOpen={true}
+  >
+    <Styled(Link)
+      key="0"
+      onClick={[Function]}
+      to="/user/profile"
+    >
+      Mon profil
+    </Styled(Link)>
+    <Styled(Link)
+      onClick={[Function]}
+      to="/user/logout"
+    >
+      Se déconnecter
+    </Styled(Link)>
+  </Styled(div)>
+</Styled(div)>
+`;
+
+exports[`Component: <HeaderOneLine /> <HeaderDesktopUserLinksContainer /> display user links by icon 1`] = `
+.emotion-0 {
+  background-color: white;
+  box-shadow: rgba(0,0,0,0.1) 1px 1px 15px 0px;
+  position: absolute;
+  padding: 10px;
+  right: 0px;
+  top: 60px;
+  opacity: 1;
+  -webkit-transition: -webkit-transform 0.3s,opacity 0.1s ease 0.1s;
+  -webkit-transition: transform 0.3s,opacity 0.1s ease 0.1s;
+  transition: transform 0.3s,opacity 0.1s ease 0.1s;
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  pointer-events: auto;
+  border-radius: 3px;
+  z-index: 10;
+  width: 200px;
+}
+
+<div
+  className="emotion-0"
+/>
+`;
+
+exports[`Component: <HeaderOneLine /> render simple snapshot 1`] = `
+Array [
+  .emotion-19 {
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-19 {
+    display: none;
+  }
+}
+
+.emotion-3 {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-1 {
+  height: 60px;
+  display: block;
+}
+
+.emotion-0 {
+  height: 100%;
+  max-width: 100%;
+}
+
+.emotion-2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin: 6px 15px;
+  cursor: pointer;
+}
+
+.emotion-2 span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #494df4;
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  will-change: transform;
+}
+
+.emotion-2 span:nth-child(1) {
+  top: 6px;
+}
+
+.emotion-2 span:nth-child(2) {
+  top: 12px;
+}
+
+.emotion-2 span:nth-child(3) {
+  top: 18px;
+}
+
+.emotion-18 {
+  background: white;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  -webkit-transition: transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  transition: transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  will-change: transform;
+}
+
+.emotion-6 {
+  background-color: white;
+  width: 100%;
+  text-transform: uppercase;
+  color: #494df4;
+  display: table;
+  border-bottom: 1px solid #e5e5e5;
+  height: 61px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6:last-child {
+  border-bottom: 0px solid transparent;
+}
+
+.emotion-5 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.emotion-4 {
+  color: inherit;
+  margin-right: 10px;
+}
+
+.emotion-17 {
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  padding: 30px;
+}
+
+.emotion-16 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-16:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-16:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+<header
+    className="emotion-19"
+  >
+    <div
+      className="emotion-3"
+    >
+      <a
+        _height="60px"
+        _width={undefined}
+        aria-current="page"
+        className="emotion-1 active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <img
+          alt="AXA Assistance"
+          className="emotion-0"
+          src="https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png"
+        />
+      </a>
+      <div
+        className="emotion-2"
+        onClick={[Function]}
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="emotion-18"
+    >
+      <a
+        aria-current="page"
+        className="emotion-6 active"
+        href="/user/profile"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <span
+          className="emotion-5"
+        >
+          <div
+            className="emotion-4"
+            colorindex={undefined}
+            fill="currentColor"
+            size={16}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="none"
+              height={16}
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <path
+                d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+              />
+              <circle
+                cx="12"
+                cy="7"
+                r="4"
+              />
+            </svg>
+          </div>
+          Mon profil
+        </span>
+      </a>
+      <a
+        aria-current={null}
+        className="emotion-6"
+        href="/user/likes"
+        onClick={[Function]}
+        style={undefined}
+      >
+        <span
+          className="emotion-5"
+        >
+          <div
+            className="emotion-4"
+            colorindex={undefined}
+            fill="currentColor"
+            size={16}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="none"
+              height={16}
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <path
+                d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+              />
+              <circle
+                cx="12"
+                cy="7"
+                r="4"
+              />
+            </svg>
+          </div>
+          Mes favoris
+        </span>
+      </a>
+      <a
+        className="emotion-6"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-5"
+        >
+          Contrats
+        </span>
+      </a>
+      <a
+        className="emotion-6"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-5"
+        >
+          Salariés
+        </span>
+      </a>
+      <a
+        className="emotion-6"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-5"
+        >
+          Services
+        </span>
+      </a>
+      <div
+        className="emotion-17"
+      >
+        <a
+          aria-current={null}
+          className="Button  emotion-16"
+          color="primary"
+          href="/user/logout"
+          onClick={[Function]}
+          size="normal"
+          style={undefined}
+        >
+          Se déconnecter
+        </a>
+      </div>
+    </div>
+  </header>,
+  .emotion-0 {
+  height: 100%;
+  max-width: 100%;
+}
+
+.emotion-19 {
+  background-color: white;
+  display: none;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-19 {
+    display: block;
+  }
+}
+
+.emotion-18 {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.emotion-17 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-17 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-17 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-17 {
+    width: 1140px;
+  }
+}
+
+.emotion-1 {
+  height: 80px;
+  display: block;
+}
+
+.emotion-10 {
+  margin-left: 10px;
+  position: relative;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-10 > ul {
+  margin-bottom: 0;
+}
+
+.emotion-8 {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.emotion-3 {
+  float: left;
+  display: table;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.emotion-2 {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #494df4;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-9 {
+  position: absolute;
+  background-color: #494df4;
+  height: 0px;
+  left: 0px;
+  width: 0px;
+  bottom: 0;
+  -webkit-transition: left 0.2s cubic-bezier(0.165,0.84,0.44,1),width 0.1s,height 0.1s;
+  transition: left 0.2s cubic-bezier(0.165,0.84,0.44,1),width 0.1s,height 0.1s;
+}
+
+.emotion-16 {
+  position: relative;
+}
+
+.emotion-11 {
+  color: inherit;
+  display: block;
+  padding: 10px;
+  margin-top: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  background-color: white;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.emotion-11:hover {
+  background-color: #e5e5e5;
+}
+
+.emotion-15 {
+  background-color: white;
+  box-shadow: rgba(0,0,0,0.1) 1px 1px 15px 0px;
+  position: absolute;
+  padding: 10px;
+  right: 0px;
+  top: 60px;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.1s ease 0.1s,opacity 0.3s;
+  -webkit-transition: transform 0.1s ease 0.1s,opacity 0.3s;
+  transition: transform 0.1s ease 0.1s,opacity 0.3s;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  pointer-events: none;
+  border-radius: 3px;
+  z-index: 10;
+  width: 200px;
+}
+
+.emotion-12 {
+  display: block;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.emotion-12:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<header
+    className="emotion-19"
+  >
+    <div
+      className="emotion-18"
+    >
+      <div
+        className="emotion-17"
+      >
+        <a
+          _height={80}
+          _width={undefined}
+          aria-current="page"
+          className="emotion-1 active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <img
+            alt="AXA Assistance"
+            className="emotion-0"
+            src="https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png"
+          />
+        </a>
+        <nav
+          className="emotion-10"
+        >
+          <ul
+            className="emotion-8"
+            onMouseLeave={[Function]}
+          >
+            <li
+              className="emotion-3"
+              onMouseEnter={[Function]}
+            >
+              <a
+                className="emotion-2"
+                href="https://google.com"
+                onClick={[Function]}
+                target="_blank"
+              >
+                Contrats
+              </a>
+            </li>
+            <li
+              className="emotion-3"
+              onMouseEnter={[Function]}
+            >
+              <a
+                className="emotion-2"
+                href="https://google.com"
+                onClick={[Function]}
+                target="_blank"
+              >
+                Salariés
+              </a>
+            </li>
+            <li
+              className="emotion-3"
+              onMouseEnter={[Function]}
+            >
+              <a
+                className="emotion-2"
+                href="https://google.com"
+                onClick={[Function]}
+                target="_blank"
+              >
+                Services
+              </a>
+            </li>
+          </ul>
+          <div
+            className="emotion-9"
+          />
+        </nav>
+        <div
+          className="emotion-16"
+        >
+          <div
+            className="emotion-11"
+            colorindex={undefined}
+            fill="currentColor"
+            onClick={[Function]}
+            size={16}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="none"
+              height={16}
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <path
+                d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+              />
+              <circle
+                cx="12"
+                cy="7"
+                r="4"
+              />
+            </svg>
+          </div>
+          <div
+            className="emotion-15"
+          >
+            <a
+              aria-current="page"
+              className="emotion-12 active"
+              href="/user/profile"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Mon profil
+            </a>
+            <a
+              aria-current={null}
+              className="emotion-12"
+              href="/user/likes"
+              onClick={[Function]}
+              style={undefined}
+            >
+              Mes favoris
+            </a>
+            <a
+              aria-current={null}
+              className="emotion-12"
+              href="/user/logout"
+              onClick={[Function]}
+              style={undefined}
+            >
+              Se déconnecter
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>,
+]
+`;
+
+exports[`Component: <HeaderOneLine /> render simple snapshot without user 1`] = `
+Array [
+  .emotion-11 {
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-11 {
+    display: none;
+  }
+}
+
+.emotion-3 {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-1 {
+  height: 60px;
+  display: block;
+}
+
+.emotion-0 {
+  height: 100%;
+  max-width: 100%;
+}
+
+.emotion-2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin: 6px 15px;
+  cursor: pointer;
+}
+
+.emotion-2 span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #494df4;
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  will-change: transform;
+}
+
+.emotion-2 span:nth-child(1) {
+  top: 6px;
+}
+
+.emotion-2 span:nth-child(2) {
+  top: 12px;
+}
+
+.emotion-2 span:nth-child(3) {
+  top: 18px;
+}
+
+.emotion-10 {
+  background: white;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  -webkit-transition: transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  transition: transform 0.5s cubic-bezier(0.23,1,0.32,1);
+  will-change: transform;
+}
+
+.emotion-5 {
+  background-color: white;
+  width: 100%;
+  text-transform: uppercase;
+  color: #494df4;
+  display: table;
+  border-bottom: 1px solid #e5e5e5;
+  height: 61px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-5:last-child {
+  border-bottom: 0px solid transparent;
+}
+
+.emotion-4 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+<header
+    className="emotion-11"
+  >
+    <div
+      className="emotion-3"
+    >
+      <a
+        _height="60px"
+        _width={undefined}
+        aria-current="page"
+        className="emotion-1 active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <img
+          alt="AXA Assistance"
+          className="emotion-0"
+          src="https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png"
+        />
+      </a>
+      <div
+        className="emotion-2"
+        onClick={[Function]}
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="emotion-10"
+    >
+      <a
+        className="emotion-5"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-4"
+        >
+          Contrats
+        </span>
+      </a>
+      <a
+        className="emotion-5"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-4"
+        >
+          Salariés
+        </span>
+      </a>
+      <a
+        className="emotion-5"
+        href="https://google.com"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <span
+          className="emotion-4"
+        >
+          Services
+        </span>
+      </a>
+    </div>
+  </header>,
+  .emotion-0 {
+  height: 100%;
+  max-width: 100%;
+}
+
+.emotion-13 {
+  background-color: white;
+  display: none;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-13 {
+    display: block;
+  }
+}
+
+.emotion-12 {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.emotion-11 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-11 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-11 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-11 {
+    width: 1140px;
+  }
+}
+
+.emotion-1 {
+  height: 80px;
+  display: block;
+}
+
+.emotion-10 {
+  margin-left: 10px;
+  position: relative;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-10 > ul {
+  margin-bottom: 0;
+}
+
+.emotion-8 {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.emotion-3 {
+  float: left;
+  display: table;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.emotion-2 {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #494df4;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-9 {
+  position: absolute;
+  background-color: #494df4;
+  height: 0px;
+  left: 0px;
+  width: 0px;
+  bottom: 0;
+  -webkit-transition: left 0.2s cubic-bezier(0.165,0.84,0.44,1),width 0.1s,height 0.1s;
+  transition: left 0.2s cubic-bezier(0.165,0.84,0.44,1),width 0.1s,height 0.1s;
+}
+
+<header
+    className="emotion-13"
+  >
+    <div
+      className="emotion-12"
+    >
+      <div
+        className="emotion-11"
+      >
+        <a
+          _height={80}
+          _width={undefined}
+          aria-current="page"
+          className="emotion-1 active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <img
+            alt="AXA Assistance"
+            className="emotion-0"
+            src="https://prismic-io.s3.amazonaws.com/my-portal%2Fe8a967a6-969c-4b37-9212-42bd49da269a_axa-assistance_redim.png"
+          />
+        </a>
+        <nav
+          className="emotion-10"
+        >
+          <ul
+            className="emotion-8"
+            onMouseLeave={[Function]}
+          >
+            <li
+              className="emotion-3"
+              onMouseEnter={[Function]}
+            >
+              <a
+                className="emotion-2"
+                href="https://google.com"
+                onClick={[Function]}
+                target="_blank"
+              >
+                Contrats
+              </a>
+            </li>
+            <li
+              className="emotion-3"
+              onMouseEnter={[Function]}
+            >
+              <a
+                className="emotion-2"
+                href="https://google.com"
+                onClick={[Function]}
+                target="_blank"
+              >
+                Salariés
+              </a>
+            </li>
+            <li
+              className="emotion-3"
+              onMouseEnter={[Function]}
+            >
+              <a
+                className="emotion-2"
+                href="https://google.com"
+                onClick={[Function]}
+                target="_blank"
+              >
+                Services
+              </a>
+            </li>
+          </ul>
+          <div
+            className="emotion-9"
+          />
+        </nav>
+      </div>
+    </div>
+  </header>,
+]
+`;

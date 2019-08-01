@@ -1,0 +1,138 @@
+---
+name: Savings (deprecated)
+route: /savings
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { Savings, PieChart, DataTable } from '../src'
+
+# Savings
+
+Each card takes a `PieChart` and a `DataTable` as props, to display them. They also take up to 2 actions, displayed at the bottom.
+
+<Playground>
+  <Savings
+    title="Compagny savings"
+    card1={{
+      title: 'At the end of 2018',
+      pie: (
+        <PieChart
+          value="860 €"
+          values={[
+            {
+              value: 200,
+              color: 'third',
+            },
+            {
+              value: 600,
+              color: 'fourth',
+            },
+            {
+              value: 40,
+              color: 'fifth',
+            },
+            {
+              value: 20,
+              color: 'sixth',
+            },
+          ]}
+        />
+      ),
+      table: (
+        <DataTable
+          rows={[
+            {
+              pill: { color: 'third' },
+              title: 'Food',
+              value: '200 €',
+            },
+            {
+              pill: { color: 'fourth' },
+              title: 'Flat',
+              value: '600 €',
+            },
+            {
+              pill: { color: 'fifth' },
+              title: 'Cloth',
+              value: '40 €',
+            },
+            {
+              pill: { color: 'sixth' },
+              title: 'Internet',
+              value: '20 €',
+            },
+          ]}
+        />
+      ),
+      actions: [
+        {
+          url: '/',
+          label: 'back to home',
+        },
+      ],
+    }}
+    card2={{
+      title: 'In 2 years',
+      pie: (
+        <PieChart
+          value="960 €"
+          values={[
+            {
+              value: 250,
+              color: 'third',
+            },
+            {
+              value: 550,
+              color: 'fourth',
+            },
+            {
+              value: 140,
+              color: 'fifth',
+            },
+            {
+              value: 20,
+              color: 'sixth',
+            },
+          ]}
+        />
+      ),
+      table: (
+        <DataTable
+          rows={[
+            {
+              pill: { color: 'third' },
+              title: 'Food',
+              value: '250 €',
+            },
+            {
+              pill: { color: 'fourth' },
+              title: 'Flat',
+              value: '550 €',
+            },
+            {
+              pill: { color: 'fifth' },
+              title: 'Cloth',
+              value: '140 €',
+            },
+            {
+              pill: { color: 'sixth' },
+              title: 'Internet',
+              value: '20 €',
+            },
+          ]}
+        />
+      ),
+      actions: [
+        {
+          url: '/',
+          label: 'back to home',
+        },
+        {
+          url: '/',
+          label: 'find a house to rent',
+        },
+      ],
+    }}
+  />
+</Playground>

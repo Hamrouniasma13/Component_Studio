@@ -1,0 +1,148 @@
+---
+name: Document center
+route: /document-center
+menu: 📐 Templates
+---
+
+import { Playground } from 'docz'
+import {
+  DocumentCenter,
+  DocumentMenu,
+  DocumentSection,
+  DocumentItem,
+} from '../src'
+
+# Document center
+
+<DocumentCenter
+  title="Documents center"
+  showMenu={true}
+  sections={[
+    {
+      title: 'Policy documents',
+      items: [
+        {
+          uri: 'www.google.fr',
+          fileType: 'pdf',
+          title: 'Endorsement - Coca-Cola Hong-Kong',
+          description: 'Text description of the documentation',
+        },
+        {
+          uri: 'www.google.fr',
+          fileType: 'pdf',
+          title: 'Endorsement - Coca-Cola Hong-Kong',
+          description: 'Text description of the documentation',
+        },
+        {
+          uri: 'www.google.fr',
+          fileType: 'url',
+          title: 'Endorsement - Coca-Cola Hong-Kong',
+          description: 'Text description of the documentation',
+        },
+        {
+          uri: 'www.google.fr',
+          fileType: 'pdf',
+          title: 'Endorsement - Coca-Cola Hong-Kong',
+          description: 'Text description of the documentation',
+        },
+      ],
+    },
+    {
+      title: 'Guide for employees',
+      items: [
+        {
+          uri: 'www.google.fr',
+          fileType: 'docx',
+          title: 'Endorsement - Coca-Cola Hong-Kong',
+          description: 'Text description of the documentation',
+        },
+      ],
+    },
+    {
+      title: 'Benefit schedule',
+      items: [
+        {
+          uri: 'www.google.fr',
+          fileType: 'docx',
+          title: 'Endorsement - Coca-Cola Hong-Kong',
+          description: 'Text description of the documentation',
+        },
+        {
+          uri: 'www.google.fr',
+          fileType: 'pdf',
+          title: 'Endorsement - Coca-Cola Hong-Kong',
+          description: 'Text description of the documentation',
+        },
+      ],
+    },
+  ]}
+/>
+
+## Document menu
+
+<Playground>
+  <DocumentMenu
+    sections={[
+      {
+        title: 'Policy documents',
+      },
+      {
+        title: 'Guide for employees',
+      },
+      {
+        title: 'Benefit schedule',
+      },
+    ]}
+  />
+</Playground>
+
+## Document section
+
+<Playground>
+  <DocumentSection
+    title="Policy documents"
+    items={[
+      {
+        title: 'Endorsement - Coca-Cola Hong-Kong',
+        description: 'Text description of the documentation',
+        uri: 'www.google.fr',
+        fileType: 'pdf',
+      },
+      {
+        title: 'Endorsement - Coca-Cola Hong-Kong',
+        description: 'Text description of the documentation',
+        uri: 'www.google.fr',
+        fileType: 'pdf',
+      },
+      {
+        title: 'Endorsement - Coca-Cola Hong-Kong',
+        description: 'Text description of the documentation',
+        uri: 'www.google.fr',
+        fileType: 'pdf',
+      },
+      {
+        title: 'Endorsement - Coca-Cola Hong-Kong',
+        description: 'Text description of the documentation',
+        uri: 'www.google.fr',
+        fileType: 'pdf',
+      },
+    ]}
+  />
+</Playground>
+
+## Document item
+
+<Playground>
+  <DocumentItem
+    uri="www.google.fr"
+    fileType="pdf"
+    title="Endorsement - Coca-Cola Hong-Kong"
+    description="Text description of the documentation"
+  />
+  <DocumentItem
+    uri="www.google.fr"
+    fileType="url"
+    title="Endorsement - Coca-Cola Hong-Kong"
+    description="Text description of the documentation"
+  />
+</Playground>

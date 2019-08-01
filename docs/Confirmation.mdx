@@ -1,0 +1,32 @@
+---
+name: Confirmation
+route: /confirmation
+menu: 🌐 Organisms
+---
+
+## Type: `Organism`
+
+import { Playground } from 'docz'
+import { Confirmation } from '../src'
+
+# Confirmation
+
+<Playground>
+  <Confirmation
+    image={{
+      url: 'https://dummyimage.com/120x120/494DF4/fff',
+      alt: 'My image',
+    }}
+    title={'Vous message à bien été envoyé !'}
+    subtitle={'Ea sit dolore quis aliquip Lorem anim.'}
+    leftAction={{
+      url: 'http://www.google.fr',
+      label: 'Envoyer un nouveau message',
+    }}
+    rightAction={{
+      url: null,
+      onClick: console.log,
+      label: 'Revenir à la page suivante',
+    }}
+  />
+</Playground>

@@ -1,0 +1,22 @@
+---
+name: Illustrated CTA
+route: /illustrated-cta
+---
+
+import { Playground } from 'docz'
+import { IllustratedCTA } from '../src'
+
+# Illustrated CTA
+
+<Playground>
+  <IllustratedCTA
+    wording={{
+      title: 'Change password',
+      description: 'Modify your current password',
+      button: 'Modify',
+    }}
+    icon="lockcolored"
+    onClick={() => console.log('Clicked!')}
+    href="/testtest"
+  />
+</Playground>

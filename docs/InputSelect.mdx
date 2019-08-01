@@ -1,0 +1,103 @@
+---
+name: Input select
+route: /input-select
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { InputSelect, Container } from '../src'
+
+# InputSelect
+
+<p>
+  This Component is an abstraction of React-Select.
+  <br />
+  <br />
+  All the original API is preserved. You can check the documentation <a
+    style={{ color: '#494df4' }}
+    href="https://react-select.com/home"
+  >
+    HERE
+  </a>.
+  <br />
+  <br />
+</p>
+
+## Basic Select
+
+<Playground>
+  <InputSelect
+    options={[
+      { value: 'chocolate', label: 'Chocolate' },
+      { value: 'strawberry', label: 'Strawberry' },
+      { value: 'vanilla', label: 'Vanilla' },
+    ]}
+  />
+</Playground>
+
+## Placeholder Select
+
+<Playground>
+  <InputSelect
+    placeholder="I am a placeholder"
+    options={[
+      { value: 'chocolate', label: 'Chocolate' },
+      { value: 'strawberry', label: 'Strawberry' },
+      { value: 'vanilla', label: 'Vanilla' },
+    ]}
+  />
+</Playground>
+
+## Disabled Select
+
+<Playground>
+  <InputSelect
+    isDisabled={true}
+    options={[
+      { value: 'chocolate', label: 'Chocolate' },
+      { value: 'strawberry', label: 'Strawberry' },
+      { value: 'vanilla', label: 'Vanilla' },
+    ]}
+  />
+</Playground>
+
+## OnChange Method
+
+<Playground>
+  <InputSelect
+    placeholder="Check your Console"
+    onChange={console.log}
+    options={[
+      { value: 'chocolate', label: 'Chocolate' },
+      { value: 'strawberry', label: 'Strawberry' },
+      { value: 'vanilla', label: 'Vanilla' },
+    ]}
+  />
+</Playground>
+
+## Select with label
+
+<Playground>
+  <InputSelect
+    label="Hi folks"
+    options={[
+      { value: 'chocolate', label: 'Chocolate' },
+      { value: 'strawberry', label: 'Strawberry' },
+      { value: 'vanilla', label: 'Vanilla' },
+    ]}
+  />
+</Playground>
+
+## Error Select
+
+<Playground>
+  <InputSelect
+    label="Hi errors folks"
+    error
+    options={[
+      { value: 'chocolate', label: 'Chocolate' },
+      { value: 'strawberry', label: 'Strawberry' },
+      { value: 'vanilla', label: 'Vanilla' },
+    ]}
+  />
+</Playground>

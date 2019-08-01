@@ -1,0 +1,66 @@
+---
+name: Pagination
+route: /pagination
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { Pagination } from '../src'
+
+# Pagination
+
+**Note**: `pageNeighbours` is the number of button between the selected pagination and his start (or his end).
+
+Pagination with **30** elements (`totalRecords`), **10** per page (`pageLimit`)
+
+<Playground>
+  <Pagination
+    totalRecords={30}
+    pageLimit={10}
+    onPageChanged={paginationData => console.log(paginationData)}
+  />
+</Playground>
+
+Pagination with **100** elements (`totalRecords`), **10** per page (`pageLimit`), and **2** `pageNeighbours`
+
+<Playground>
+  <Pagination
+    totalRecords={100}
+    pageLimit={10}
+    pageNeighbours={2}
+    onPageChanged={paginationData => console.log(paginationData)}
+  />
+</Playground>
+
+Pagination with **100** elements (`totalRecords`), **5** per page (`pageLimit`), and **0** `pageNeighbours`
+
+<Playground>
+  <Pagination
+    totalRecords={100}
+    pageLimit={5}
+    pageNeighbours={0}
+    onPageChanged={paginationData => console.log(paginationData)}
+  />
+</Playground>
+
+Pagination with **100** elements (`totalRecords`), **5** per page (`pageLimit`), and **1** `pageNeighbours`
+
+<Playground>
+  <Pagination
+    totalRecords={100}
+    pageLimit={5}
+    pageNeighbours={1}
+    onPageChanged={paginationData => console.log(paginationData)}
+  />
+</Playground>
+
+Pagination with **100** elements (`totalRecords`), **5** per page (`pageLimit`), and **2** `pageNeighbours`
+
+<Playground>
+  <Pagination
+    totalRecords={100}
+    pageLimit={5}
+    pageNeighbours={2}
+    onPageChanged={paginationData => console.log(paginationData)}
+  />
+</Playground>

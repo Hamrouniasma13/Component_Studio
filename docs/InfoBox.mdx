@@ -1,0 +1,30 @@
+---
+name: InfoBox (deprecated)
+route: /info-box
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { InfoBox } from '../src'
+
+# InfoBox
+
+<Playground>
+  <InfoBox
+    title="Lorem ipsum"
+    infos={[
+      {
+        label: 'First label',
+        value: 'First value',
+      },
+      {
+        label: 'Second label',
+        value: 'Second value',
+      },
+      {
+        label: 'Third label',
+        value: 'Third value',
+      },
+    ]}
+  />
+</Playground>

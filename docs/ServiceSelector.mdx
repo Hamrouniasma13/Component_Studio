@@ -1,0 +1,70 @@
+---
+name: Service selector
+route: /service-selector
+menu: 📐 Templates
+---
+
+import { Playground } from 'docz'
+import { ServiceSelector } from '../src'
+
+# Service Selector
+
+<ServiceSelector
+  title="Services"
+  categories={['category1', 'category2', 'category3', 'category4']}
+  cards={[
+    {
+      key: 1,
+      category: 'category1',
+      colorKey: 'primary',
+      title: 'Card n°1',
+      content:
+        'Ex mollit esse nostrud ipsum cillum labore Lorem consequat. Ipsum incididunt laborum dolore non est fugiat laboris incididunt reprehenderit amet non nulla id. Velit ea esse nulla incididunt laborum duis exercitation est ipsum consectetur sint ipsum esse.',
+      action: {
+        url: '/',
+        label: 'more',
+      },
+    },
+    {
+      key: 2,
+      category: 'category2',
+      colorKey: 'secondary',
+      title: 'Card n°2',
+      content:
+        'Sunt ullamco sit sit nostrud in cupidatat dolor esse adipisicing aliqua minim deserunt commodo laborum. Sit et qui anim consectetur ut reprehenderit quis enim cillum elit exercitation excepteur proident.',
+      action: {
+        url: '/',
+        label: 'more',
+      },
+    },
+    {
+      key: 3,
+      category: 'category3',
+      colorKey: 'third',
+      title: 'Card n°3',
+      content:
+        'Sint labore aliquip fugiat nostrud proident sunt commodo ex duis velit. Dolor aliqua commodo esse velit ad aliqua commodo excepteur tempor esse minim excepteur laborum.',
+      action: {
+        url: '/',
+        label: 'more',
+      },
+    },
+    {
+      key: 4,
+      category: 'category4',
+      colorKey: 'fourth',
+      title: 'Card n°4',
+      content:
+        'Ipsum laboris nostrud amet amet eu duis cillum et. Magna proident est pariatur ipsum deserunt mollit non culpa nisi tempor ad laboris. Culpa do Lorem velit laborum non ut dolore laborum.',
+      action: {
+        url: '/',
+        label: 'more',
+      },
+    },
+  ]}
+/>
+
+#### Note
+
+If you want to animate, add a key property for every card.
+It ensure that the `react-spring` use the proper animated item.

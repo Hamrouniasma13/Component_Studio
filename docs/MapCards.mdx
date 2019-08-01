@@ -1,0 +1,43 @@
+---
+name: Map cards
+route: /map-cards
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { MapCard } from '../src'
+
+# Map Cards
+
+Display a list of options with addresses on the side, to be interactive with `GoogleMaps` component.
+
+<Playground>
+  <MapCard
+    title="Su PING CHEON"
+    subTitle="General Practitioner"
+    description="Shop 14, commercial complex, WAH FU (II) ESTATE"
+    phoneNumber="+852 555 555 555"
+    isSelected={false}
+  />
+  <MapCard
+    title="Su PING CHEON"
+    subTitle="General Practitioner"
+    description="Shop 14, commercial complex, WAH FU (II) ESTATE"
+    phoneNumber="+852 555 555 555"
+    isSelected
+  />
+  <MapCard
+    title="Su PING CHEON"
+    subTitle="General Practitioner"
+    description="Shop 14, commercial complex, WAH FU (II) ESTATE"
+    phoneNumber="+852 555 555 555"
+    isSelected={false}
+  />
+  <MapCard
+    title="Su PING CHEON Su PING CHEON Su PING CHEON"
+    subTitle="General Practitioner General Practitioner General Practitioner  General Practitioner"
+    description="Shop 14, commercial complex, WAH FU (II) ESTATEShop 14, commercial complex, WAH FU (II) ESTATEShop 14, commercial complex, WAH FU (II) ESTATE"
+    phoneNumber="+852 555 555 555"
+    isSelected={false}
+  />
+</Playground>

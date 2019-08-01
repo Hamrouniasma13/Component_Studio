@@ -1,0 +1,50 @@
+---
+name: Pension dashboard
+route: /pension-dashboard
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { PensionDashboard } from '../src'
+
+# Pension dashboard
+
+<Playground fullBleed noPadding>
+  <PensionDashboard
+    title="Retraite"
+    pensionTitle="Retraite au 31/12/2017"
+    inProgress={{
+      label: 'Encours global',
+      value: '14 783 562,50€',
+    }}
+    incomes={[
+      {
+        pill: { color: 'third' },
+        title: 'Cotisations obligatoires',
+        value: '998 115,47 €',
+      },
+      {
+        pill: { color: 'fourth' },
+        title: 'Versements volontaires',
+        value: '139 310 €',
+      },
+    ]}
+    link={{
+      label: 'Voir le détail',
+      url: 'https://www.google.fr',
+    }}
+    distributionTitle="Répartition au 31/12/2017"
+    distributionItems={[
+      {
+        label: 'Salariés présents et sortis',
+        value: '1510',
+        color: 'secondary',
+      },
+      {
+        label: 'Rentiers',
+        value: 34,
+        color: 'fifth',
+      },
+    ]}
+  />
+</Playground>

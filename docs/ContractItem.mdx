@@ -1,0 +1,59 @@
+---
+name: Contract item
+route: /contract-item
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { ContractItem } from '../src'
+
+# Contract item
+
+<Playground>
+  <ContractItem
+    title="4902802724 :: Savings"
+    link="/contract/490"
+    color="third"
+    icon="cog"
+    items={[
+      {
+        label: 'Denier appel de cotisations (T4 2018)',
+        value: "329,14 € TTC"
+      },
+      {
+        label: 'Dernier règlement reçu (T4 2018)',
+        value: "30,51 € TTC"
+      },
+      {
+        label: 'Salariés',
+        value: '7'
+      },
+      {
+        label: 'Collège',
+        value: 'Ensemble du personnel, cadres supérieurs'
+      },
+      {
+        label: 'Type',
+        value: 'Collectif'
+      },
+      {
+        label: 'Nature',
+        value: 'Socle'
+      }
+    ]}
+    actions={[
+      {
+        href: 'http://google.fr',
+        icon: 'goto',
+        label: 'Google',
+        title: 'Go to google'
+      },
+      {
+        href: 'http://google.fr',
+        icon: 'down'
+      }
+    ]}
+
+/>
+
+</Playground>

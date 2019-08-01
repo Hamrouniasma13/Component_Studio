@@ -1,0 +1,983 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <NavigationBanner /> render snapshot 1`] = `
+.emotion-55 {
+  background-color: #00adc6;
+  padding-top: 55px;
+  padding-bottom: 30px;
+}
+
+.emotion-54 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-54 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-54 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-54 {
+    width: 1140px;
+  }
+}
+
+.emotion-0 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 36px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 48px;
+    -webkit-letter-spacing: 1.4px;
+    -moz-letter-spacing: 1.4px;
+    -ms-letter-spacing: 1.4px;
+    letter-spacing: 1.4px;
+    line-height: 1.15em;
+  }
+}
+
+.emotion-53 {
+  padding-bottom: 50px;
+}
+
+.emotion-53 .slick-list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.emotion-53 .slick-slider .slick-dots li {
+  margin: 0;
+}
+
+.emotion-53 .slick-slider .slick-dots li button:before {
+  color: white;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-53 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.emotion-2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 30px;
+  color: white;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  background-color: rgba(0,0,0,0.1);
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  left: -30px;
+}
+
+.emotion-2 div {
+  -webkit-transition: -webkit-transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.emotion-2:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.emotion-2:active div {
+  -webkit-animation: animation-193sw1 0.2s;
+  animation: animation-193sw1 0.2s;
+}
+
+.emotion-1 {
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+.emotion-5 {
+  width: 260px;
+  min-height: 210px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  display: block;
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+.emotion-5:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.25),0 6px 8px rgba(0,0,0,0.22);
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-5 {
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-5 {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+}
+
+.emotion-3 {
+  will-change: opacity;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  opacity: 0;
+  width: 100%;
+  height: 130px;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+}
+
+.emotion-4 {
+  background-color: #fff;
+  color: #333333;
+  padding: 15px 30px;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.emotion-52 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 30px;
+  color: white;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  background-color: rgba(0,0,0,0.1);
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  right: -30px;
+}
+
+.emotion-52 div {
+  -webkit-transition: -webkit-transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.emotion-52:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.emotion-52:active div {
+  -webkit-animation: animation-1ndrkyw 0.2s;
+  animation: animation-1ndrkyw 0.2s;
+}
+
+<div
+  className="emotion-55"
+>
+  <div
+    className="emotion-54"
+  >
+    <h1
+      className="emotion-0"
+      size={undefined}
+    >
+      Hello Anna, nice to meet you
+    </h1>
+    <div
+      className="emotion-53"
+    >
+      <div
+        className="slick-slider slick-initialized"
+        dir="ltr"
+      >
+        <div
+          className="emotion-2"
+          color="white"
+          onClick={[Function]}
+        >
+          <div
+            className="emotion-1"
+            colorindex={undefined}
+            fill="currentColor"
+            size="100%"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="100%"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width="100%"
+            >
+              <path
+                d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="slick-list"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={null}
+          onMouseMove={null}
+          onMouseUp={[Function]}
+          onTouchCancel={null}
+          onTouchEnd={[Function]}
+          onTouchMove={null}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="slick-track"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                "WebkitTransition": "",
+                "msTransform": "translateX(0px)",
+                "opacity": 1,
+                "transform": "translate3d(0px, 0px, 0px)",
+                "transition": "",
+              }
+            }
+          >
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-4}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="univers"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Join passionate of astronomy, like you
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-3}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="ocean"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    You like travelling ? Meet people like you
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="building"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    This architecte is famous. Learn why
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="frooooogs"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Frogs are our friends. Love them
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active slick-current"
+              data-index={0}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="piano"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Take musique lesson with a professionnal
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="strawberries"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Cooking lesson, 1st is free
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="univers"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Join passionate of astronomy, like you
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={3}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="ocean"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    You like travelling ? Meet people like you
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={4}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="building"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    This architecte is famous. Learn why
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={5}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="frooooogs"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Frogs are our friends. Love them
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={6}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="piano"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Take musique lesson with a professionnal
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={7}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="strawberries"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Cooking lesson, 1st is free
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={8}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="univers"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Join passionate of astronomy, like you
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={9}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="ocean"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    You like travelling ? Meet people like you
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={10}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="building"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    This architecte is famous. Learn why
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={11}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <a
+                  className="emotion-5"
+                  draggable="false"
+                  href="http://www.google.com"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <img
+                    alt="frooooogs"
+                    className="emotion-3"
+                    src={undefined}
+                  />
+                  <div
+                    className="emotion-4"
+                  >
+                    Frogs are our friends. Love them
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="emotion-52"
+          color="white"
+          onClick={[Function]}
+        >
+          <div
+            className="emotion-1"
+            colorindex={undefined}
+            fill="currentColor"
+            size="100%"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="100%"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width="100%"
+            >
+              <path
+                d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <ul
+          className="slick-dots"
+          onMouseEnter={null}
+          onMouseLeave={null}
+          onMouseOver={null}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <li
+            className="slick-active"
+          >
+            <button
+              onClick={[Function]}
+            >
+              1
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              2
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              3
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              4
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              5
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              6
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a
+      href="/"
+    >
+      Click me to scroll
+    </a>
+  </div>
+</div>
+`;

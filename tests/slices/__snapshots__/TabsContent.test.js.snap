@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <TabsContent /> snapshot 1`] = `
+.emotion-15 {
+  background-color: #fafafa;
+}
+
+.emotion-14 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-14 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-14 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-14 {
+    width: 1140px;
+  }
+}
+
+.emotion-14:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-14 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-12 {
+    margin-top: 30px;
+    width: 20%;
+    float: left;
+  }
+}
+
+.emotion-2 {
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  text-transform: uppercase;
+  color: #494df4;
+  display: table;
+  border-bottom: 1px solid #e5e5e5;
+  height: 61px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-2 {
+    color: #000000;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    display: block;
+    text-transform: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-weight: 300;
+    height: auto;
+    border-bottom: 0;
+    padding-bottom: 30px;
+  }
+}
+
+.emotion-0 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.emotion-1 {
+  color: inherit;
+  height: 28px;
+  width: 28px;
+  -webkit-transition: -webkit-transform 0.3s,color 0.3s;
+  -webkit-transition: transform 0.3s,color 0.3s;
+  transition: transform 0.3s,color 0.3s;
+  -webkit-transform: translate(0,-50%) rotate(180deg);
+  -ms-transform: translate(0,-50%) rotate(180deg);
+  transform: translate(0,-50%) rotate(180deg);
+  color: #494df4;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-1 {
+    display: none !important;
+  }
+}
+
+.emotion-3 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 798px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: #333333;
+  margin: 20px auto;
+  display: none;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-3 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-3 {
+    width: 1140px;
+  }
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-13 {
+  display: none;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-13 {
+    display: block;
+    width: 80%;
+    float: right;
+    background: white;
+  }
+}
+
+<div
+  className="emotion-15"
+>
+  <div
+    className="emotion-14"
+  >
+    <div
+      className="emotion-12"
+    >
+      <div>
+        <div
+          className="emotion-2"
+          onClick={[Function]}
+        >
+          <div
+            className="emotion-0"
+          >
+            Se connecter à l'espace client
+          </div>
+          <div
+            className="emotion-1"
+            colorindex={undefined}
+            fill="currentColor"
+            open={false}
+            size={28}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height={28}
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={28}
+            >
+              <path
+                d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="emotion-3"
+        >
+          1Ex eiusmod id consequat laborum.
+        </div>
+      </div>
+      <div>
+        <div
+          className="emotion-2"
+          onClick={[Function]}
+        >
+          <div
+            className="emotion-0"
+          >
+            Mon identifiant de connexion
+          </div>
+          <div
+            className="emotion-1"
+            colorindex={undefined}
+            fill="currentColor"
+            open={false}
+            size={28}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height={28}
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={28}
+            >
+              <path
+                d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="emotion-3"
+        >
+          2Reprehenderit irure eiusmod duis sint officia proident elit.
+        </div>
+      </div>
+      <div>
+        <div
+          className="emotion-2"
+          onClick={[Function]}
+        >
+          <div
+            className="emotion-0"
+          >
+            Code confidentielle
+          </div>
+          <div
+            className="emotion-1"
+            colorindex={undefined}
+            fill="currentColor"
+            open={false}
+            size={28}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "inline-flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height={28}
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={28}
+            >
+              <path
+                d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="emotion-3"
+        >
+          3Laboris labore nisi nostrud enim commodo ad consequat sit ullamco ex velit occaecat pariatur.
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-13"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <path id="eb-add-a" d="M19.3636364,20.6363636 L13,20.6363636 L13,19.3636364 L19.3636364,19.3636364 L19.3636364,13 L20.6363636,13 L20.6363636,19.3636364 L27,19.3636364 L27,20.6363636 L20.6363636,20.6363636 L20.6363636,27 L19.3636364,27 L19.3636364,20.6363636 Z"/>
+  </defs>
+  <use fill-rule="evenodd" transform="translate(-13 -13)" xlink:href="#eb-add-a"/>
+</svg>

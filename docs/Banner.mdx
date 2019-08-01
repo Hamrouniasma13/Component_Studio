@@ -1,0 +1,25 @@
+---
+name: Banner
+route: /banner
+menu: 🌐 Organisms
+---
+
+## Type: `Organism`
+
+import { Playground } from 'docz'
+import { Banner } from '../src'
+
+# Banner
+
+<Playground>
+  <Banner
+    cover="https://picsum.photos/1920?image=1051"
+    category="Travels"
+    title="My travels around the world"
+    subtitle="I'll explain to you where I go, what I see, and how to do the same"
+    action={{
+      url: 'https://www.trivago.fr',
+      label: 'Check on trivago',
+    }}
+  />
+</Playground>

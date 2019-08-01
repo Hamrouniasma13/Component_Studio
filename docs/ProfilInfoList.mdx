@@ -1,0 +1,50 @@
+---
+name: Profil list info (deprecated)
+route: /profil-list-info
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { ProfilInfoList } from '../src'
+
+# Profil Info List
+
+<Playground>
+  <ProfilInfoList
+    title="RND Compagny Information"
+    tableTitle="Compagny Information"
+    infos={[
+      {
+        label: 'Nom',
+        value: 'Mme Anne Dupont',
+      },
+      {
+        label: 'Date de naissance',
+        value: '8 mai 1983',
+      },
+      {
+        label: 'Phone number',
+        value: '03 43 92 54 13',
+      },
+      {
+        label: 'Adresse mail',
+        value: 'Anne.Dupont@fake-axa.fr',
+      },
+      {
+        label: 'Adresse',
+        value: '42 rue Marx Dormoy 54829 Triffouilli-les-oies',
+      },
+    ]}
+    actions={[
+      {
+        label: 'Modifier mes coordonnées',
+        link: 'https://www.google.fr',
+      },
+      {
+        label: 'Modifier mon mot de passe',
+        link: 'https://www.google.fr',
+      },
+    ]}
+    image="https://www.w3schools.com/howto/img_forest.jpg"
+  />
+</Playground>

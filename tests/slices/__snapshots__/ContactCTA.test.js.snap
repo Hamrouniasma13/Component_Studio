@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <NavigationBanner /> render snapshot 1`] = `
+.emotion-6 {
+  background-color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.emotion-5 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-5 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-5 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-5 {
+    width: 1140px;
+  }
+}
+
+.emotion-4 {
+  min-height: 140px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+  }
+}
+
+.emotion-0 {
+  margin-bottom: 15px;
+  max-width: 80px;
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-0 {
+    float: left;
+  }
+}
+
+.emotion-1 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.emotion-1 p > a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #494df4;
+  font-weight: bold;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-1 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-1 {
+    text-align: left;
+    margin-left: 120px;
+    max-width: 540px;
+  }
+}
+
+.emotion-3 {
+  margin-top: 30px;
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-3 {
+    float: right;
+    display: block;
+    top: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    margin-top: -20px;
+  }
+}
+
+.emotion-2 {
+  cursor: pointer;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #494df4;
+  color: #ffffff;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-letter-spacing: 1.1px;
+  -moz-letter-spacing: 1.1px;
+  -ms-letter-spacing: 1.1px;
+  letter-spacing: 1.1px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  max-width: 700px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+}
+
+.emotion-2:after {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #000014;
+  content: "";
+  height: 530px;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.emotion-2:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  -ms-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+  width: 100%;
+}
+
+<div
+  className="emotion-6"
+>
+  <div
+    className="emotion-5"
+  >
+    <div
+      className="emotion-4"
+    >
+      <img
+        alt="My logo"
+        className="emotion-0"
+        src="https://prismic-io.s3.amazonaws.com/mini-site%2F2b35a26c-7599-47b4-b962-3eb57379a147_logo.png"
+      />
+      <p
+        className="emotion-1"
+      >
+        Et velit officia nulla nostrud enim Lorem dolor et laboris ut consectetur.
+      </p>
+      <div
+        className="emotion-3"
+      >
+        <a
+          aria-current="page"
+          className="Button  emotion-2 active"
+          color="primary"
+          href="/"
+          onClick={[Function]}
+          size="normal"
+          style={Object {}}
+        >
+          accès au service
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,845 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <FourCards /> render simpliest fourCards 1`] = `
+.emotion-33 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-33 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-33 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-33 {
+    width: 1140px;
+  }
+}
+
+.emotion-0 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 28px;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 36px;
+    -webkit-letter-spacing: 0.8px;
+    -moz-letter-spacing: 0.8px;
+    -ms-letter-spacing: 0.8px;
+    letter-spacing: 0.8px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-32 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+.emotion-6 {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+  min-height: 380px;
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-6 {
+    -webkit-flex: 0 1 48%;
+    -ms-flex: 0 1 48%;
+    flex: 0 1 48%;
+    height: 380px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-2 {
+    width: 45%;
+  }
+}
+
+.emotion-1 {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-1 {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-4 {
+  margin: 20px;
+  color: #333333;
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-4 {
+    margin: 0px;
+    width: 55%;
+    padding: 30px;
+  }
+}
+
+.emotion-3 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.emotion-25 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.emotion-25 p > a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #494df4;
+  font-weight: bold;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-25 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+.emotion-11 {
+  padding-left: 0;
+  position: absolute;
+  bottom: 10px;
+}
+
+.emotion-9 {
+  display: block;
+  color: #494df4;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.emotion-9:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-18 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.emotion-18 p > a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #494df4;
+  font-weight: bold;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-18 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+<div
+  className="emotion-33"
+>
+  <h1
+    className="emotion-0"
+    size="typo2"
+  />
+  <div
+    className="emotion-32"
+  >
+    <div
+      className="emotion-6"
+    >
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-2"
+        >
+          <picture>
+            <img
+              alt="Achitechture"
+              className="emotion-1"
+              src="https://picsum.photos/546/970?image=670"
+            />
+          </picture>
+        </div>
+        <div
+          className="emotion-4"
+        >
+          <h1
+            className="emotion-3"
+            size="typo5"
+          >
+            Médecine et soins courants
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-6"
+    >
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-2"
+        >
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcSet="https://picsum.photos/546/307?image=903"
+            />
+            <source
+              media="(max-width: 1199px)"
+              srcSet="https://picsum.photos/737/415?image=903"
+            />
+            <img
+              alt="Achitechture"
+              className="emotion-1"
+              src="https://picsum.photos/238/380?image=903"
+            />
+          </picture>
+        </div>
+        <div
+          className="emotion-4"
+        >
+          <ul
+            className="emotion-11"
+          >
+            <a
+              className="emotion-9"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              En savoir plus
+            </a>
+            <a
+              className="emotion-9"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Estimer mon reste à charge
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-6"
+    >
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-2"
+        >
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcSet="https://picsum.photos/546/307?image=718"
+            />
+            <source
+              media="(max-width: 1199px)"
+              srcSet="https://picsum.photos/737/415?image=718"
+            />
+            <img
+              alt="Achitechture"
+              className="emotion-1"
+              src="https://picsum.photos/238/380?image=718"
+            />
+          </picture>
+        </div>
+        <div
+          className="emotion-4"
+        >
+          <h1
+            className="emotion-3"
+            size="typo5"
+          >
+            Optique
+          </h1>
+          <div
+            className="emotion-18"
+          >
+            Prise en charge à partir de #100€ pour les montures et #160€ pour les verres.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-6"
+    >
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-2"
+        >
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcSet="https://picsum.photos/546/307?image=433"
+            />
+            <source
+              media="(max-width: 1199px)"
+              srcSet="https://picsum.photos/737/415?image=433"
+            />
+            <img
+              alt="Achitechture"
+              className="emotion-1"
+              src="https://picsum.photos/238/380?image=433"
+            />
+          </picture>
+        </div>
+        <div
+          className="emotion-4"
+        >
+          <h1
+            className="emotion-3"
+            size="typo5"
+          >
+            Hôpital
+          </h1>
+          <div
+            className="emotion-25"
+          >
+            Préparez au mieux votre intervention ou celle d’un proche avec notre service Hospiway. 
+          </div>
+          <ul
+            className="emotion-11"
+          >
+            <a
+              className="emotion-9"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              En savoir plus
+            </a>
+            <a
+              className="emotion-9"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Estimer mon reste à charge
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Component: <FourCards /> render snapshot 1`] = `
+.emotion-42 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-42 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-42 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-42 {
+    width: 1140px;
+  }
+}
+
+.emotion-0 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 28px;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 36px;
+    -webkit-letter-spacing: 0.8px;
+    -moz-letter-spacing: 0.8px;
+    -ms-letter-spacing: 0.8px;
+    letter-spacing: 0.8px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-41 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+.emotion-10 {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+  min-height: 380px;
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-10 {
+    -webkit-flex: 0 1 48%;
+    -ms-flex: 0 1 48%;
+    flex: 0 1 48%;
+    height: 380px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-2 {
+    width: 45%;
+  }
+}
+
+.emotion-1 {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-1 {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-8 {
+  margin: 20px;
+  color: #333333;
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-8 {
+    margin: 0px;
+    width: 55%;
+    padding: 30px;
+  }
+}
+
+.emotion-3 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.emotion-4 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.emotion-4 p > a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #494df4;
+  font-weight: bold;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-4 {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+.emotion-7 {
+  padding-left: 0;
+  position: absolute;
+  bottom: 10px;
+}
+
+.emotion-5 {
+  display: block;
+  color: #494df4;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.emotion-5:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div
+  className="emotion-42"
+>
+  <h1
+    className="emotion-0"
+    size="typo2"
+  >
+    Mes contrats
+  </h1>
+  <div
+    className="emotion-41"
+  >
+    <div
+      className="emotion-10"
+    >
+      <div
+        className="emotion-9"
+      >
+        <div
+          className="emotion-2"
+        >
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcSet="https://picsum.photos/546/307?image=670"
+            />
+            <source
+              media="(max-width: 1199px)"
+              srcSet="https://picsum.photos/737/415?image=670"
+            />
+            <img
+              alt="Achitechture"
+              className="emotion-1"
+              src="https://picsum.photos/238/380?image=670"
+            />
+          </picture>
+        </div>
+        <div
+          className="emotion-8"
+        >
+          <h1
+            className="emotion-3"
+            size="typo5"
+          >
+            Médecine et soins courants
+          </h1>
+          <div
+            className="emotion-4"
+          >
+            Généralistes, cardiologue, etc. adhérent au CAS, vous êtes intégralement remboursés [0€ de reste à charge] sauf dans quelques cas.
+          </div>
+          <ul
+            className="emotion-7"
+          >
+            <a
+              className="emotion-5"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Voir les détails de mes garanties
+            </a>
+            <a
+              className="emotion-5"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Estimer mon reste à charge
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-10"
+    >
+      <div
+        className="emotion-9"
+      >
+        <div
+          className="emotion-2"
+        >
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcSet="https://picsum.photos/546/307?image=903"
+            />
+            <source
+              media="(max-width: 1199px)"
+              srcSet="https://picsum.photos/737/415?image=903"
+            />
+            <img
+              alt="Achitechture"
+              className="emotion-1"
+              src="https://picsum.photos/238/380?image=903"
+            />
+          </picture>
+        </div>
+        <div
+          className="emotion-8"
+        >
+          <h1
+            className="emotion-3"
+            size="typo5"
+          >
+            Dentaire
+          </h1>
+          <div
+            className="emotion-4"
+          >
+            Prise en charge en fonction de l’intervention et de la position de la dent.
+          </div>
+          <ul
+            className="emotion-7"
+          >
+            <a
+              className="emotion-5"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              En savoir plus
+            </a>
+            <a
+              className="emotion-5"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Estimer mon reste à charge
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-10"
+    >
+      <div
+        className="emotion-9"
+      >
+        <div
+          className="emotion-2"
+        >
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcSet="https://picsum.photos/546/307?image=718"
+            />
+            <source
+              media="(max-width: 1199px)"
+              srcSet="https://picsum.photos/737/415?image=718"
+            />
+            <img
+              alt="Achitechture"
+              className="emotion-1"
+              src="https://picsum.photos/238/380?image=718"
+            />
+          </picture>
+        </div>
+        <div
+          className="emotion-8"
+        >
+          <h1
+            className="emotion-3"
+            size="typo5"
+          >
+            Optique
+          </h1>
+          <div
+            className="emotion-4"
+          >
+            Prise en charge à partir de #100€ pour les montures et #160€ pour les verres.
+          </div>
+          <ul
+            className="emotion-7"
+          >
+            <a
+              className="emotion-5"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              En savoir plus
+            </a>
+            <a
+              className="emotion-5"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Estimer mon reste à charge
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-10"
+    >
+      <div
+        className="emotion-9"
+      >
+        <div
+          className="emotion-2"
+        >
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcSet="https://picsum.photos/546/307?image=433"
+            />
+            <source
+              media="(max-width: 1199px)"
+              srcSet="https://picsum.photos/737/415?image=433"
+            />
+            <img
+              alt="Achitechture"
+              className="emotion-1"
+              src="https://picsum.photos/238/380?image=433"
+            />
+          </picture>
+        </div>
+        <div
+          className="emotion-8"
+        >
+          <h1
+            className="emotion-3"
+            size="typo5"
+          >
+            Hôpital
+          </h1>
+          <div
+            className="emotion-4"
+          >
+            Préparez au mieux votre intervention ou celle d’un proche avec notre service Hospiway. 
+          </div>
+          <ul
+            className="emotion-7"
+          >
+            <a
+              className="emotion-5"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              En savoir plus
+            </a>
+            <a
+              className="emotion-5"
+              href="https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh"
+              onClick={[Function]}
+              target="_blank"
+            >
+              Estimer mon reste à charge
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

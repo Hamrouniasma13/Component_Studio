@@ -1,0 +1,55 @@
+---
+name: Article list
+route: /article-list
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { ArticleList, Slice } from '../src'
+
+# ArticleList
+
+<Playground>
+  <ArticleList
+    items={[
+      {
+        date: '16 JANV 2018',
+        title: 'Qui nisi adipisicing et ipsum irure velit velit et 1',
+        category: 'Nouvelles',
+        link: { url: '/' },
+      },
+      {
+        date: '17 JANV 2018',
+        title: 'Veniam elit eu consequat et 2',
+        category: 'Nouvelles',
+        link: { url: '/' },
+      },
+      {
+        date: '18 JANV 2018',
+        title: 'Ex irure sunt qui deserunt aliquip deserunt nisi 3',
+        category: 'Nouvelles',
+        link: { url: '/' },
+      },
+      {
+        date: '19 JANV 2018',
+        title:
+          'Ea consectetur mollit occaecat exercitation consequat ullamco adipisicing aliqua 4',
+        category: 'Nouvelles',
+        link: { url: '/' },
+      },
+      {
+        date: '19 JANV 2018',
+        title:
+          'Ea consectetur mollit occaecat exercitation consequat ullamco adipisicing.Ea consectetur mollit occaecat exercitation consequat ullamco adipisicing aliqua 4',
+        category: 'Nouvelles',
+        link: { url: '/' },
+      },
+      {
+        date: '20 JANV 2018',
+        title: 'Quis ut ex 5',
+        category: 'Nouvelles',
+        link: { url: '/' },
+      },
+    ]}
+  />
+</Playground>

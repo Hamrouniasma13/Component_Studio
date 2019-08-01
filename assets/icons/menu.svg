@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <path id="eb-menu-a" d="M8,20.3478261 L8,19.3043478 L32,19.3043478 L32,20.3478261 L8,20.3478261 Z M8,13.0434783 L8,12 L32,12 L32,13.0434783 L8,13.0434783 Z M8,27.6521739 L8,26.6086957 L32,26.6086957 L32,27.6521739 L8,27.6521739 Z"/>
+  </defs>
+  <use fill-rule="evenodd" transform="translate(-8 -12)" xlink:href="#eb-menu-a"/>
+</svg>

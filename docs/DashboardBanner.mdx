@@ -1,0 +1,33 @@
+---
+name: Dashboard banner
+route: /dashboard-banner
+menu: 🧰 Technical
+---
+
+import { Playground } from 'docz'
+import { DashboardBanner, SearchAction } from '../src'
+
+# DashboardBanner
+
+<Playground fullBleed noPadding>
+  <DashboardBanner
+    title="Mes contrats"
+    backgroundColor="#00adc6"
+    description="Exercitation quis veniam nisi do labore consectetur est magna consequat."
+  >
+    <SearchAction
+      label="Rechercher un salarié"
+      placeholder="Rechercher un salarié"
+      submitLabel="Rechercher"
+      onSubmit={console.log}
+    />
+  </DashboardBanner>
+</Playground>
+
+<Playground fullBleed noPadding>
+  <DashboardBanner
+    title="Mes contrats"
+    backgroundColor="#00adc6"
+    description="Exercitation quis veniam nisi do labore consectetur est magna consequat."
+  />
+</Playground>

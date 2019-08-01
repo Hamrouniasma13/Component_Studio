@@ -1,0 +1,130 @@
+---
+name: Form Infos
+route: /form-infos
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { FormInfos } from '../src'
+
+# Form Infos
+
+## FormInfos Component
+
+<Playground>
+  <FormInfos
+    title="Employee Information"
+    infos={[
+      {
+        label: 'Nom',
+        value: 'Mme Anne Dupont',
+      },
+      {
+        label: 'Date de naissance',
+        value: '8 mai 1983',
+      },
+      {
+        label: 'Phone number',
+        value: '03 43 92 54 13',
+      },
+      {
+        label: 'Adresse mail',
+        value: 'Anne.Dupont@fake-axa.fr',
+      },
+      {
+        label: 'Adresse',
+        value: '42 rue Marx Dormoy 54829 Triffouilli-les-oies',
+      },
+    ]}
+    actions={[
+      {
+        href: 'http://google.fr',
+        icon: 'goto',
+        label: 'Google',
+        title: 'Go to google',
+      },
+      {
+        href: 'http://google.fr',
+        icon: 'down',
+      },
+    ]}
+  />
+</Playground>
+
+## complex FormInfos
+
+<Playground>
+  <FormInfos
+    enableShrank={true}
+    shrankCount={1}
+    shrankLabel={'YOOO'}
+    title="Employee Information"
+    infos={[
+      {
+        label: 'Nom',
+        value: 'Mme Anne Dupont',
+      },
+      {
+        label: 'Date de naissance',
+        value: '8 mai 1983',
+      },
+      {
+        label: 'Phone number',
+        value: '03 43 92 54 13',
+      },
+      {
+        label: 'Adresse mail',
+        value: 'Anne.Dupont@fake-axa.fr',
+      },
+      {
+        label: 'Adresse',
+        value: '42 rue Marx Dormoy 54829 Triffouilli-les-oies',
+      },
+    ]}
+    actions={[
+      {
+        href: 'http://google.fr',
+        icon: 'goto',
+        label: 'Google',
+        title: 'Go to google',
+      },
+      {
+        href: 'http://google.fr',
+        icon: 'down',
+      },
+    ]}
+  />
+</Playground>
+
+## complex FormInfos
+
+<Playground>
+  <FormInfos
+    enableShrank={true}
+    shrankCount={2}
+    shrankLabel={'YOOO'}
+    title="Employee Information"
+    infos={[
+      {
+        label: 'Nom',
+        value: 'Mme Anne Dupont',
+      },
+      {
+        label: 'Date de naissance',
+        value: '8 mai 1983',
+      },
+    ]}
+    actions={[
+      {
+        href: 'http://google.fr',
+        icon: 'goto',
+        label: 'Google',
+        title: 'Go to google',
+      },
+      {
+        href: 'http://google.fr',
+        icon: 'down',
+      },
+    ]}
+  />
+</Playground>

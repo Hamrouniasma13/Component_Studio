@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="49px" viewBox="0 0 38 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>48px_pin-delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-22.2%" y="-17.4%" width="144.4%" height="134.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="HK---HR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HK---Services---Find-a-doctor-list" transform="translate(-853.000000, -455.000000)" fill-rule="nonzero">
+            <g id="48px_pin-delete" filter="url(#filter-1)" transform="translate(852.000000, 454.000000)">
+                <path d="M18,46 C17.7348052,46 17.4804927,45.8945494 17.293,45.707 C16.627,45.042 1,29.285 1,18 C0.955731235,13.4778939 2.73257845,9.12810869 5.93034357,5.93034357 C9.12810869,2.73257845 13.4778939,0.955731235 18,1 C22.5221061,0.955731235 26.8718913,2.73257845 30.0696564,5.93034357 C33.2674216,9.12810869 35.0442688,13.4778939 35,18 C35,29.285 19.373,45.042 18.707,45.707 C18.5195073,45.8945494 18.2651948,46 18,46 Z" id="Path" fill="#005792"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="18" cy="18" r="6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

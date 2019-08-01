@@ -1,0 +1,151 @@
+---
+name: Quick news (bug)
+route: /quick-news
+menu: 💥 Bugs
+---
+
+import { Playground } from 'docz'
+import { QuickNews } from '../src'
+
+# QuickNews
+
+## Simple Quick news
+
+Simple quick news without images and category
+
+<Playground fullBleed noPadding>
+  <QuickNews
+    title="Actualités"
+    action={{
+      url: '/',
+      label: 'Voir toutes mes actualités',
+    }}
+    news={[
+      {
+        title: 'AXA passe à 100% d’électricité durable d’ici 2025',
+        content:
+          'Ce 11 juillet, je suis fière d’annoncer qu’AXA va rejoindre le mouvement RE100, en s’engageant à se procurer 100% de son électricité auprès de sources…',
+        url: '/',
+      },
+      {
+        title: 'AXA Quiz : 2017 en 15 questions',
+        content:
+          "Que connaissez-vous de l'actualité d'AXA en 2017 ? Testez vos connaissances en jouant à notre quiz de fin d'année !",
+        url: '/',
+      },
+      {
+        title:
+          'Rencontre avec Jeffrey, bénévole aux Philippines avec AXA Atout Cœur',
+        content:
+          'À l’occasion de la Journée internationale des volontaires ce 5 décembre, AXA met en lumière les initiatives des bénévoles du réseau international AXA Atout Cœur à…',
+        url: '/',
+      },
+    ]}
+  />
+</Playground>
+
+## Detailed Quick news without image
+
+Quicknews only with a category
+
+<Playground fullBleed noPadding>
+  <QuickNews
+    title="Actualités"
+    action={{
+      url: '/',
+      label: 'Voir toutes mes actualités',
+    }}
+    news={[
+      {
+        category: {
+          url: 'http://www.google.com',
+          label: 'News',
+        },
+        title: 'AXA passe à 100% d’électricité durable d’ici 2025',
+        content:
+          'Ce 11 juillet, je suis fière d’annoncer qu’AXA va rejoindre le mouvement RE100, en s’engageant à se procurer 100% de son électricité auprès de sources…',
+        url: '/',
+      },
+      {
+        category: {
+          url: 'http://www.google.com',
+          label: 'Story',
+        },
+        title: 'AXA Quiz : 2017 en 15 questions',
+        content:
+          "Que connaissez-vous de l'actualité d'AXA en 2017 ? Testez vos connaissances en jouant à notre quiz de fin d'année !",
+        url: '/',
+      },
+      {
+        category: {
+          url: 'http://www.google.com',
+          label: 'Article',
+        },
+        title:
+          'Rencontre avec Jeffrey, bénévole aux Philippines avec AXA Atout Cœur',
+        content:
+          'À l’occasion de la Journée internationale des volontaires ce 5 décembre, AXA met en lumière les initiatives des bénévoles du réseau international AXA Atout Cœur à…',
+        url: '/',
+      },
+    ]}
+  />
+</Playground>
+
+## Detailed Quick news image + category
+
+Quicknews with a category and a image
+
+<Playground fullBleed noPadding>
+  <QuickNews
+    title="Actualités"
+    action={{
+      url: '/',
+      label: 'Voir toutes mes actualités',
+    }}
+    news={[
+      {
+        image: {
+          url: 'https://picsum.photos/546/270',
+          alt: 'my photo',
+        },
+        category: {
+          url: 'http://www.google.com',
+          label: 'Story',
+        },
+        title: 'AXA passe à 100% d’électricité durable d’ici 2025',
+        content:
+          'Ce 11 juillet, je suis fière d’annoncer qu’AXA va rejoindre le mouvement RE100, en s’engageant à se procurer 100% de son électricité auprès de sources…',
+        url: '/',
+      },
+      {
+        image: {
+          url: 'https://picsum.photos/546/270',
+          alt: 'my photo',
+        },
+        category: {
+          url: 'http://www.google.com',
+          label: 'Story',
+        },
+        title: 'AXA Quiz : 2017 en 15 questions',
+        content:
+          "Que connaissez-vous de l'actualité d'AXA en 2017 ? Testez vos connaissances en jouant à notre quiz de fin d'année !",
+        url: '/',
+      },
+      {
+        image: {
+          url: 'https://picsum.photos/546/270',
+          alt: 'my photo',
+        },
+        category: {
+          url: 'http://www.google.com',
+          label: 'Story',
+        },
+        title:
+          'Rencontre avec Jeffrey, bénévole aux Philippines avec AXA Atout Cœur',
+        content:
+          'À l’occasion de la Journée internationale des volontaires ce 5 décembre, AXA met en lumière les initiatives des bénévoles du réseau international AXA Atout Cœur à…',
+        url: '/',
+      },
+    ]}
+  />
+</Playground>

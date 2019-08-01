@@ -1,0 +1,50 @@
+---
+name: Thumbnails (deprecated)
+route: /thumbnails
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { Thumbnails } from '../src'
+
+# Thumbnails
+
+Semantic
+
+- Main title is an `h2`
+- Cards title are `h3` tag
+- Content are wrapped in a span
+
+Colors :
+
+- `theme.colors.white` for texts
+- `#333` with `opacity: 0.4` for caption background
+
+The hover effect is disabled if there is url for a card.
+
+<Playground noPadding fullBleed>
+  <Thumbnails
+    title="This is a title"
+    cards={[
+      {
+        cover: 'https://picsum.photos/630/400?image=1084',
+        title: 'Title n°1',
+        text:
+          'Pariatur commodo id eu nostrud enim dolor et nisi sunt excepteur.',
+        target: 'https://www.google.fr',
+      },
+      {
+        cover: 'https://picsum.photos/630/400?image=1076',
+        title: 'Title n°2',
+        text:
+          'Aliquip magna nulla ex ut eu reprehenderit incididunt proident eu laborum ut eu irure.',
+        target: '/',
+      },
+      {
+        cover: 'https://picsum.photos/630/400?image=1062',
+        title: 'Title n°3',
+        text: 'Deserunt labore elit enim veniam ullamco Lorem.',
+      },
+    ]}
+  />
+</Playground>

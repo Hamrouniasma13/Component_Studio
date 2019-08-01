@@ -1,0 +1,45 @@
+---
+name: Absenteeism
+route: /absenteeism
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { Absenteeism } from '../src'
+
+## Type: `molecule`
+
+# Absenteeism
+
+This component should be used with the `Slice` component, to be fully functionnal.
+
+The color should be registered in `theme.colors`, and is display as the image background. It's defaulted to `transparent` if you don't provide one, or the color you provide is not in the theme colors.
+
+The image is maxed to `330*300`, and centered on the right panel. It's not display on mobile, and the right panel is displayed even if you don't provide an image.
+The right panel takes the height of the left panel, so the more items you push, the higher this component will looks.
+
+_PS: This component does not react well if you give too long label, so try to avoid that case._
+
+_PPS: it's called **Absenteeism** because it was it's original function, but you can use it for any other type of data, as long it feets your need_
+
+<Playground>
+  <Absenteeism
+    color="third"
+    image="https://upload.wikimedia.org/wikipedia/commons/0/02/Circle-icons-computer.svg"
+    title="Manage absenteeism"
+    items={[
+      {
+        value: '1',
+        label: "Contrat à signer d'urgence",
+      },
+      {
+        value: '3',
+        label: 'Employées font semblant de bosser',
+      },
+    ]}
+    link={{
+      url: 'https://www.google.fr',
+      label: 'En savoir plus',
+    }}
+  />
+</Playground>

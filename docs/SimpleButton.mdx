@@ -1,0 +1,46 @@
+---
+name: Simple button
+route: /simple-button
+menu: ⚛️ Atoms
+---
+
+import { Playground } from 'docz'
+import { SimpleButton } from '../src'
+
+# Simple Button
+
+The `SimpleButton` is a lighter version of the [`Button`](/button).
+
+<Playground>
+  <SimpleButton href="https://www.google.fr">Call to action</SimpleButton>
+</Playground>
+
+## Icon
+
+You can add icons, on the left or on the right, or an icon only.
+
+<Playground>
+  <div>
+    <SimpleButton icon="cog" />
+  </div>
+  <div>
+    <SimpleButton icon="left" iconPosition="left">
+      Call to Action
+    </SimpleButton>
+  </div>
+  <div>
+    <SimpleButton icon="cog" iconPosition="right">
+      Call to Action
+    </SimpleButton>
+  </div>
+</Playground>
+
+## Color
+
+You can change the text and icon color with `color` property, which should appear in the [theme](/theme#colors)
+
+<Playground>
+  <SimpleButton href="https://www.google.fr" color="secondary" icon="cog">
+    Call to action
+  </SimpleButton>
+</Playground>

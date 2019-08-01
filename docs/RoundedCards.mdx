@@ -1,0 +1,128 @@
+---
+name: Rounded cards (deprecated)
+route: /rounded-cards
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { RoundedCards } from '../src'
+
+# Rounded Cards
+
+Colors:
+
+- `#fafafa` for background color
+- `#fff` for image border
+- `theme.colors.text` for title and text
+- `theme.colors.white` for button background
+
+<Playground fullBleed noPadding>
+  <RoundedCards
+    title="My Cards"
+    cards={[
+      {
+        image: {
+          src:
+            'https://prismic-io.s3.amazonaws.com/mini-site%2F44c2952f-be54-4937-9a00-35dfb7676ad2_v-3%403x.jpg',
+          alt: 'architecture',
+        },
+        title: 'Visits this not that old Pyramid',
+        text:
+          'Aute anim ad sint tempor culpa culpa amet do consequat non consequat. Lorem tempor in voluptate tempor cillum aute magna eu veniam amet.',
+        action: {
+          url: 'https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh',
+          label: 'Discover',
+        },
+      },
+      {
+        image: {
+          src:
+            'https://prismic-io.s3.amazonaws.com/mini-site%2F8cc007c3-d500-4df2-9b7e-419e1bd76a8f_v-1%403x.jpg',
+          alt: 'car',
+        },
+        title: 'Do you want to buy some cars ?',
+        text:
+          'Cupidatat laborum sit sit culpa ea eiusmod nisi ea occaecat pariatur proident. Duis elit consequat elit dolor elit cupidatat aliquip voluptate voluptate incididunt reprehenderit. ',
+      },
+      {
+        image: {
+          src:
+            'https://prismic-io.s3.amazonaws.com/mini-site%2F3042eae0-cfb7-458e-b02d-e15bbcc8dbbc_v-2%403x.jpg',
+          alt: 'castle',
+        },
+        title: 'Visit germany and its incredible castles',
+        text:
+          'Aliqua ut tempor irure aute nulla duis aute magna. Amet incididunt ut enim cupidatat mollit. Ipsum adipisicing excepteur qui sunt proident excepteur aute.',
+        action: {
+          url: 'http://www.chateau-amboise.com/',
+          label: 'Discover',
+        },
+      },
+      {
+        image: {
+          src: 'https://picsum.photos/200/?image=1044',
+          alt: 'Forest',
+        },
+        title: 'Forest',
+        text: 'Eiusmod et id quis elit consequat non sint.',
+        action: {
+          url: 'https://fr.wiktionary.org/wiki/for%C3%AAt#fr',
+          label: 'Discover',
+        },
+      },
+      {
+        image: {
+          src: 'https://picsum.photos/200/?image=1011',
+          alt: 'kayak',
+        },
+        title: 'Ready fo Kayak ?',
+        text:
+          'Minim esse et ex eiusmod veniam. Irure dolor nostrud qui pariatur et. Sit enim quis voluptate ex ullamco ad veniam aliquip consequat incididunt culpa sit.',
+      },
+    ]}
+    action={{
+      url: '/',
+      label: 'Back To Home',
+    }}
+  />
+</Playground>
+
+## Card content as element
+
+- It's not mandatory to have 3 or more cards. You can have less, but think about you design first.
+- `title` and `action` are optionnal props.
+- You use element as card content, allowing more customisation on this specific stuff.
+
+<Playground fullBleed noPadding>
+  <RoundedCards
+    cards={[
+      {
+        image: {
+          src:
+            'https://prismic-io.s3.amazonaws.com/mini-site%2F44c2952f-be54-4937-9a00-35dfb7676ad2_v-3%403x.jpg',
+          alt: 'architecture',
+        },
+        title: 'Visits this not that old Pyramid',
+        text: (
+          <div>
+            <p>
+              This text is wrapped inside a <code>p</code> tag, and he can have{' '}
+              <strong>strong</strong> or <em>italic</em> elements.
+            </p>
+            Even <a href="www.google.fr" style={{ color: 'blue' }}>
+              links !
+            </a>
+            <ul style={{ textAlign: 'left' }}>
+              <li>List item n°1</li>
+              <li>List item n°2</li>
+            </ul>
+          </div>
+        ),
+        action: {
+          url: 'https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh',
+          label: 'Discover',
+        },
+      },
+    ]}
+  />
+</Playground>

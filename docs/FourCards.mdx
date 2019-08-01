@@ -1,0 +1,70 @@
+---
+name: Four cards (deprecated)
+route: /four-cards
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { FourCards, Button } from '../src'
+
+# FourCards
+
+<Playground>
+  <FourCards
+    title="Mes contrats"
+    actions={[
+      <Button href="/">First call to action</Button>,
+      <Button href="/">Second call to action</Button>,
+    ]}
+    cards={[
+      {
+        image: 'https://picsum.photos/546/970?image=670',
+        title: 'First title',
+        text:
+          'Laborum elit nostrud commodo nulla esse non non et officia. Cillum anim veniam pariatur exercitation occaecat in.',
+        actions: [
+          {
+            url: 'https://qwant.com',
+            label: 'Call to action',
+          },
+        ],
+      },
+      {
+        image: 'https://picsum.photos/546/970?image=903',
+        title: 'Second title',
+        text:
+          'Sint voluptate ut irure consectetur sunt quis eiusmod duis cillum duis. Est Lorem cupidatat qui irure sit commodo excepteur adipisicing laboris sit anim cupidatat nulla duis.',
+        actions: [
+          {
+            url: 'https://qwant.com',
+            label: 'Call to action',
+          },
+        ],
+      },
+      {
+        image: 'https://picsum.photos/546/970?image=718',
+        title: 'Third title',
+        text:
+          'Culpa excepteur aute eu occaecat sit aliqua deserunt consectetur.',
+        actions: [
+          {
+            url: 'https://qwant.com',
+            label: 'Call to action',
+          },
+        ],
+      },
+      {
+        image: 'https://picsum.photos/546/970?image=433',
+        title: 'Fourth title',
+        text:
+          'Aliqua et veniam nisi eu incididunt pariatur Lorem consectetur velit fugiat laborum consectetur. Aliqua minim in enim cupidatat sit mollit.',
+        actions: [
+          {
+            url: 'https://qwant.com',
+            label: 'Call to action',
+          },
+        ],
+      },
+    ]}
+  />
+</Playground>

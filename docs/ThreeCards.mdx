@@ -1,0 +1,107 @@
+---
+name: Three cards (deprecated)
+route: /three-cards
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { ThreeCards } from '../src'
+
+# Three cards
+
+## Colors
+
+- `#f5f5f5` for background color
+- `#fff` for image border
+- `theme.colors.text` for title and text
+- `theme.colors.primary` for button background
+
+## Example
+
+<Playground fullBleed noPadding>
+  <ThreeCards
+    title="My Cards"
+    cards={[
+      {
+        image: {
+          src:
+            'http://eb-employee-fr.cdn.prismic.io/eb-employee-fr%2Fcd8d94f6-734c-404f-ad4a-ae88117144ff_e.svg',
+          alt: 'My Easy Sante',
+        },
+        title: 'My Easy Sante',
+        text:
+          'Pour préserver et améliorer sa santé au quotidien avec My Easy Santé. C’est utile et efficace !',
+        action: {
+          url: 'https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh',
+          label: 'Découvrir',
+        },
+      },
+      {
+        image: {
+          src:
+            'http://eb-employee-fr.cdn.prismic.io/eb-employee-fr%2Fc50bf496-be89-46d3-ad0d-f72f4b5679fd_f.svg',
+          alt: 'Appeler un médecin 24/7',
+        },
+        title: 'Appeler un médecin 24/7',
+        text:
+          "3633 pour consulter immédiatement un médecin par téléphone (prix d'un appel local) ou par vidéo (+33 1 55 92 27 54 depuis l'étranger).",
+      },
+      {
+        image: {
+          src:
+            'http://eb-employee-fr.cdn.prismic.io/eb-employee-fr%2F445e7e8d-89cd-4d51-8c1e-cac8ae3d07e2_g.svg',
+          alt: 'Accéder au réseau de 6000 professionnels Santé Itelis',
+        },
+        title: 'Accéder au réseau de 6000 professionnels Santé Itelis',
+        text:
+          '6 000 professionnels de la santé Itelis conseillent et facilitent l’accès aux soins à plus de 10 millions de personnes.(opticiens, dentistes, audioprothésistes...)',
+        action: {
+          url: 'http://www.chateau-amboise.com/',
+          label: 'Découvrir',
+        },
+      },
+    ]}
+  />
+</Playground>
+
+<Playground fullBleed noPadding>
+  <ThreeCards
+    title="Features"
+    cards={[
+      {
+        image: {
+          src: 'https://wanchain.org/dist/f1cc29e1c8dbe68a58cecc19cee10b66.png',
+          alt: 'Easier',
+        },
+        title: 'Easier',
+        text: 'Cupidatat ad adipisicing occaecat eiusmod.',
+        action: {
+          url: 'https://fr.wikipedia.org/wiki/Pyramides_de_Gizeh',
+          label: 'Découvrir',
+        },
+      },
+      {
+        image: {
+          src: 'https://wanchain.org/dist/c66ea9fab59af9487eee15564c9f7d6a.png',
+          alt: 'Faster',
+        },
+        title: 'Faster',
+        text:
+          'Velit elit ullamco minim culpa sunt et labore anim irure voluptate in aliqua qui aliquip',
+      },
+      {
+        image: {
+          src: 'https://wanchain.org/dist/2fe4aeea1b3a12c3a860121a71f52b3a.png',
+          alt: 'Stronger',
+        },
+        title: 'Stronger',
+        text:
+          'Do nostrud est irure sunt amet dolor consequat velit elit pariatur adipisicing est.',
+        action: {
+          url: 'http://www.chateau-amboise.com/',
+          label: 'Découvrir',
+        },
+      },
+    ]}
+  />
+</Playground>

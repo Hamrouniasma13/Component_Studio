@@ -1,0 +1,107 @@
+---
+name: Simple filters (deprecated)
+route: /simple-filters
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { SimpleFilters } from '../src'
+
+# SimpleFilters
+
+To display checkboxes that can be used as filters, you can use the `SimpleFilters` component. It can take multiple filters, each multipl options.
+
+<Playground>
+  <SimpleFilters
+    filters={[
+      {
+        id: 'filter_1',
+        label: 'Filter 1',
+        filters: [
+          { value: '1', label: 'Option 1' },
+          { value: '2', label: 'Option 2' },
+          { value: '3', label: 'Option 3' },
+        ],
+      },
+      {
+        id: 'filter_2',
+        label: 'Filter 2',
+        filters: [
+          { value: '1', label: 'Option 1' },
+          { value: '2', label: 'Option 2' },
+          { value: '3', label: 'Option 3' },
+        ],
+      },
+    ]}
+    onFilter={console.log}
+  />
+</Playground>
+
+## Single option vs multiple options
+
+By default, you can select multiple options for each filter. But if you want only one filter active, you can pass `false` to `multiple` prop
+
+<Playground>
+  <SimpleFilters
+    filters={[
+      {
+        id: 'filter_3',
+        label: 'Filter 3',
+        multiple: false,
+        filters: [
+          { value: '1', label: 'Option 1' },
+          { value: '2', label: 'Option 2' },
+          { value: '3', label: 'Option 3' },
+        ],
+      },
+    ]}
+    onFilter={console.log}
+  />
+</Playground>
+
+## Prefiltered
+
+You can preselect a filter with `checked: true` on an option.
+
+_PS: it only works when `multiple` is true_
+
+<Playground>
+  <SimpleFilters
+    filters={[
+      {
+        id: 'filter_4',
+        label: 'Filter 4',
+        filters: [
+          { value: '1', label: 'Option 1' },
+          { value: '2', label: 'Option 2' },
+          { value: '3', label: 'Option 3', checked: true },
+        ],
+      },
+    ]}
+    onFilter={console.log}
+  />
+</Playground>
+
+## Reset option
+
+To automatically add a reset option, you can pass the `all` prop. But it's up to you to catch the value and deactivate the others options.
+
+_PS: the option is hard coded so it's display in French, and the value will always be an empty string_
+
+<Playground>
+  <SimpleFilters
+    all
+    filters={[
+      {
+        id: 'filter_5',
+        label: 'Filter 5',
+        filters: [
+          { value: '1', label: 'Option 1' },
+          { value: '2', label: 'Option 2' },
+          { value: '3', label: 'Option 3' },
+        ],
+      },
+    ]}
+    onFilter={console.log}
+  />
+</Playground>

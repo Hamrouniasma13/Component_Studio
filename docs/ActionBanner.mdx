@@ -1,0 +1,131 @@
+---
+name: Action banner
+route: /action-banner
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import {
+  ActionBanner,
+  SearchAction,
+  Button,
+  Pill,
+  ActionBannerSkeleton,
+  ContractDetails,
+} from '../src'
+
+# ActionBanner
+
+Design as the first element of the page, the action banner serve multiple needs, as indicate a loading state, create a breadcumb for navigation, and display the main title of the page.
+
+## Loading indication
+
+When your page is not ready to be display, you can use the `ActionBannerSkeleton` component, that will create a nice loading animation.
+
+<Playground>
+  <ActionBannerSkeleton />
+</Playground>
+
+## Main usage
+
+To use the `ActionBanner` in it's simplest state, just give a title. The title is put is an `h1` tag and is required
+
+<Playground>
+  <ActionBanner title="Lorem ipsum" />
+</Playground>
+
+## Description
+
+Alongside with the title, you can give a description, which will appear below the title. As we place it in a `p` tag, don't put a `div` or another `p` in it.
+
+<Playground>
+  <ActionBanner
+    title="Lorem ipsum"
+    description="Aute officia nisi exercitation nulla dolor veniam ad et labore consectetur ut sunt ea pariatur."
+    action={{ url: 'http://google.com', label: 'Mirror view' }}
+
+/>
+
+</Playground>
+
+## Breadcumb
+
+To display the state of the navigation for the user, you can use the `breadcumb` property. Give an url and a label, and we display it above the title.
+
+<Playground>
+  <ActionBanner
+    title="Lorem ipsum"
+    description="Aute officia nisi exercitation nulla dolor veniam ad et labore consectetur ut sunt ea pariatur."
+    breadcumb={{
+      label: 'Retour à la liste des contrats',
+      url: '/',
+    }}
+  />
+</Playground>
+
+## Status
+
+One of our use case was to display a status in this banner. It's possible with the `status` property. It takes a `Pill`, which you can customize as you want. The status is display on the right side of the title.
+
+<Playground>
+  <ActionBanner
+    title="Lorem ipsum"
+    description="Aute officia nisi exercitation nulla dolor veniam ad et labore consectetur ut sunt ea pariatur."
+    status={<Pill color="warning">In progress</Pill>}
+  />
+</Playground>
+
+## Actions
+
+If it's called `ActionBanner`, it takes action. As a child, you can give it specials components that were created for it.
+
+### SearchAction
+
+<Playground>
+  <ActionBanner
+    title="Lorem ipsum"
+    description="Aute officia nisi exercitation nulla dolor veniam ad et labore consectetur ut sunt ea pariatur."
+  >
+    <SearchAction
+      label="Consectetur sit qui ipsum eu."
+      placeholder="Nisi elit cupidatat"
+      submitLabel="Submit"
+      onSubmit={console.log}
+    />
+  </ActionBanner>
+</Playground>
+
+### ContractDetail
+
+<Playground>
+  <ActionBanner
+    title="Lorem ipsum"
+    description="Aute officia nisi exercitation nulla dolor veniam ad et labore consectetur ut sunt ea pariatur."
+  >
+    <ContractDetails
+      details={[
+        {
+          label: 'N° des bénéficiaires',
+          value: 145,
+          color: 'third',
+        },
+        {
+          label: 'Date de renouvellement',
+          value: '02/12/2018',
+          color: 'third',
+        },
+        {
+          label: 'Primes',
+          value: '1,660,789€',
+          color: 'third',
+        },
+        {
+          label: 'Status du paiement',
+          value: 'En cours',
+          color: 'fourth',
+          info: 'Echéance au 15/04/2018',
+        },
+      ]}
+    />
+  </ActionBanner>
+</Playground>

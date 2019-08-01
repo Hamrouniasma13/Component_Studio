@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <Heading /> render <h1> 1`] = `
+.emotion-0 {
+  display: block;
+  font-family: Source Sans Pro,Arial,Helvetica,sans-serif;
+  margin-bottom: 0;
+  font-size: 36px;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    font-size: 48px;
+    -webkit-letter-spacing: 1.4px;
+    -moz-letter-spacing: 1.4px;
+    -ms-letter-spacing: 1.4px;
+    letter-spacing: 1.4px;
+    line-height: 1.15em;
+  }
+}
+
+<h1
+  className="emotion-0"
+  size={undefined}
+>
+  Magna cillum consectetur.
+</h1>
+`;

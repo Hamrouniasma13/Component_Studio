@@ -1,0 +1,33 @@
+---
+name: Cutting title
+route: /cutting-title
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { CuttingTitle } from '../src'
+
+# CuttingTitle
+
+Cutting title is used in your page to separate two content, to create a cut in the page, and it can bring attention.
+
+Colors :
+
+- `theme.color.primary` for background color
+- `#fff` for text color
+- `theme.color.white` for button background
+
+<Playground fullBleed noPadding>
+  <CuttingTitle
+    title="50% off on La Fourchette website"
+    image={{
+      src:
+        'https://wroomdev.s3.amazonaws.com/tutoblanktemplate%2F97109f41-140e-4dc9-a2c8-96fb10f14051_star.gif',
+      alt: 'Random picture',
+    }}
+    action={{
+      url: 'https://www.lafourchette.com/',
+      label: 'Visit La Fourchette',
+    }}
+  />
+</Playground>

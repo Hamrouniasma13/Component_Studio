@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="2" viewBox="0 0 14 2">
+  <defs>
+    <polygon id="eb-remove-a" points="13 20.636 27 20.636 27 19.364 13 19.364"/>
+  </defs>
+  <use fill-rule="evenodd" transform="translate(-13 -19)" xlink:href="#eb-remove-a"/>
+</svg>

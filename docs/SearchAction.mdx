@@ -1,0 +1,20 @@
+---
+name: Search action
+route: /search-action
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { SearchAction } from '../src'
+
+# Search action
+
+<Playground fullBleed noPadding>
+
+  <SearchAction
+    label="Rechercher un salarié"
+    placeholder="Rechercher un salarié"
+    submitLabel="Rechercher"
+    onSubmit={console.log}
+  />
+</Playground>

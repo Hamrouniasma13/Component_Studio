@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <Container /> render snapshot 1`] = `
+.emotion-0 {
+  margin: 0px auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width :768px) {
+  .emotion-0 {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width :992px) {
+  .emotion-0 {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width :1200px) {
+  .emotion-0 {
+    width: 1140px;
+  }
+}
+
+<div
+  className="emotion-0"
+>
+  Cupidatat tempor minim qui eiusmod cillum nisi officia sint tempor dolor.
+</div>
+`;

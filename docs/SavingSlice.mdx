@@ -1,0 +1,86 @@
+---
+name: Saving (deprecated)
+route: /saving
+menu: 🗑️ Deprecated
+---
+
+import { Playground } from 'docz'
+import { Saving, PieChart, DataTable, Button } from '../src'
+
+# Saving
+
+<Playground>
+  <Saving
+    title="Mes dernières dépenses de santé"
+    actions={[
+      <Button href='/' color="primary">Voir mes contrats</Button>
+    ]}
+    savingProps={{
+      title:"Lorem ipsum",
+      pie:
+        <PieChart
+          value="10 €"
+          values={[
+            {
+              color: 'third',
+              value: 10
+            },
+            {
+              color: 'fourth',
+              value: 20
+            },
+
+            {
+              color: 'fifth',
+              value: 30
+            },
+
+            {
+              color: 'sixth',
+              value: 40
+            }
+          ]}
+        />,
+
+      tables:[
+        <DataTable
+          title="Table 1"
+          rows={[
+            {
+              pill: { color: 'third', value: '10%' },
+              title: 'Value 1',
+              value: '10 €'
+            },
+            {
+              pill : { color: 'fourth', value: '20%' },
+              title: 'Value 2',
+              value: '20 €'
+            }
+          ]}
+        />,
+        <DataTable
+          title="Table 2"
+          rows={[
+            {
+              pill: { color: 'fifth', value: '30%' },
+              title: 'Value 3',
+              value: '30 €'
+            },
+            {
+              pill: { color: 'sixth', value: '40%' },
+              title: 'Value 4',
+              value: '40 €'
+            }
+          ]}
+        />
+      ],
+
+      actions:[
+        { url : '/', label: 'Back home'},
+        { url : '/', label: 'Back home'},
+      ]
+    }}
+
+/>
+
+</Playground>

@@ -1,0 +1,82 @@
+---
+name: Contract detail
+route: /contract-detail
+menu: 🌐 Organisms
+---
+
+import { Playground, Props } from 'docz'
+import { ContractDetails, SimpleButton } from '../src'
+
+## Contract items
+
+- Type: `Organism`
+- Mostly used inside [`<ActionBanner />`](/action-banner)
+- You can no longer add `actions` in `<ContractDetails />`
+
+## output
+
+<ContractDetails
+  fullWidth={true}
+  details={[
+    {
+      label: 'N° des bénéficiaires',
+      value: 145,
+      color: 'third',
+    },
+    {
+      label: 'Date de renouvellement',
+      value: '02/12/2018',
+      color: 'third',
+    },
+    {
+      label: 'Primes',
+      value: '1,660,789€',
+      color: 'third',
+      info: <SimpleButton href="https://www.qwant.com">See more</SimpleButton>,
+    },
+    {
+      label: 'Status du paiement',
+      value: 'En cours',
+      color: 'fourth',
+      info: 'Echéance au 15/04/2018',
+    },
+  ]}
+/>
+
+## Props
+
+<Props of={ContractDetails} />
+
+## Playground
+
+<Playground>
+  <ContractDetails
+    fullWidth={true}
+    details={[
+      {
+        label: 'N° des bénéficiaires',
+        value: 145,
+        color: 'third',
+      },
+      {
+        label: 'Date de renouvellement',
+        value: '02/12/2018',
+        color: 'third',
+      },
+      {
+        label: 'Primes',
+        value: '1,660,789€',
+        color: 'third',
+        info: (
+          <SimpleButton href="https://www.qwant.com">See more</SimpleButton>
+        ),
+      },
+      {
+        label: 'Status du paiement',
+        value: 'En cours',
+        color: 'fourth',
+        info: 'Echéance au 15/04/2018',
+      },
+    ]}
+  />
+</Playground>

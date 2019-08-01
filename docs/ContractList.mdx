@@ -1,0 +1,121 @@
+---
+name: Contract list
+route: /contract-list
+menu: 🌐 Organisms
+---
+
+import { Playground } from 'docz'
+import { ContractList } from '../src'
+
+# Contract List
+
+To display a list of contracts, without a pagination, but with filters, you can use `ContractList`.
+It takes an array of contract, each contract being properties that will be pass to `ContractItem`.
+
+<Playground>
+  <ContractList
+    contracts={[
+      {
+        key: 1,
+        color: 'third',
+        icon: 'cog',
+        title: '4902802724 :: Savings',
+        link: '/contract/490',
+        actions: [
+          {
+            to: 'http://google.fr',
+            icon: 'goto',
+            title: 'Go to google',
+          },
+        ],
+        items: [
+          {
+            label: 'Cotisation',
+            value: "1'990'379 €",
+          },
+          {
+            label: 'Reglement',
+            value: "1'223'595 €",
+          },
+          {
+            label: 'Adhesion',
+            value: '280',
+          },
+          {
+            label: 'Colleges',
+            value: 'Cadres',
+          },
+          {
+            label: 'Type',
+            value: 'Individual',
+          },
+        ],
+      },
+      {
+        key: 2,
+        color: 'fourth',
+        icon: 'tint',
+        title: '8328239923 :: Life',
+        link: '/contract/490',
+        actions: [
+          {
+            to: 'http://google.fr',
+            icon: 'download',
+            title: 'Télécharger',
+          },
+        ],
+        items: [
+          {
+            label: 'Cotisation',
+            value: "1'990'379 €",
+          },
+          {
+            label: 'Reglement',
+            value: "1'223'595 €",
+          },
+          {
+            label: 'Adhesion',
+            value: '280',
+          },
+          {
+            label: 'Colleges',
+            value: 'Cadres',
+          },
+          {
+            label: 'Type',
+            value: 'Individual',
+          },
+        ],
+      },
+      {
+        key: 3,
+        color: 'third',
+        icon: 'cog',
+        title: '80238403234 :: Pension',
+        link: '/contract/490',
+        items: [
+          {
+            label: 'Cotisation',
+            value: "1'990'379 €",
+          },
+          {
+            label: 'Reglement',
+            value: "1'223'595 €",
+          },
+          {
+            label: 'Adhesion',
+            value: '280',
+          },
+          {
+            label: 'Colleges',
+            value: 'Cadres',
+          },
+          {
+            label: 'Type',
+            value: 'Individual',
+          },
+        ],
+      },
+    ]}
+  />
+</Playground>

@@ -1,0 +1,26 @@
+---
+name: List filters
+route: /list-filters
+menu: 🧬 Molecules
+---
+
+import { Playground } from 'docz'
+import { ListFilters, InputSelect, InputText } from '../src'
+
+# List filters
+
+<Playground>
+  <ListFilters label="Filter by">
+    <InputSelect
+      label="Status :"
+      options={[
+        { value: 'p', label: 'Pending' },
+        { value: 'o', label: 'Ongoing' },
+        { value: 't', label: 'Terminated' },
+      ]}
+      onChange={console.log}
+    />
+    <InputText id="from" label="From :" type="date" onChange={console.log} />
+    <InputText id="to" label="To :" type="date" onChange={console.log} />
+  </ListFilters>
+</Playground>

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: <Icon /> renders default color 1`] = `
+.emotion-0 {
+  color: inherit;
+}
+
+<div
+  className="emotion-0"
+  colorindex={undefined}
+  fill="currentColor"
+  size="50"
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "inline-flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <svg
+    fill="currentColor"
+    height="50"
+    style={
+      Object {
+        "display": "inline-block",
+        "verticalAlign": "middle",
+      }
+    }
+    viewBox="0 0 16 16"
+    width="50"
+  >
+    <path
+      d="M16 9.226l-8-6.21-8 6.21v-2.532l8-6.21 8 6.21zM14 9v6h-4v-4h-4v4h-4v-6l6-4.5z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Component: <Icon /> use theme colors 1`] = `
+.emotion-0 {
+  color: #494df4;
+}
+
+<div
+  className="emotion-0"
+  colorindex="primary"
+  fill="currentColor"
+  size="50"
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "inline-flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <svg
+    fill="currentColor"
+    height="50"
+    style={
+      Object {
+        "display": "inline-block",
+        "verticalAlign": "middle",
+      }
+    }
+    viewBox="0 0 16 16"
+    width="50"
+  >
+    <path
+      d="M16 9.226l-8-6.21-8 6.21v-2.532l8-6.21 8 6.21zM14 9v6h-4v-4h-4v4h-4v-6l6-4.5z"
+    />
+  </svg>
+</div>
+`;
