@@ -13,8 +13,6 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _Text = _interopRequireDefault(require("./Text"));
 
-var _SquareButton = _interopRequireDefault(require("./SquareButton"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -80,8 +78,7 @@ function ContractDetails(_ref2) {
   var _objectSpread2;
 
   var fullWidth = _ref2.fullWidth,
-      details = _ref2.details,
-      actions = _ref2.actions;
+      details = _ref2.details;
 
   var theme = _react["default"].useContext(_core.ThemeContext);
 
@@ -100,10 +97,6 @@ function ContractDetails(_ref2) {
       width: '100%'
     } : {
       minWidth: 500
-    }, {}, actions && actions.length > 0 ? {
-      flex: 1
-    } : {
-      display: 'inline-block'
     }, (_objectSpread2 = {
       boxShadow: '0 1px 4px 0 rgba(0,0,0,0.15)',
       paddingTop: 19,
@@ -123,16 +116,11 @@ function ContractDetails(_ref2) {
       width: '100%'
     } : {
       minWidth: 700
-    })), _objectSpread2)),
-    action: {
-      marginLeft: 28
-    }
+    })), _objectSpread2))
   };
   var customWidth = 100 / details.length;
   return (0, _core.jsx)("div", {
     css: styles.wrapper
-  }, (0, _core.jsx)("div", {
-    css: styles.listWrapper
   }, (0, _core.jsx)("ul", {
     css: styles.list
   }, details.map(function (detail, key) {
@@ -141,12 +129,7 @@ function ContractDetails(_ref2) {
     }, detail, {
       width: customWidth
     }));
-  }))), actions && actions.length > 0 && actions.map(function (action, key) {
-    return (0, _core.jsx)("div", {
-      css: styles.action,
-      key: key
-    }, (0, _core.jsx)(_SquareButton["default"], action));
-  }));
+  })));
 }
 
 ContractDetails.defaultProps = {

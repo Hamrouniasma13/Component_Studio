@@ -2,7 +2,7 @@
 
 Designed to be used as Identity provider for our websites
 
-# Component Studio 1.1.0
+# Component Studio 1.1.1
 
 Welcome to Digital Studio's components library.
 As a developer, a designer, or a CMS contributor, you can found here the components that you'll use to build your website.

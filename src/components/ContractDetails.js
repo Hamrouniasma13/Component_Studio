@@ -4,7 +4,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import Text from './Text'
-import SquareButton from './SquareButton'
 
 function Detail({ label, value, info, color, width = 25 }) {
   const theme = React.useContext(ThemeContext)
@@ -53,7 +52,7 @@ function Detail({ label, value, info, color, width = 25 }) {
   )
 }
 
-export default function ContractDetails({ fullWidth, details, actions }) {
+export default function ContractDetails({ fullWidth, details }) {
   const theme = React.useContext(ThemeContext)
 
   if (!details || details.length <= 0) return null
@@ -77,9 +76,6 @@ export default function ContractDetails({ fullWidth, details, actions }) {
         : {
             minWidth: 500,
           }),
-      ...(actions && actions.length > 0
-        ? { flex: 1 }
-        : { display: 'inline-block' }),
 
       boxShadow: '0 1px 4px 0 rgba(0,0,0,0.15)',
       paddingTop: 19,
@@ -110,29 +106,17 @@ export default function ContractDetails({ fullWidth, details, actions }) {
             }),
       },
     },
-    action: {
-      marginLeft: 28,
-    },
   }
 
   const customWidth = 100 / details.length
 
   return (
     <div css={styles.wrapper}>
-      <div css={styles.listWrapper}>
-        <ul css={styles.list}>
-          {details.map((detail, key) => (
-            <Detail key={key} {...detail} width={customWidth} />
-          ))}
-        </ul>
-      </div>
-      {actions &&
-        actions.length > 0 &&
-        actions.map((action, key) => (
-          <div css={styles.action} key={key}>
-            <SquareButton {...action} />
-          </div>
+      <ul css={styles.list}>
+        {details.map((detail, key) => (
+          <Detail key={key} {...detail} width={customWidth} />
         ))}
+      </ul>
     </div>
   )
 }
